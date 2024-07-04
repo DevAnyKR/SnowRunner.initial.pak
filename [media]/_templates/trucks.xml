@@ -22,8 +22,8 @@
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<ScoutMudtires
-			BodyFriction="9.0"
-			BodyFrictionAsphalt="9.0"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
 			IsIgnoreIce="true"
 			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
@@ -57,8 +57,8 @@
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<Mudtires
-			BodyFriction="9.0"
-			BodyFrictionAsphalt="9.0"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
 			IsIgnoreIce="true"
 			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
