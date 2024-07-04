@@ -8,7 +8,7 @@
 				MinLimit="0"
 				MaxLimit="1.5"
 			>
-				<Motor Force="4000" Type="Position" />
+				<Motor Force="40000" Type="Position" />
 			</Constraint>
 			<Body
 				ForceBodyParams="true"
@@ -22,7 +22,7 @@
 					MinLimit="0"
 					MaxLimit="0.8"
 				>
-					<Motor Force="10000" Type="Position" />
+					<Motor Force="100000" Type="Position" />
 				</Constraint>
 			</Body>
 		</Anchor>
