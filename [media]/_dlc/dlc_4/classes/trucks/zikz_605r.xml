@@ -49,7 +49,7 @@
 		ExhaustStartTime="2.0"
 		FuelCapacity="380"
 		Responsiveness="1.0"
-		SteerSpeed="0.022"
+		SteerSpeed="0.032"
 		TruckImage="zikz605rmchr"
 		TruckType="HEAVY"
 	>
