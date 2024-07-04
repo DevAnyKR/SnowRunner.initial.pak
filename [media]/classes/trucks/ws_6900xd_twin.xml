@@ -2,7 +2,7 @@
 	<Wheel>
 		<SecondAxle
 			_template="FirstAxle"
-			SteeringAngle="32"
+			SteeringAngle="36"
 			SteeringCastor="6"
 		/>
 		<RearAxle
@@ -12,9 +12,9 @@
 		/>
 		<FirstAxle
 			Location="front"
-			SteeringAngle="40"
+			SteeringAngle="44"
 			SteeringCastor="10"
-			Torque="connectable"
+			Torque="default"
 			SuspensionMin="-0.3"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -104,10 +104,10 @@
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_big"
 		EngineIconScale="1.5"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="360"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.024"
 		TruckImage="ws6900tweeensteermchr"
 		TruckType="HEAVY"
@@ -611,9 +611,120 @@
 		<CraneSocket Pos="(-7.786; 0.732; 0)" />
 		<CraneSocket Pos="(1.616; 1.71; 1.45)" />
 		<CraneSocket Pos="(1.616; 1.71; -1.45)" />
+		<!-- custom Start -->
 		<AddonSockets>
-			<Socket Names="Ws6900xdTwinSpareWheel" Offset="(0; 0; 0)" ParentFrame="BoneChassis_cdt">
-				<ExtraParent Frame="BoneCabin_cdt" />
+			<Socket Names="Trailer"
+			        Offset="(-7.8; 0.74; 0)"/>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="CraneAramatsuForester"
+			        Offset="(2.87; 0.82; 0)"
+			        NamesBlock="SpareWheel2"
+			        ParentFrame="BoneRoller_cdt"/>
+			<Socket Names="BigCraneUs"
+			        Offset="(-2.3; 1.8; 0)">
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; -0.073; 0)"/>
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; -0.073; 0)"/>
+				<AddonsShift Offset="(-0.93; 0.0; 0)"
+				             Types="FrameAddonSideboard1"/>
+			</Socket>
+			<Socket Names="LogLift"
+			        Offset="(1.38; 1.85; 0)"
+			        NamesBlock="FrameAddonSideboard1, FrameAddon3, FrameAddonSideboard3, FrameAddonTankLong, FrameAddonKung"
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-1.97; 0.0; 0)"
+				             Types="FrameAddonLogShort"/>
+			</Socket>
+			<Socket Names="MinicraneUS"
+			        Offset="(-0.5; 1.83; 0)"
+			        NamesBlock="FrameAddonTankLong,BunkLogFront,FlatbedRamp4"
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-5.30; 0.0; 0)"
+				             Types="FrameAddonSideboard3"/>
+				<AddonsShift Offset="(-5.30; 0.0; 0)"
+				             Types="FrameAddon3"/>
+				<AddonsShift Offset="(-4.94; 0.0; 0)"
+				             Types="FrameAddonKung"/>
+			</Socket>
+			<Socket Names="MinicraneRU"
+			        NamesBlock="FrameAddonTankLong, BunkLogFront,FlatbedRamp4"
+			        Offset="(-0.49; 1.83; 0)"
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-5.30; 0.0; 0)"
+				             Types="FrameAddonSideboard3"/>
+				<AddonsShift Offset="(-5.30; 0.0; 0)"
+				             Types="FrameAddon3"/>
+				<AddonsShift Offset="(-4.94; 0.0; 0)"
+				             Types="FrameAddonKung"/>
+			</Socket>
+			<Socket Names="CraneKrs58Bandit"
+			        Offset="(2.02; 0.46; 0)"
+			        NamesBlock="FrameAddonTankLong, BunkLogFront,FlatbedRamp4"
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-9.52; 0.0; 0)"
+				             Types="FrameAddonSideboard3"/>
+				<AddonsShift Offset="(-9.52; 0.0; 0)"
+				             Types="FrameAddon3"/>
+				<AddonsShift Offset="(-9.16; 0.0; 0)"
+				             Types="FrameAddonKung"/>
+				<AddonsShift Offset="(-9.52; 0.0; 0)"
+				             Types="Cat745CLogBunk"/>
+			</Socket>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="FrameAddonSideboard1"
+			        Offset="(1.2; 1.65; 0)"
+			        NamesBlock=""
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-4.9; 0.0; 0)"
+				             Types="FrameAddonKung"/>
+			</Socket>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="FrameAddonTowPlatform"
+			        Offset="(-3.8; 1.65; 0)"
+			        NamesBlock="BigCraneUs, SaddleHigh, SaddleLow, BeaconRear"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FrameAddonLogShort"
+			        Offset="(-5.0; 1.65; 0)"
+			        NamesBlock="BigCraneUs, SaddleHigh, SaddleLow, BeaconRear, GabariteRear"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="Cat745CLogBunk"
+			        UpDir="(0.03;1.0;0.0)"
+			        Offset="(-1.7; -0.05; 0)"
+			        NamesBlock="BigCraneUs, SaddleHigh, SaddleLow"
+			        ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(3.0; 0.0; 0)"
+				             Types="CraneKrs58Bandit"/>
+			</Socket>
+			<Socket Names="FrameAddonKung"
+			        Offset="(0.0; 1.65; 0)"
+			        NamesBlock="BigCraneUs"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FrameAddonTankLong"
+			        Offset="(-1.65; 1.8; 0)"
+			        NamesBlock="BigCraneUs, FrameAddonSideboard1"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FrameAddon3"
+			        Offset="(-1.35; 1.65; 0)"
+			        NamesBlock="BigCraneUs, FrameAddonSideboard1"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FrameAddonSideboard3"
+			        Offset="(-1.48; 1.65; 0)"
+			        NamesBlock="BigCraneUs, FrameAddonSideboard1"
+			        ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FlatbedRamp4"
+			        Offset="(-3.0; 0.65; 0)"
+			        NamesBlock="BigCraneUs, SaddleHigh, SaddleLow, FrameAddonSideboard1,Trailer"/>
+		</AddonSockets>
+		<!-- custom End -->
+		<AddonSockets>
+			<Socket Names="Ws6900xdTwinSpareWheel"
+			        Offset="(0; 0; 0)"
+			        ParentFrame="BoneChassis_cdt">
+				<ExtraParent Frame="BoneCabin_cdt"/>
 			</Socket>
 		</AddonSockets>
 		<AddonSockets DefaultAddon="ws_6900xd_twin_bumper_default">

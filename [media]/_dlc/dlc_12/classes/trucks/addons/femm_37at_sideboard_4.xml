@@ -63,6 +63,6 @@
 			UiName="UI_ADDON_FEMM_37AT_SIDEBOARD_4_NAME"
 		/>
 		<InstallSocket Type="FemmSideboard" />
-		<AddonSlots InitialOffset="(2.1079; 2.199; 0)" OffsetStep="(-2.6; 0; 0)" ParentFrames="BoneAddon1_cdt, BoneAddon1_cdt, BoneAddon1_cdt, BoneAddon1_cdt" Quantity="4" />
+		<AddonSlots InitialOffset="(2.1079; 2.199; 0)" OffsetStep="(0; 0; 0)" ParentFrames="BoneAddon1_cdt, BoneAddon1_cdt, BoneAddon1_cdt, BoneAddon1_cdt" Quantity="4" />
 	</GameData>
 </TruckAddon>

@@ -11,15 +11,15 @@
 		<TruckTire _template="Offroad" Mesh="wheels/tire_burlak_6x6" Name="tire">
 			<WheelFriction 
 				_template="Offroad"
-				BodyFriction="3.3"
-				BodyFrictionAsphalt="0.6"
-				SubstanceFriction="2.2"
+				BodyFriction="9.9"
+				BodyFrictionAsphalt="9.9"
+				SubstanceFriction="9.9"
 				IsIgnoreIce="true"
 			/>
 			<GameData
 				Price="2300"
 				UnlockByExploration="false"
-				UnlockByRank="2"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_BURLAK_6X6_TIRE_1_NAME" />
 			</GameData>

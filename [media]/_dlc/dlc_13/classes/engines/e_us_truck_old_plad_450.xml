@@ -1,20 +1,20 @@
 <_templates/>
 <EngineVariants>
 	<Engine
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.8"
-		EngineResponsiveness="0.1"
-		FuelConsumption="11"
+		DamagedConsumptionModifier="1.0"
+		EngineResponsiveness="1.0"
+		FuelConsumption="1"
 		Name="us_special_plad_450_fanis19"
-		Torque="245000"
+		Torque="490000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.04"
 	>
 		<GameData
 			Price="18800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -26,20 +26,20 @@
 		</GameData>
 	</Engine>
 	<Engine
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="260"
-		DamagedConsumptionModifier="1.6"
-		EngineResponsiveness="0.22"
-		FuelConsumption="10.3"
+		DamagedConsumptionModifier="1.0"
+		EngineResponsiveness="1.0"
+		FuelConsumption="1.0"
 		Name="us_special_plad_450_datz12l"
-		Torque="230000"
+		Torque="460000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.72"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.042"
 	>
 		<GameData
 			Price="22500"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

@@ -2,9 +2,10 @@
 	<Wheel>
 		<SecondAxle
 			_template="FirstAxle"
-			SteeringAngle="18"
+			SteeringAngle="28"
 			SteeringCastor="4"
 			SteeringJointOffset="0.3"
+			Torque="default"
 		/>
 		<RearAxle
 			CamberAnglePhysics="0"
@@ -19,10 +20,10 @@
 			CamberAngleRender="9"
 			CamberSuspensionMultiplier="1.8"
 			Location="front"
-			SteeringAngle="24"
+			SteeringAngle="34"
 			SteeringCastor="12"
 			SteeringJointOffset="0.3"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Body>
@@ -57,7 +58,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="380"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.022"
 		TruckImage="tatra813mchr"
 		TruckType="HEAVY"

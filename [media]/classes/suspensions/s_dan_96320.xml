@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="260"
 		Name="dan_96320_suspension_default"
 	>
@@ -36,7 +36,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
+		BrokenWheelDamageMultiplier="0"
 		CriticalDamageThreshold="0.55"
 		DamageCapacity="220"
 		Name="dan_96320_suspension_active"
@@ -63,7 +63,7 @@
 		
 		<GameData
 			Price="9200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

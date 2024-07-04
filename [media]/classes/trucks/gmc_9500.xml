@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -39,13 +39,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.01"
-		DiffLockType="None"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.2"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="240"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="gmc9500mchr"
 		TruckType="HIGHWAY"
@@ -325,7 +325,7 @@
 	<GameData
 		Country="US,NE"
 		Price="10600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.393; 0.77; 0.7)" ParentFrame="BoneCabin_cdt" />

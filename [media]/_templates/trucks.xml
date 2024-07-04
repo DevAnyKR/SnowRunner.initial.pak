@@ -15,71 +15,80 @@
 	</WheelSoftness>
 	<WheelFriction>
 		<ScoutOffroad
-			BodyFriction="2.0"
-			BodyFrictionAsphalt="1"
-			SubstanceFriction="1.2"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<ScoutMudtires
-			BodyFriction="3.0"
-			BodyFrictionAsphalt="0.5"
-			SubstanceFriction="1.6"
+			BodyFriction="9.0"
+			BodyFrictionAsphalt="9.0"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<ScoutHighway
-			BodyFriction="0.8"
-			BodyFrictionAsphalt="2"
-			SubstanceFriction="0.2"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_HIGHWAY_NAME"
 		/>
 		<ScoutChains
-			BodyFriction="2.0"
-			BodyFrictionAsphalt="0.9"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
 			IsIgnoreIce="true"
-			SubstanceFriction="1.1"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_CHAINS_NAME"
 		/>
 		<ScoutAllterrain
-			BodyFriction="1"
-			BodyFrictionAsphalt="1.0"
-			SubstanceFriction="1.0"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_ALLTERRAIN_NAME"
 		/>
 		<Offroad
-			BodyFriction="3.0"
-			BodyFrictionAsphalt="0.8"
-			SubstanceFriction="1.5"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<Mudtires
-			BodyFriction="2.0"
-			BodyFrictionAsphalt="0.5"
-			SubstanceFriction="2.0"
+			BodyFriction="9.0"
+			BodyFrictionAsphalt="9.0"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<Highway
-			BodyFriction="1.0"
-			BodyFrictionAsphalt="3.0"
-			SubstanceFriction="0.2"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_HIGHWAY_NAME"
 		/>
 		<HeavyMudtires
-			BodyFriction="1.7"
-			BodyFrictionAsphalt="0.5"
-			SubstanceFriction="3.0"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<Chains
-			BodyFriction="3.0"
-			BodyFrictionAsphalt="1.2"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
 			IsIgnoreIce="true"
-			SubstanceFriction="1.3"
+			SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_CHAINS_NAME"
 		/>
 		<Allterrain
-			BodyFriction="1.5"
-			BodyFrictionAsphalt="1.5"
-			SubstanceFriction="1.0"
+			BodyFriction="9.9"
+			BodyFrictionAsphalt="9.9"
+			IsIgnoreIce="true"
+            SubstanceFriction="9.9"
 			UiName="UI_TIRE_TYPE_ALLTERRAIN_NAME"
 		/>
 	</WheelFriction>

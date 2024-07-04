@@ -1,9 +1,9 @@
 <WinchVariants>
 	<Winch
 		Name="w_any_default"
-		Length="14"
-		StrengthMult="1"
-		IsEngineIgnitionRequired="true"
+		Length="30"
+		StrengthMult="10"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="0"

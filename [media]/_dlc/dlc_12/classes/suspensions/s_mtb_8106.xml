@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="mtb_8106_suspension_default"
 	>
@@ -24,7 +24,7 @@
 
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="mtb_8106_suspension_high"
 	>
@@ -32,7 +32,7 @@
 		<Suspension Damping="0.55" Height="0.34" Strength="0.035" WheelType="rear" BrokenSuspensionMax="0.15" SuspensionMin="-0.29" />
 		<GameData
 			Price="5200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -46,7 +46,7 @@
 
 	<SuspensionSet
 		_template="Ultimate"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="mtb_8106_suspension_crawler"
 	>
@@ -54,7 +54,7 @@
 		<Suspension Damping="0.55" Height="0.44" Strength="0.021" WheelType="rear" BrokenSuspensionMax="0.15" SuspensionMin="-0.4" />
 		<GameData
 			Price="6600"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

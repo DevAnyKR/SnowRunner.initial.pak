@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="32"
 			SteeringCastor="8"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -96,7 +96,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="330"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="vorongradmchr"
 		TruckType="OFFROAD"
@@ -440,7 +440,7 @@
 		Country="RU,CAS"
 		Price="65700"
 		UnlockByExploration="false"
-		UnlockByRank="18"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.799; 1.067; 0.346)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(3.799; 1.067; -0.346)" ParentFrame="BoneCabin_cdt" />

@@ -13,7 +13,7 @@
 	<GameData
 		Price="4400"
 		UnlockByExploration="false"
-		UnlockByRank="18"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_WEDGECAP_TWIN_DESC"

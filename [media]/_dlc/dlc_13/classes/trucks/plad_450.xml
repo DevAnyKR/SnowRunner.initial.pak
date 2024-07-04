@@ -5,7 +5,7 @@
 			SteeringAngle="35"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 			ConnectedToHandbrake="true"
 		/>
@@ -14,7 +14,7 @@
 			SteeringAngle="25"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 			ConnectedToHandbrake="true"
 		/>
@@ -87,8 +87,8 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="300"
-		Responsiveness="0.2"
-		SteerSpeed="0.017"
+		Responsiveness="1.0"
+		SteerSpeed="0.022"
 		TruckImage="plad450mchr"
 		TruckType="HEAVY"
 	>
@@ -453,7 +453,7 @@
 	<GameData
 		Country="US,NE,CAS"
 		Price="113600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		ExcludeAddons = "frame_addon_sideboard_2"
 	>

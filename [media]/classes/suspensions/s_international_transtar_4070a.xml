@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="transtar_4070a_suspension_default"
 	>
@@ -36,8 +36,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="transtar_4070a_suspension_high"
 	>
@@ -57,7 +57,7 @@
 		/>
 		<GameData
 			Price="6200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

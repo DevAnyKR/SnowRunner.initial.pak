@@ -63,7 +63,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="200"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.017"
 		TruckImage="azov5319mchr"
 		TruckType="OFFROAD"
@@ -342,7 +342,7 @@
 		Country="RU,CAS"
 		Price="64600"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.73; 1.057; -0.404)" />
 		<WinchSocket Pos="(4.73; 1.057; 0.404)" />

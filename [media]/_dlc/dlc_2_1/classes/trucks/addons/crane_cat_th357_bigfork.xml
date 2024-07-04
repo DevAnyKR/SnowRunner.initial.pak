@@ -5,7 +5,7 @@
 	<GameData
 		Price="11300"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_CRANE_CAT_TH357_BIGFORK_DESC"

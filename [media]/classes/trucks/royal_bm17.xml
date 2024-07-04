@@ -10,7 +10,7 @@
 			SteeringAngle="37"
 			SteeringCastor="8"
 			SteeringJointOffset="0.2"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -51,7 +51,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="280"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="royalbm17mchr"
 		TruckType="OFFROAD"
@@ -380,7 +380,7 @@
 	<GameData
 		Country="US,NE"
 		Price="104500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-4.626; 0.933; 0)" />
@@ -431,45 +431,52 @@
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="LargeSemitrailer" Offset="(-1.76; 1.84; 0)" />
-			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1.76; 1.84; 0)" />
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-2.46; 1.67; 0)" />
 			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-2.46; 1.67; 0)" />
 			<Socket Names="Trailer" Offset="(-4.638; 0.932; 0)">
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="Trailer" Types="MinicraneUS, FrameAddon" />
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="LogLift" Offset="(-0.693; 1.345; 0)" NamesBlock="MetalDetector, MinicraneUS" />
-			<Socket Names="BunkLog" Offset="(-6.611; 1.344; 0)" NamesBlock="MinicraneUS, MetalDetector" />
-			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector, RoyalBM17CabinProtector" Offset="(-2.18; 1.34; 0)" />
-			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneUS, MetalDetector, RoyalBM17CabinProtector, Trailer" Offset="(-2.18; 1.34; 0)" />
+			<Socket Names="LogLift" Offset="(-0.693; 1.345; 0)" NamesBlock="MetalDetector, MinicraneUS, SaddleLow1" />
+			<Socket Names="BunkLog" Offset="(-6.611; 1.344; 0)" NamesBlock="MinicraneUS, MetalDetector, SaddleLow1" />
+			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector, RoyalBM17CabinProtector, SaddleLow1" Offset="(-2.18; 1.34; 0)" />
+			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneUS, MetalDetector, RoyalBM17CabinProtector, Trailer, SaddleLow1" Offset="(-2.18; 1.34; 0)" />
 			<Socket Names="SaddleLowRoyalBm17" Offset="(-3.095; 1.34; 0)">
 				<ExtraParent Frame="BoneCabin_cdt" />
+				<AddonsShift Offset="(0; 0; 0)"
+				             TrailerNamesBlock="SaddleHighRoyalBm17"
+				             Types="MinicraneUS, RoyalBM17CabinProtector"/>
 			</Socket>
 			<Socket Names="SaddleHighRoyalBm17" Offset="(-2.365; 1.34; 0)">
 				<ExtraParent Frame="BoneCabin_cdt" />
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="SaddleHighRoyalBm17" Types="MinicraneUS, RoyalBM17CabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonTow" Offset="(-2.9; 1.339; 0)" ParentFrame="BoneChassis_cdt"  NamesBlock="MinicraneUS, MetalDetector, Trailer" >
+			<Socket Names="FrameAddonTow" Offset="(-2.9; 1.339; 0)" ParentFrame="BoneChassis_cdt" NamesBlock="MinicraneUS, MetalDetector, Trailer, SaddleLow1" >
 				<AddonsShift Offset="(-0.5; 0; 0)" Types="RoyalBM17CabinProtector" />
-			</Socket>						
-			<Socket Names="FrameAddon" Offset="(-2.218; 1.339; 0)" ParentFrame="BoneChassis_cdt">
+			</Socket>
+			<Socket Names="FrameAddon" NamesBlock="SaddleLow1" Offset="(-2.218; 1.339; 0)" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-1.21; 0; 0)" Types="MinicraneUS" />
 				<AddonsShift Offset="(-0.545; 0; 0)" Types="RoyalBM17CabinProtector" />
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="FrameAddon" Types="MinicraneUS, RoyalBM17CabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonKung" Offset="(-2.84; 1.413; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="FrameAddonKung" NamesBlock="SaddleLow1" Offset="(-2.84; 1.413; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.08)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.08)" />
 			</Socket>
-			<Socket Names="FrameAddonTank" Offset="(-3.165; 1.339; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="FrameAddonTank" NamesBlock="SaddleLow1" Offset="(-3.165; 1.339; 0)" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-0.588; 0; 0)" Types="RoyalBM17CabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonMaintainer" NamesBlock="MetalDetector, Trailer, RoyalBM17CabinProtector" Offset="(-2.85; 0.307; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="MinicraneUS, Trailer, RoyalBM17CabinProtector" Offset="(-0.08; 1.341; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="BigCraneUs" NamesBlock="MetalDetector, MinicraneUS, Semitrailer, RoyalBM17CabinProtector" Offset="(-2.891; 1.442; 0)">
+			<Socket Names="FrameAddonMaintainer" NamesBlock="Trailer, RoyalBM17CabinProtector, SaddleLow1" Offset="(-2.85; 0.307; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="MinicraneUS, Trailer, RoyalBM17CabinProtector, SaddleLow1" Offset="(-0.08; 1.341; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="BigCraneUs" NamesBlock="MetalDetector, MinicraneUS, Semitrailer, RoyalBM17CabinProtector, SaddleLow1" Offset="(-2.891; 1.442; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 			</Socket>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="SaddleLow1"
+			        Offset="(-3.095; 1.34; 0)"/>
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="SaddleLowRoyalBm17, FrameAddonKung, FrameAddonTank, FrameAddonSeismicVibrator, FrameAddon, SaddleHighRoyalBm17, RoyalBm17SpareWheel" Offset="(-1.256; 0.287; 0)" ParentFrame="BoneChassis_cdt" />

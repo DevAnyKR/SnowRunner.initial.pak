@@ -33,7 +33,7 @@
 		<AddonSlots
 			InitialOffset="(0; 0; 0)"
 			ParentFrames="BoneRoot_cdt"
-			Quantity="1"
+			Quantity="2"
 		/>
 	</GameData>
 </TruckAddon>

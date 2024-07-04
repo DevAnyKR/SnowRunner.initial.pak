@@ -4,7 +4,7 @@
 	<GameData
 		Price="500"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_REAR_BUMPER_CHROME_DESC"

@@ -279,7 +279,7 @@
 	<GameData
 		Country="US,NE"
 		Price="3500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(5.814; 1.162; 0)" ParentFrame="BoneFront_cdt" />

@@ -3,8 +3,8 @@
 
 <TruckAddon>
 	<TruckData
-		FuelCapacity="50"
-		RepairsCapacity="300"
+		FuelCapacity="100"
+		RepairsCapacity="600"
 	>
 		<LimitedFluid Center="(4.361; 2.032; 1.139)" SizeX="0.154" SizeY="0.331" SizeZ="0.301" Type="Box" ParentFrame="BoneFuel01_cdt"/>
 		<LimitedFluid Center="(4.361; 2.032; 0.676)" SizeX="0.155" SizeY="0.331" SizeZ="0.301" Type="Box" ParentFrame="BoneFuel02_cdt"/>

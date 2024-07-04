@@ -5,7 +5,10 @@
 	</WheelRepairsHide>
 	<TruckData WheelRepairsCapacity="1">
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/gor_by4_tuning/gor_by4_defence_frame">

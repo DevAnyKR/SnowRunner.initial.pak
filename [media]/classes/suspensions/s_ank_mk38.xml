@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.4"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="200"
 		Name="ank_mk38_suspension_default"
 	>
@@ -38,8 +38,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="240"
 		Name="ank_mk38_suspension_high"
 	>
@@ -61,7 +61,7 @@
 		/>
 		<GameData
 			Price="7900"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 			>
 			<UiDesc
@@ -74,8 +74,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Ultimate"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="250"
 		Name="ank_mk38_suspension_ultimate"
 	>
@@ -97,7 +97,7 @@
 		/>
 		<GameData
 			Price="9400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -110,8 +110,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
 		Name="ank_mk38_suspension_active"
 		DeviationDelta=".002"
@@ -136,7 +136,7 @@
 		/>
 		<GameData
 			Price="11300"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

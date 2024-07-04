@@ -18,7 +18,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/pacific_p16_tuning/pacific_p16_bumper_3">
@@ -33,7 +36,7 @@
 		Category="bumper"
 		Price="1300"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_HEAVYDUTY_DESC"

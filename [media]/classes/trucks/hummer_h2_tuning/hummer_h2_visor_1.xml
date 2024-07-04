@@ -5,7 +5,7 @@
 		Category="miscellenious"
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SUNVISOR_ANGLED_DESC"

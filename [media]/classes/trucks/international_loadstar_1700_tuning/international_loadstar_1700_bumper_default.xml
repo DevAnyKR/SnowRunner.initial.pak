@@ -1,7 +1,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/international_loadstar_1700_tuning/international_loadstar_1700_bumper_default">

@@ -6,15 +6,15 @@
 <EngineVariants>
 	<Engine
 		_template="RUSpecialEngine"
-		CriticalDamageThreshold="0.3"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.4"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.045"
-		FuelConsumption="9.0"
+		FuelConsumption="1.0"
 		Name="ru_special_engine_0"
-		Torque="205000"
+		Torque="410000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="5700"
@@ -31,18 +31,18 @@
 	</Engine>
 	<Engine
 		_template="RUSpecialEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="270"
-		DamagedConsumptionModifier="1.3"
-		FuelConsumption="10.0"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="ru_special_engine_1"
-		Torque="230000"
+		Torque="460000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="20700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -55,18 +55,18 @@
 	</Engine>
 	<Engine
 		_template="RUSpecialEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="300"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="11.5"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="ru_special_engine_2"
-		Torque="260000"
+		Torque="520000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="24400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

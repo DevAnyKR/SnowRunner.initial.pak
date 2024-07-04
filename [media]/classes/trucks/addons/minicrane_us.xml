@@ -60,7 +60,7 @@
 					MinLimit="-350"
 					MaxLimit="350"
 				>
-					<Motor Force="80000" Tau="0.5" Type="Position" />
+					<Motor Force="800000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body
 					CenterOfMassOffset="(0; 0; 0)"
@@ -74,7 +74,7 @@
 						MinLimit="0"
 						MaxLimit="130"
 					>
-						<Motor Force="400000" Tau="0.5" Type="Position" />
+						<Motor Force="4000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body
 						CenterOfMassOffset="(0; 0; 0)"
@@ -89,7 +89,7 @@
 							MinLimit="0"
 							MaxLimit="157"
 						>
-							<Motor Force="400000" Tau="0.9" Type="Position" />
+							<Motor Force="4000000" Tau="0.98" Type="Position" />
 						</Constraint>
 						<Body
 							CenterOfMassOffset="(0; 0; 0)"
@@ -104,7 +104,7 @@
 								MinLimit="0"
 								MaxLimit="1.812"
 							>
-								<Motor Force="60000" Tau=".9" Type="Position" />
+								<Motor Force="600000" Tau=".98" Type="Position" />
 							</Constraint>
 							<Body
 								CenterOfMassOffset="(0; 0; 0)"
@@ -119,7 +119,7 @@
 									MinLimit="0"
 									MaxLimit="1.812"
 								>
-									<Motor Force="60000" Tau=".9" Type="Position" />
+									<Motor Force="600000" Tau=".98" Type="Position" />
 								</Constraint>
 								<Body
 									CenterOfMassOffset="(0; 0; 0)"
@@ -134,7 +134,7 @@
 										MinLimit="0"
 										MaxLimit="1.812"
 									>
-										<Motor Force="60000" Tau="0.8" Type="Position" />
+										<Motor Force="600000" Tau="0.98" Type="Position" />
 									</Constraint>
 								</Body>
 							</Body>
@@ -191,9 +191,9 @@
 	</GameData>
 	<ControlledIK
 		CoeffEndMovementSpeedOY="1.0"
-		CoeffEndMovementSpeedOYWithLoad="0.5"
+		CoeffEndMovementSpeedOYWithLoad="1.0"
 		CoeffEndMovementSpeedXZ="1.0"
-		CoeffEndMovementSpeedXZWithLoad="0.5"
+		CoeffEndMovementSpeedXZWithLoad="1.0"
 	>
 		<Chain EndOffset="(0.1; 0; 0)" ModelFrames="BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt,BoneArmExtEnd_cdt">
 			<ConstraintStartPosition Name="Arm1" SpeedMult="1.0" Value="80" />

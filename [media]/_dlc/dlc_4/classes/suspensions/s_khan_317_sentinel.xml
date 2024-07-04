@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="khan_317_sentinel_suspension_default"
 	>
@@ -23,7 +23,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="khan_317_sentinel_suspension_high"
 	>
@@ -31,7 +31,7 @@
 		<Suspension Damping="0.3" Height="0.25" Strength="0.03" WheelType="rear" BrokenSuspensionMax="0.15" SuspensionMin="-0.35" />
 		<GameData
 			Price="6000"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -44,7 +44,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Ultimate"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="khan_317_sentinel_suspension_ultimate"
 	>
@@ -52,7 +52,7 @@
 		<Suspension Damping="0.3" Height="0.37" Strength="0.02" WheelType="rear" BrokenSuspensionMax="0.15" SuspensionMin="-0.38" />
 		<GameData
 			Price="7200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

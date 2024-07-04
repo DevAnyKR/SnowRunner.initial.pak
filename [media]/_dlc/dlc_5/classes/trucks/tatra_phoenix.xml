@@ -16,12 +16,14 @@
 			SteeringAngle="16"
 			SteeringCastor="4"
 			SteeringJointOffset="0.3"
+			Torque="default"
 		/>
 		<FourthAxle
 			_template="ThirdAxle"
 			SteeringAngle="-14"
 			SteeringCastor="4"
 			SteeringJointOffset="0.3"
+			Torque="default"
 		/>
 		<FirstAxle
 			CamberAnglePhysics="0"
@@ -31,7 +33,7 @@
 			SteeringAngle="18"
 			SteeringCastor="4"
 			SteeringJointOffset="0.3"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Body>
@@ -51,11 +53,11 @@
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_pacific_p16"
 		EngineIconScale="0.8"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="345"
-		Responsiveness="0.2"
-		SteerSpeed="0.015"
+		Responsiveness="1.0"
+		SteerSpeed="0.02"
 		TruckImage="tatraphoenixmchr"
 		TruckType="OFFROAD"
 	>
@@ -310,7 +312,7 @@
 		Country="RU,CAS,NE"
 		ExcludeAddons="trailer_log_pole"
 		Price="72800"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.58; 1.25; -0.46)" />
@@ -354,7 +356,7 @@
 		<CraneSocket Pos="(-0.65; 1; -0.46)" />
 		<CraneSocket Pos="(-3.968; 1.028; 0)" />
 		<AddonSockets>
-			<Socket Names="TatraCrane" Offset="(-0.4; 0.17; 0)" NamesBlock="TatraFrameAddonTank">
+			<Socket Names="TatraCrane" Offset="(-0.4; 0.17; 0)" NamesBlock="TatraSideboard, TatraFrameAddonTank">
 				<AddonsShift Offset="(1.64; 0; -0.025)" Types="TatraSideboard" />
 			</Socket>
 		</AddonSockets>

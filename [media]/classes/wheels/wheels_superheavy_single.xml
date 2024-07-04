@@ -19,11 +19,11 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_superheavy_mudtires_2" Name="mudtires_2">
-			<WheelFriction _template="HeavyMudtires" SubstanceFriction="3.2"/>
+			<WheelFriction _template="HeavyMudtires" SubstanceFriction="9.9"/>
 			<GameData
 				Price="8100"
 				UnlockByExploration="false"
-				UnlockByRank="15"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_SUPERHEAVY_MUDTIRES_2_NAME" />
 			</GameData>
@@ -33,7 +33,7 @@
 			<GameData
 				Price="9000"
 				UnlockByExploration="false"
-				UnlockByRank="15"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_SUPERHEAVY_MUDTIRES_3_NAME" />
 			</GameData>

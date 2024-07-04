@@ -18,7 +18,7 @@
 			SteeringAngle="36"
 			SteeringCastor="0"
 			SteeringJointOffset="0.23"
-			Torque="full"
+			Torque="default"
 			SuspensionMin="-0.3"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -74,7 +74,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="400"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="derryLonghorn4520"
 		TruckType="HEAVY"
@@ -387,7 +387,7 @@
 		Country="US,NE"
 		Price="125500"
 		UnlockByExploration="false"
-		UnlockByRank="24"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.432; 0.723; -0.481)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(4.432; 0.723; 0.481)" ParentFrame="BoneCabin_cdt" />

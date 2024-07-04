@@ -6,7 +6,7 @@
 		CameraPreset="hoods"
 		Category="diff_lock"
 		Price="6600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<UiDesc

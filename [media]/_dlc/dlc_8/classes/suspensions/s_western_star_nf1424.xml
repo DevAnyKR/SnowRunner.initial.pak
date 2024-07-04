@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="280"
 		Name="western_star_nf1424_suspension_default"
 	>
@@ -39,8 +39,8 @@
 	
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="240"
 		Name="western_star_nf1424_suspension_high"
 	>
@@ -63,7 +63,7 @@
 		<GameData
 			Price="7500"
 			UnlockByExploration="false"
-			UnlockByRank="17"
+			UnlockByRank="1"
 			>
 			<UiDesc
 				UiDesc="UI_SUSPENSION_HIGH_DESC"
@@ -76,8 +76,8 @@
 	
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.55"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="220"
 		Name="western_star_nf1424_suspension_active"
 		DeviationDelta=".050"

@@ -10,7 +10,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -40,13 +40,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.01"
-		DiffLockType="None"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.2"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="285"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="gmcBrigadier8000mchr"
 		TruckType="HEAVY_DUTY"

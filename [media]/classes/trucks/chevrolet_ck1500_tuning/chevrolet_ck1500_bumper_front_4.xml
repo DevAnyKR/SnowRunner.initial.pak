@@ -18,7 +18,7 @@
 	<GameData
 		Price="1300"
 		UnlockByExploration="false"
-		UnlockByRank="9"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_CHROMEFANG_DESC"

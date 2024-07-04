@@ -68,8 +68,8 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="350"
-		Responsiveness="0.15"
-		SteerSpeed="0.017"
+		Responsiveness="1.0"
+		SteerSpeed="0.022"
 		TruckImage="Azov73210mchr"
 		TruckType="HEAVY"
 	>
@@ -381,7 +381,7 @@
 		Country="RU,CAS"
 		Price="66000"
 		UnlockByExploration="false"
-		UnlockByRank="20"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(5.163; 0.621; -0.319)" />
 		<WinchSocket Pos="(5.163; 0.621; 0.319)" />

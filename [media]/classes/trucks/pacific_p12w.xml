@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -30,7 +30,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="350"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="pacificP1mchr"
 		TruckType="HEAVY"

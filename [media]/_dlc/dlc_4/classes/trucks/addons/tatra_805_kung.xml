@@ -1,8 +1,8 @@
 <_templates Include="trucks" />
 <TruckAddon>
 	<TruckData
-		RepairsCapacity="500"
-		WheelRepairsCapacity="2"
+		RepairsCapacity="1000"
+		WheelRepairsCapacity="4"
 	/>
 	<PhysicsModel Mesh="trucks/addons/tatra_805_kung">
 		<Body CenterOfMassOffset="(0; 0; 0)" Mass="1000">

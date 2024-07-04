@@ -20,9 +20,9 @@
 </_templates>
 <TruckAddon>
 	<TruckData
-		FuelCapacity="1400"
-		RepairsCapacity="300"
-		WheelRepairsCapacity="5"
+		FuelCapacity="2800"
+		RepairsCapacity="600"
+		WheelRepairsCapacity="10"
 	/>
 	<Rotator
 		EngineTorqueFactor="0"

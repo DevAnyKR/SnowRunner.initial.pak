@@ -13,7 +13,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/ws_4964_white_tuning/ws_4964_white_cabin_protector_1">
@@ -34,7 +37,7 @@
 		Category="miscellenious"
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_CABIN_PROTECTOR_1_DESC"

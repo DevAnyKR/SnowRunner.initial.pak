@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
+		BrokenWheelDamageMultiplier="0"
 		DamageCapacity="260"
 		Name="navistar_5000mv_suspension_default"
 	>
@@ -37,7 +37,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
+		BrokenWheelDamageMultiplier="0"
 		DamageCapacity="300"
 		Name="navistar_5000mv_suspension_high"
 	>

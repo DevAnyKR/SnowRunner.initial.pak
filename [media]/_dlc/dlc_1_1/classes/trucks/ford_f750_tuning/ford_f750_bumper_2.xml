@@ -19,7 +19,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/ford_f750_tuning/ford_f750_bumper_2">
@@ -53,7 +56,7 @@
 	<GameData
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_KHAN_39_MARSHALL_BUMPER_2_DESC"

@@ -28,7 +28,7 @@
 		Category="top"
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="25"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BEACONS_DOUBLE_HOVER_DESC"

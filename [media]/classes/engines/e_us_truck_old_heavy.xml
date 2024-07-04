@@ -2,11 +2,11 @@
 	<Engine>
 		<USTruckOldHeavyEngine
 			BrakesDelay="0.5"
-			CriticalDamageThreshold="0.7"
+			CriticalDamageThreshold="0.99"
 			DamageCapacity="200"
 			EngineResponsiveness="0.04"
 			DamagedMinTorqueMultiplier="1.0"
-			DamagedMaxTorqueMultiplier="0.5"
+			DamagedMaxTorqueMultiplier="1.0"
 			MaxDeltaAngVel="0.01"
 		/>
 	</Engine>
@@ -14,15 +14,15 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckOldHeavyEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.6"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.1"
-		FuelConsumption="8.5"
+		FuelConsumption="1.0"
 		Name="us_truck_old_heavy_engine_0"
-		Torque="175000"
+		Torque="350000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="5700"
@@ -39,19 +39,19 @@
 	</Engine>
 	<Engine
 		_template="USTruckOldHeavyEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="240"
-		DamagedConsumptionModifier="1.7"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.15"
-		FuelConsumption="9.0"
+		FuelConsumption="1.0"
 		Name="us_truck_old_heavy_engine_1"
-		Torque="190000"
+		Torque="380000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="13200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -64,19 +64,19 @@
 	</Engine>
 	<Engine
 		_template="USTruckOldHeavyEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="280"
-		DamagedConsumptionModifier="1.5"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.2"
-		FuelConsumption="10.0"
+		FuelConsumption="1.0"
 		Name="us_truck_old_heavy_engine_2"
-		Torque="210000"
+		Torque="420000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="15000"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

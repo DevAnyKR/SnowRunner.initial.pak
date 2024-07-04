@@ -42,8 +42,8 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="340"
-		Responsiveness="0.4"
-		SteerSpeed="0.015"
+		Responsiveness="1.0"
+		SteerSpeed="0.02"
 		TruckImage="kirovets_k7m_mchr"
 		TruckType="HEAVY"
 	>
@@ -328,7 +328,7 @@
 	<GameData
 		Country="RU,CAS"
 		Price="172300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		ExcludeAddons="trailer_log_pole"
 	>

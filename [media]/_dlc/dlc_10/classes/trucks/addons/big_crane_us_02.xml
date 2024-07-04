@@ -87,7 +87,7 @@
 					MinLimit="-355"
 					MaxLimit="355"
 				>
-					<Motor Force="500000" Type="Position" />
+					<Motor Force="5000000" Type="Position" />
 				</Constraint>
 				<Body _template="Wire" ModelFrame="BoneCabWires_cdt" />
 				<Body
@@ -103,7 +103,7 @@
 						MinLimit="-1"
 						MaxLimit="40"
 					>
-						<Motor Force="1000000" Tau="0.7" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body
 						CenterOfMassOffset="(0; 0; 0)"
@@ -118,7 +118,7 @@
 							MinLimit="0"
 							MaxLimit="10"
 						>
-							<Motor Force="160000" Tau="0.5" Type="Position" />
+							<Motor Force="8000000" Tau="0.98" Type="Position" />
 						</Constraint>
 					</Body>
 				</Body>
@@ -238,7 +238,7 @@
 		IsCustomizable="true"
 		Price="9400"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_BIG_CRANE_US_02_DESC"
@@ -258,10 +258,10 @@
 		<AddonType Name="Crane" />
 	</GameData>
 	<ControlledIK
-		CoeffEndMovementSpeedOY=".65"
-		CoeffEndMovementSpeedOYWithLoad=".5"
-		CoeffEndMovementSpeedXZ=".8"
-		CoeffEndMovementSpeedXZWithLoad=".6"
+		CoeffEndMovementSpeedOY="1.0"
+		CoeffEndMovementSpeedOYWithLoad="1.0"
+		CoeffEndMovementSpeedXZ="1.0"
+		CoeffEndMovementSpeedXZWithLoad="1.0"
 	>
 		<Chain EndOffset="(0.1; 0; 0)" ModelFrames="BoneRoot_cdt,BoneCabin_cdt,BoneShaft_cdt,BoneShaft1_cdt" />
 	</ControlledIK>

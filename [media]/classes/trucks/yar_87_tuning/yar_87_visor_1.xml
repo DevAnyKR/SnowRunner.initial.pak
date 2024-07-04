@@ -13,7 +13,7 @@
 		Category="miscellenious"
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SUNVISOR_ANGLED_BEACONS_DESC"

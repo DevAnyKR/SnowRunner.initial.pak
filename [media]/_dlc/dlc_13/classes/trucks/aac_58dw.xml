@@ -3,7 +3,7 @@
 		<RearWheel
 			ConnectedToHandbrake="true"
 			Location="rear"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneChassis_cdt"
 		/>
 		<FrontWheel
@@ -37,7 +37,7 @@
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="60"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="aac58dwmchr"
 		TruckType="SCOUT"
@@ -314,7 +314,7 @@
 	<GameData
 		Country="US,NE,CAS"
 		Price="6400"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(1.916; 0.491; 0)" />

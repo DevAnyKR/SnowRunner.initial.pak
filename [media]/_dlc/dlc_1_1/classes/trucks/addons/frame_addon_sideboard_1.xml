@@ -24,6 +24,7 @@
 			UiName="UI_TUNING_FRAME_ADDON_SIDEBOARD_1_NAME"
 		/>
 		<InstallSocket Type="FrameAddonSideboard1" />
-		<AddonSlots InitialOffset="(-0.044; 0.281; 0)" OffsetStep="(-2.559; 0; 0)" Quantity="1" />
+		<!--<AddonSlots InitialOffset="(-0.044; 0.281; 0)" OffsetStep="(-2.559; 0; 0)" Quantity="1" />-->
+		<AddonSlots InitialOffset="(-0.044; 0.281; 0)" OffsetStep="(0; 0; 0)" Quantity="2" />
 	</GameData>
 </TruckAddon>

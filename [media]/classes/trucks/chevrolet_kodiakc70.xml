@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -60,7 +60,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="chevkodiak70blazer"
 		TruckType="HEAVY_DUTY"

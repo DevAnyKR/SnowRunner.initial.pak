@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.0"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="230"
-		DamagedConsumptionModifier="1.9"
-		FuelConsumption="2.8"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_special_plad_450"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="23.0"
@@ -20,7 +20,7 @@
 		<Gear AngVel="6.8" FuelModifier="1.0" />
 		<GameData
 			Price="7000"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

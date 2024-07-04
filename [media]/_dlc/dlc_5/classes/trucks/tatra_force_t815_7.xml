@@ -2,7 +2,7 @@
 	<Wheel>
 		<SecondAxle
 			_template="FirstAxle"
-			SteeringAngle="18"
+			SteeringAngle="28"
 			SteeringCastor="4"
 			SteeringJointOffset="0.3"
 		/>
@@ -19,10 +19,10 @@
 			CamberAngleRender="6"
 			CamberSuspensionMultiplier="1.8"
 			Location="front"
-			SteeringAngle="24"
+			SteeringAngle="34"
 			SteeringCastor="12"
 			SteeringJointOffset="0.3"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Body>
@@ -74,10 +74,10 @@
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_pacific_p16"
 		EngineIconScale="0.8"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="380"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.022"
 		TruckImage="tatraforcemchr"
 		TruckType="HEAVY"
@@ -363,7 +363,7 @@
 		Country="RU,CAS,NE"
 		ExcludeAddons="trailer_log_pole"
 		Price="182600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.391; 0.997; 0.41)" />

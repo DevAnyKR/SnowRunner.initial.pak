@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="240"
 		Name="derry_longhorn_3194_suspension_default"
 		DeviationDelta=".008"		

@@ -3,7 +3,7 @@
 		<RearWheel
 			ConnectedToHandbrake="true"
 			Location="rear"
-			Torque="full"
+			Torque="default"
 		/>
 		<MiddleWheel
 			ConnectedToHandbrake="true"

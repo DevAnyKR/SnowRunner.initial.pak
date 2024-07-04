@@ -9,7 +9,7 @@
 		Category="miscellenious"
 		Price="1400"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SIDE_PIPE_THRESHOLDS_DESC"

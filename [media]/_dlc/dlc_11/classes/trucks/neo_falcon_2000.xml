@@ -9,10 +9,10 @@
 		<FrontWheel
 			ConnectedToHandbrake="true"
 			Location="front"
-			SteeringAngle="34"
+			SteeringAngle="40"
 			SteeringCastor="0"
 			SteeringJointOffset="0.12"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneChassis_cdt"
 		/>
 	</Wheel>
@@ -95,7 +95,7 @@
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="90"
-		Responsiveness="0.65"
+		Responsiveness="1"
 		SteerSpeed="0.032"
 		TruckImage="NeoFalcon2000mchr"
 		TruckType="SCOUT"
@@ -370,9 +370,9 @@
 		ParentFrame="BoneCabin_cdt"
 	/>
 	<GameData
-		Country="US,NE"
+		Country=""
 		Price="2600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-1.824; 0.694; -0.514)" ParentFrame="BoneCabin_cdt"/>
@@ -474,7 +474,7 @@
 		</AddonSockets>
 		
 		<AddonSockets>
-			<Socket Names="ScautTrailer" Offset="(-1.979; 0.742; 0)" />
+			<Socket Names="ScautTrailer, TrailerFarm" Offset="(-1.979; 0.742; 0)" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="neo_falcon_2000_diff_lock_default">
 			<Socket Names="NeoFalconDiffLock" />

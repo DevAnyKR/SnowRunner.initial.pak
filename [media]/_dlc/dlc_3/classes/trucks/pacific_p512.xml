@@ -10,7 +10,7 @@
 			SteeringAngle="36"
 			SteeringCastor="5"
 			SteeringJointOffset="0.25"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -74,7 +74,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="pacificp512mchr"
 		TruckType="HEAVY"
@@ -342,7 +342,7 @@
 	<GameData
 		Country="US,NE"
 		Price="108300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.824; 1.103; 0)" ParentFrame="BoneCabin_cdt" />

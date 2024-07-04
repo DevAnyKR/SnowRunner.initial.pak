@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
 		Name="tuz_108_warthog_suspension_default"
 	>
@@ -38,8 +38,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="160"
 		Name="tuz_108_warthog_suspension_high"
 	>
@@ -61,7 +61,7 @@
 		/>
 		<GameData
 			Price="6400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -74,8 +74,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="tuz_108_warthog_suspension_active"
 		DeviationDelta=".003"
@@ -100,7 +100,7 @@
 		/>
 		<GameData
 			Price="9800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

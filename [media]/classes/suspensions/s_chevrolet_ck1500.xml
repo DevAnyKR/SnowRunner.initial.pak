@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.4"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="chevrolet_ck1500_suspension_default"
 	>
@@ -24,8 +24,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="chevrolet_ck1500_suspension_high"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping=".3" Height="0.2" Strength="0.04" WheelType="rear" BrokenSuspensionMax="0.2" SuspensionMin="-0.3" />
 		<GameData
 			Price="4500"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

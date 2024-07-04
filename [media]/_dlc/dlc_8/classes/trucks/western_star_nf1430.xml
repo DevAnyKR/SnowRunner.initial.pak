@@ -11,7 +11,7 @@
 			SteeringAngle="36"
 			SteeringCastor="0"
 			SteeringJointOffset="0.23"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -47,7 +47,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="290"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="ws1430mchr"
 		TruckType="HEAVY"
@@ -415,7 +415,7 @@
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="LogLift" NamesBlock="FrameAddonKung, BigCraneUs, BigCrane, MinicraneUS, FrameAddon, FrameAddonTank, FrameAddonMaintainer, FrameAddonSeismicVibrator, FrameAddonTowPlatform, FrameAddonLogMedium" Offset="(4.352; 1.093; 0)" />
+			<Socket Names="LogLift" NamesBlock="FrameAddonKung, BigCraneUs, BigCrane, MinicraneUS, FrameAddon, FrameAddonTank, FrameAddonMaintainer, FrameAddonSeismicVibrator, FrameAddonTowPlatform, FrameAddonLogShort, FrameAddonLogMedium" Offset="(4.352; 1.093; 0)" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MinicraneUS" NamesBlock="BigCraneUs, BigCrane, FrameAddonTank, FrameAddonMaintainer, FrameAddonTowPlatform, FrameAddonLogShort, FrameAddonLogMedium" Offset="(3.557; 1.08; 0)" ParentFrame="BoneCabin_cdt" />

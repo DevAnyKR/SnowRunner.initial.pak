@@ -294,7 +294,7 @@
 		Country="US,NE"
 		Price="43600"
 		Recallable="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		ExcludeAddons="trailer_log_pole"
 	>

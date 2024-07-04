@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="gor_by4_suspension_default"
 	>
@@ -40,7 +40,7 @@
 	
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="gor_by4_suspension_high"
 	>
@@ -64,7 +64,7 @@
 		/>
 		<GameData
 			Price="2100"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

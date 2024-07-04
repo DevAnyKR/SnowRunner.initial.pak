@@ -6,7 +6,7 @@
 	<GameData
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_TRAPEZIUM_DESC"

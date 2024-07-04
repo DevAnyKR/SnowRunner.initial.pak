@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="280"
 		Name="kolob_74941_suspension_default"
 	>
@@ -24,8 +24,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="230"
 		Name="kolob_74941_suspension_active"
 		DeviationDelta=".002"
@@ -34,7 +34,7 @@
 		<Suspension Height="0.15" Strength="0.022" WheelType="rear" BrokenSuspensionMax="0.2" SuspensionMin="-0.25" DeviationMax="0.15"/>
 		<GameData
 			Price="11700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

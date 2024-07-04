@@ -3,8 +3,8 @@
 	<SuspensionSet 		
 		Name="western_star_49x_suspension_default"
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="280"
 		DeviationDelta=".01"		
 	>

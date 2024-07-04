@@ -10,7 +10,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Flare>
@@ -42,13 +42,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.15"
-		DiffLockType="Uninstalled"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_small"
 		EngineIconScale="1.15"
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.032"
 		TruckImage="hummerh2mchr"
 		TruckType="SCOUT"
@@ -280,7 +280,7 @@
 		Country="US,NE"
 		Price="5100"
 		Recallable="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(2.51; 0.66; -0.398)" />

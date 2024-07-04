@@ -6,14 +6,14 @@
 <EngineVariants>
 	<Engine
 		_template="RUScoutOldEngine"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
-		DamagedConsumptionModifier="2.0"
-		FuelConsumption="0.4"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="0.3"
 		Name="ru_scout_old_engine_tuz"
-		Torque="20000"
+		Torque="40000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.4"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
 		EngineResponsiveness="0.01"
 	>

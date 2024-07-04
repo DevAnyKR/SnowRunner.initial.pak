@@ -50,7 +50,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="350"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.018"
 		TruckImage="DANmchr"
 		TruckType="HEAVY"
@@ -292,7 +292,7 @@
 		Country="RU,CAS"
 		ExcludeAddons="frame_addon_flatbed_2"
 		Price="106800"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(6.916; 1.172; -0.543)" ParentFrame="BoneCabin_cdt" />

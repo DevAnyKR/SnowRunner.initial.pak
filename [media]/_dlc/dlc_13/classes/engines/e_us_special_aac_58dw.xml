@@ -2,20 +2,20 @@
 <EngineVariants>
 	<Engine
 		BrakesDelay="0.3"
-		CriticalDamageThreshold="0.8"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
-		DamagedConsumptionModifier="1.4"
-		EngineResponsiveness="0.37"
-		FuelConsumption="2"
+		DamagedConsumptionModifier="1.0"
+		EngineResponsiveness="1.0"
+		FuelConsumption="1"
 		Name="us_special_aac_58dw_alto_4110"
-		Torque="80000"
+		Torque="160000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.02"
 	>
 		<GameData
 			Price="6800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -28,20 +28,20 @@
 	</Engine>
 	<Engine
 		BrakesDelay="0.27"
-		CriticalDamageThreshold="0.65"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="140"
-		DamagedConsumptionModifier="1.51"
-		EngineResponsiveness="0.37"
-		FuelConsumption="2.3"
+		DamagedConsumptionModifier="1.0"
+		EngineResponsiveness="1.0"
+		FuelConsumption="1.0"
 		Name="us_special_aac_58dw_alto_6190"
-		Torque="110000"
+		Torque="220000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.06"
 	>
 		<GameData
 			Price="7900"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

@@ -2,7 +2,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/cat_ct681_tuning/cat_ct681_bumper_3">
@@ -38,7 +41,7 @@
 		Category="bumper"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="17"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_CROSSFOG_DESC"

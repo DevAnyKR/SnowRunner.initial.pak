@@ -2,7 +2,7 @@
 	<Wheel>
 		<SecondAxle
 			Location="front"
-			SteeringAngle="21"
+			SteeringAngle="35"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
 			Torque="default"
@@ -15,7 +15,7 @@
 		/>
 		<FirstAxle
 			Location="front"
-			SteeringAngle="26"
+			SteeringAngle="40"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
 			Torque="default"
@@ -112,7 +112,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.02"
+		BackSteerSpeed="0.04"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engnie_derry_special_15c177"
 		EngineIconScale="1"
@@ -121,7 +121,7 @@
 		ExhaustStartTime="0.6"
 		FuelCapacity="380"
 		Responsiveness="0.2"
-		SteerSpeed="0.017"
+		SteerSpeed="0.022"
 		TruckImage="derryspecialmchr"
 		TruckType="HEAVY"
 	>
@@ -506,7 +506,7 @@
 	<GameData
 		Country="US,NE"
 		Price="150000"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-6.919; 1.088; 0)" />

@@ -1,7 +1,7 @@
 <TruckAddon _noinherit="true">
 	<PhysicsModel Mesh="trucks/cargo/cargo_wooden_planks_1">
 		<NetSync Legacy="false" />
-		<Body Mass="500">
+		<Body Mass="50">
 			<Constraint ExplicitParentFrame="0" Type="Fixed" />
 		</Body>
 	</PhysicsModel>

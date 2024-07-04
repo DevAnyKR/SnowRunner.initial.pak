@@ -50,7 +50,7 @@
 		IsCustomizable="true"
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="5"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFRACK_SMALL_DESC"

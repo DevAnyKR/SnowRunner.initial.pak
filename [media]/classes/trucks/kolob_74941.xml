@@ -4,6 +4,7 @@
 			_template="FirstAxle"
 			SteeringAngle="24"
 			SteeringCastor="4"
+			Torque="default"
 		/>
 		<RearAxle
 			ConnectedToHandbrake="true"
@@ -14,7 +15,7 @@
 			Location="front"
 			SteeringAngle="36"
 			SteeringCastor="12"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Flare>
@@ -64,10 +65,10 @@
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_big"
 		EngineIconScale="1.5"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="340"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.018"
 		TruckImage="KOLOBmchr"
 		TruckType="HEAVY"

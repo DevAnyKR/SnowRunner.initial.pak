@@ -31,7 +31,7 @@
 		IsCustomizable="true"
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFBAR_FOGLIGHTS_DESC"

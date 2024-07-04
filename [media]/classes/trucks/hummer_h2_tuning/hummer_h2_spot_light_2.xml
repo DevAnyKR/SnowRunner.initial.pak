@@ -38,7 +38,7 @@
 		Category="top"
 		Price="500"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFBAR_BEACONS_FOGLIGHTS_DESC"

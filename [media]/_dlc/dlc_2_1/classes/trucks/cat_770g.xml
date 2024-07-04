@@ -7,7 +7,7 @@
 		/>
 		<Front
 			Location="front"
-			SteeringAngle="20"
+			SteeringAngle="25"
 			SteeringCastor="8"
 			SteeringJointOffset="0.6"
 			Torque="none"
@@ -388,7 +388,7 @@
 	<GameData
 		Country="US,NE"
 		Price="143500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.66; 0.869; -0.908)" />

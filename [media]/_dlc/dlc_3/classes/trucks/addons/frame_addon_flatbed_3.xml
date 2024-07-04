@@ -44,7 +44,7 @@
 		IsCustomizable="true"
 		Price="6000"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_FRAME_FLATBED_3_DESC"
@@ -53,6 +53,7 @@
 			UiName="UI_ADDON_FRAME_FLATBED_3_NAME"
 		/>
 		<InstallSocket Offset="(0; -0.05; 0)" Type="FrameAddon3" />
-		<AddonSlots InitialOffset="(2.559; 0.276; 0)" OffsetStep="(-2.478; 0; 0)" Quantity="3" />
+		<!--<AddonSlots InitialOffset="(2.559; 0.276; 0)" OffsetStep="(-2.478; 0; 0)" Quantity="3" />-->
+		<AddonSlots InitialOffset="(2.559; 0.276; 0)" OffsetStep="(0; 0; 0)" Quantity="6" />
 	</GameData>
 </TruckAddon>

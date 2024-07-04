@@ -2,20 +2,20 @@
 <EngineVariants>
 	<Engine
 		BrakesDelay="0.28"
-		CriticalDamageThreshold="0.65"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="130"
 		DamagedConsumptionModifier="1.51"
-		EngineResponsiveness="0.37"
-		FuelConsumption="1.85"
+		EngineResponsiveness="1.0"
+		FuelConsumption="1.0"
 		Name="us_special_mtb_8106_gf4v"
-		Torque="58000"
+		Torque="116000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.04"
 	>
 		<GameData
 			Price="6600"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

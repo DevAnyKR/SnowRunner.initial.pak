@@ -41,8 +41,8 @@
 <Truck Type="Trailer">
 	<TruckData
 		FuelCapacity="2000"
-		RepairsCapacity="350"
-		WheelRepairsCapacity="6"
+		RepairsCapacity="700"
+		WheelRepairsCapacity="12"
 	>
 		<Wheels>
 			<Wheel _template="TrailerWheelFront" Pos="(2.27; 0.594; 0.917)" />

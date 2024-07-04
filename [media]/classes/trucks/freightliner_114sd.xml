@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -62,7 +62,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="300"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="freightliner114SDmchr"
 		TruckType="OFFROAD"
@@ -302,7 +302,7 @@
 		Country="US,NE"
 		Price="76600"
 		UnlockByExploration="false"
-		UnlockByRank="20"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.427; 0.882; 0.544)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(4.427; 0.882; -0.544)" ParentFrame="BoneCabin_cdt" />

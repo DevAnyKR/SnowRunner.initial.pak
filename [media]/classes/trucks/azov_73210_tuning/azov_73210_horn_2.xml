@@ -4,7 +4,7 @@
 	<GameData
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="24"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_HORNS_TRIPLE_TWOSIDE_DESC"

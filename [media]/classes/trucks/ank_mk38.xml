@@ -40,7 +40,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="ANKMK38mchr"
 		TruckType="OFFROAD"
@@ -294,7 +294,7 @@
 	<GameData
 		Country="US,NE"
 		Price="51100"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		ExcludeAddons="trailer_log_pole"
 	>

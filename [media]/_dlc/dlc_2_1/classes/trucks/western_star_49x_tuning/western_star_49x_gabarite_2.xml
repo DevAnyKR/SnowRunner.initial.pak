@@ -19,7 +19,7 @@
 		Category="miscellenious"
 		Price="900"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_LIGHTS_SIDE_CHROME_DESC"

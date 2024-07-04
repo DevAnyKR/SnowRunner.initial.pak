@@ -304,7 +304,7 @@
 	<GameData
 		Country="US,NE"
 		Price="85200"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(1.839; 0.875; 0)" />

@@ -14,7 +14,7 @@
 	<GameData
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_LIGHTS_CHROME_DESC"

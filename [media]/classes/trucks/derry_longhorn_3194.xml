@@ -50,7 +50,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="370"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.018"
 		TruckImage="militarytruck1mchr"
 		TruckType="HEAVY"
@@ -322,7 +322,7 @@
 		Country="US,NE"
 		ExcludeAddons="stuff_bobblehead_joker, trailer_log_pole"
 		Price="110700"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.334; 0.883; -0.744)" />

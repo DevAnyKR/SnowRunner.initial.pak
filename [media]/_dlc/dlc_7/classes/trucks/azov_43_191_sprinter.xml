@@ -51,7 +51,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="350"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="azovsprintermchr"
 		TruckType="OFFROAD"
@@ -321,7 +321,7 @@
 	<GameData
 		Country="RU,CAS"
 		Price="58500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.476; 1.155; 0.43)" />

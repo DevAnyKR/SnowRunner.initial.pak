@@ -32,7 +32,7 @@
 		Category="snorkel"
 		Price="4900"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_WEDGECAP_TWIN_TALL_DESC"

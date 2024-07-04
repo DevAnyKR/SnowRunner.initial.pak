@@ -18,7 +18,7 @@
 	<GameData
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_KOLOB_74760_HEADLAMP_1_DESC"

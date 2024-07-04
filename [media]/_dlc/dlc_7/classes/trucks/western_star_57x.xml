@@ -50,13 +50,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.025"
-		DiffLockType="Uninstalled"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.4"
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="290"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"	
 		TruckImage="ws57xmchr"
 		TruckType="HIGHWAY"

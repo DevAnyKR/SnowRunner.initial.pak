@@ -3,7 +3,7 @@
 		<RearWheel
 			ConnectedToHandbrake="true"
 			Location="rear"
-			Torque="full"
+			Torque="default"
 		/>
 		<FrontWheel Location="front" Torque="default" />
 	</Wheel>
@@ -23,13 +23,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.015"
-		DiffLockType="Uninstalled"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.7"
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="340"
-		Responsiveness="0.05"
+		Responsiveness="1.0"
 		SteerSpeed="0.017"
 		TruckImage="cat745Cv2mchr"
 		TruckType="HEAVY"
@@ -297,7 +297,7 @@
 	<GameData
 		Country="US,NE"
 		Price="100500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(5.523; 1.54; 0.634)" />

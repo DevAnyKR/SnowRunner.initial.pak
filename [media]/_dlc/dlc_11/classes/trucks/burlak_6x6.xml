@@ -8,9 +8,9 @@
 		<FrontWheel
 			ConnectedToHandbrake="true"
 			Location="front"
-			SteeringAngle="30"
+			SteeringAngle="40"
 			SteeringCastor="0"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneChassis_cdt"
 		/>
 	</Wheel>
@@ -82,7 +82,7 @@
 		ExhaustStartTime="1.8"
 		FuelCapacity="280"
 		InstallTrailerAddonRequired="burlak_6x6_farkop_trailer, burlak_6x6_farkop_scout_trailer"
-		Responsiveness="0.5"
+		Responsiveness="1"
 		SteerSpeed="0.03"
 		TruckImage="Burlak6x6mchr"
 		TruckType="SCOUT"
@@ -333,11 +333,14 @@
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/burlak_6x6_lmk" MinScale="1.8" MaxScale="3.8" />
 	<HeadLight _template="Default" Pos="(3.8; 1.131; 0)" />
-	<GameData
-		Country="RU,CAS,NE"
+	<!--
 		ExcludeAddons="trailer_log_pole,trailer_flatbed_ramps_4,trailer_log"
+	-->
+	<GameData
+		Country=""
+		ExcludeAddons="trailer_log_pole,trailer_log"
 		Price="97500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.4; 1.491; -0.54)" ParentFrame="BoneChassis_cdt" />
@@ -403,6 +406,8 @@
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="BurlakMinicraneRU" Offset="(-3.87; 1.44; 0)" />
+			<Socket Names="MinicraneUS" Offset="(-3.87; 1.44; 0)" >
+			</Socket>
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="BurlakBeacon" ParentFrame="BoneCabin_cdt" />
@@ -513,12 +518,14 @@
 			<Socket Names="BurlakDiffLock" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Trailer" Offset="(-4.351; 1.143; 0)" />
+			<Socket Names="Trailer, TrailerFarm" Offset="(-4.351; 1.143; 0)" />
 			<Socket Names="ScautTrailer" Offset="(-4.238; 0.913; 0)" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="burlak_6x6_farkop_trailer">
-			<Socket Names="BurlakFarkop" NamesBlock="ScautTrailer" />
-			<Socket Names="BurlakFarkopScout" NamesBlock="Trailer" />
+			<!--<Socket Names="BurlakFarkop" NamesBlock="ScautTrailer" />
+			<Socket Names="BurlakFarkopScout" NamesBlock="Trailer" />-->
+			<Socket Names="BurlakFarkop" />
+			<Socket Names="BurlakFarkopScout" />
 		</AddonSockets>
 	</GameData>
 	<AutomaticIK>

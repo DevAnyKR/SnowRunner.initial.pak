@@ -47,7 +47,7 @@
 					MinLimit="0"
 					MaxLimit="0.7"
 				>
-					<Motor Force="30000000" Tau="1" Type="Position" />
+					<Motor Force="30000000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body Mass="400" ModelFrame="BoneRot_cdt">
 					<Constraint
@@ -57,7 +57,7 @@
 						MinLimit="0"
 						MaxLimit="90"
 					>
-						<Motor Force="30000000" Tau="1" Type="Position" />
+						<Motor Force="30000000" Tau="0.98" Type="Position" />
 					</Constraint>	
 					<Body Mass="250" ModelFrame="BoneForkHinge_cdt" NoSoftContacts="true">
 						<Constraint

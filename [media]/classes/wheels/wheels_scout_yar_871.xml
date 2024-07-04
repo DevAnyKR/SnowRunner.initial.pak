@@ -20,11 +20,11 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_scout_mudtires1_2" Name="mudtires_2">
-			<WheelFriction _template="Mudtires" SubstanceFriction="2.4" />
+			<WheelFriction _template="Mudtires" SubstanceFriction="9.9" />
 			<GameData
 				Price="5300"
 				UnlockByExploration="false"
-				UnlockByRank="12"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_SCOUT_MUDTIRES_YAR_87_2_NAME" />
 			</GameData>

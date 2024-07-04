@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="international_loadstar_1700_suspension_default"
 	>
@@ -37,7 +37,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="160"
 		Name="international_loadstar_1700_suspension_high"
 	>
@@ -59,7 +59,7 @@
 		/>
 		<GameData
 			Price="5700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

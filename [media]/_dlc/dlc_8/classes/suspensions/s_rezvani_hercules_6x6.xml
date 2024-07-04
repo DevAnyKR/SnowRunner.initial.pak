@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="rezvani_hercules_6x6_suspension_default"
 	>
@@ -38,7 +38,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="rezvani_hercules_6x6_suspension_high"
 	>

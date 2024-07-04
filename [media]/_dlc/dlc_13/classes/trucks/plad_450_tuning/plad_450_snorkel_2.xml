@@ -25,7 +25,7 @@
 		Category="snorkel"
 		Price="2400"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_FLATCAP_TALL_TWIN_DESC"

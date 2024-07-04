@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="110"
 		Name="ford_clt_suspension_default"
 	>
@@ -24,8 +24,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="140"
 		Name="ford_clt_suspension_high"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping="0.3" Height="0.3" Strength="0.04" WheelType="rear" BrokenSuspensionMax="0.05" SuspensionMin="-0.35" />
 		<GameData
 			Price="7400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

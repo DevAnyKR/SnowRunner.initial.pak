@@ -8,10 +8,10 @@
 		<MiddleAxle Location="middle" MeshType="front" Torque="none" />
 		<FrontAxle
 			Location="front"
-			SteeringAngle="30"
+			SteeringAngle="35"
 			SteeringCastor="8"
 			SteeringJointOffset="0.11"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -70,7 +70,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="260"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="cat681mchr"
 		TruckType="HEAVY_DUTY"

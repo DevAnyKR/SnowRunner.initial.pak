@@ -46,7 +46,7 @@
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="130"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="interloadstarmchr"
 		TruckType="SCOUT"
@@ -317,7 +317,7 @@
 		<CraneSocket Pos="(-0.596; 0.691; 0.449)" />
 		<CraneSocket Pos="(-3.21; 0.734; 0)" />
 		<AddonSockets>
-			<Socket Names="ScautTrailer" Offset="(-3.21; 0.76; 0)">
+			<Socket Names="Trailer, MastodonLogPoleTrailer, ScautTrailer, TrailerFarm" Offset="(-3.21; 0.76; 0)">
 				<AddonsShift Offset="(-0.283; -0.055; 0)" Types="InternationalLoadstar1700ServiceBody" />
 			</Socket>
 		</AddonSockets>

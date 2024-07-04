@@ -6,7 +6,7 @@
 	</Constraint>
 </_templates>
 <TruckAddon>
-	<TruckData FuelCapacity="120">
+	<TruckData FuelCapacity="240">
 		<LimitedFluid Center="(0.629; 2.608; 0.03)" SizeX="0.292" SizeY="0.134" SizeZ="0.42" Type="Box" ParentFrame="BoneFuel_cdt" />
 		<LimitedFluid Center="(0.951; 2.608; 0.482)" SizeX="0.292" SizeY="0.134" SizeZ="0.42" Type="Box" ParentFrame="BoneFuel_cdt" />	
 		<LimitedFluid Center="(0.955; 2.608; 0.03)" SizeX="0.292" SizeY="0.134" SizeZ="0.42" Type="Box" ParentFrame="BoneFuel_cdt" />	
@@ -34,7 +34,7 @@
 		Category="top"
 		Price="2400"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFRACK_SMALL_DESC"

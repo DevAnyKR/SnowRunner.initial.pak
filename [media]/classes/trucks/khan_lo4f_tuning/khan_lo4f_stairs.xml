@@ -5,7 +5,7 @@
 		Category="miscellenious"
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_KHAN_Lo4F_STAIRS_DESC"

@@ -10,7 +10,7 @@
 			SteeringAngle="40"
 			SteeringCastor="8"
 			SteeringJointOffset="0.2"
-			Torque="none"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -30,13 +30,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.01"
-		DiffLockType="None"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.3"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="280"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.017"
 		TruckImage="fordclt9000v2mchr"
 		TruckType="HIGHWAY"
@@ -414,43 +414,51 @@
 		<AddonSockets>
 			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1.713; 1.479; 0)" />
 			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-2.713; 1.479; 0)" />
-			<Socket Names="Trailer" Offset="(-4.23; 0.51; 0.009)" />
+			<Socket Names="Trailer, ScautTrailer, TrailerFarm" Offset="(-4.23; 0.51; 0.009)" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="FrameAddonKung, FrameAddonTank, FrameAddonMaintainer, FrameAddon, BigCraneUs, BigCraneRu" Offset="(0.385; -0.081; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="MinicraneUS" NamesBlock="FrameAddonKung, FrameAddonTank" Offset="(0.95; 0.97; 0)" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="FrameAddonTowPlatform" Offset="(-0.45; 0.971; 0)" NamesBlock="MinicraneUS, MetalDetector, Trailer" />		
-			<Socket Names="LogLift" NamesBlock="MetalDetector, MinicraneUS" Offset="(0.836; 0.976; 0)" />
-			<Socket Names="BunkLog" NamesBlock="MinicraneUS, MetalDetector" Offset="(-4.229; 0.976; 0)" />
-			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector" Offset="(-0.874; 0.972; 0)" />
+			<Socket Names="FrameAddonTowPlatform" Offset="(-0.45; 0.971; 0)" NamesBlock="MinicraneUS, MetalDetector, Trailer, SaddleHigh" />
+			<Socket Names="LogLift" NamesBlock="MetalDetector, MinicraneUS, SaddleHigh" Offset="(0.836; 0.976; 0)" />
+			<Socket Names="BunkLog" NamesBlock="MinicraneUS, MetalDetector, SaddleHigh" Offset="(-4.229; 0.976; 0)" />
+			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector, SaddleHigh" Offset="(-0.874; 0.972; 0)" />
+			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneUS, MetalDetector, SaddleHigh" Offset="(-0.874; 0.972; 0)" />
 			<Socket Names="SaddleLow1" Offset="(-2.71; 0.972; 0)">
-				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.02)" />
-				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.02)" />
-			</Socket>
-			<Socket Names="SaddleHigh" Offset="(-1.71; 0.972; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.02)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.02)" />
 			</Socket>
 			<Socket Names="FrameAddon" Offset="(-0.95; 0.971; 0)" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-1; 0; 0)" Types="MinicraneUS" />
 			</Socket>
-			<Socket Names="FrameAddonKung" Offset="(-2.15; 1.050; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="FrameAddonKung" NamesBlock="SaddleHigh" Offset="(-2.15; 1.050; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.08)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.08)" />
 			</Socket>
-			<Socket Names="FrameAddonTank" Offset="(-2; 0.971; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FrameAddonMaintainer" NamesBlock="MinicraneUS, Trailer" Offset="(-1.81; -0.06; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="BigCraneUs" NamesBlock="MinicraneUS, FordClt9000Top" Offset="(-2; 1.072; 0)">
+			<Socket Names="FrameAddonTank" NamesBlock="SaddleHigh" Offset="(-2; 0.971; 0)" ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="FrameAddonMaintainer" NamesBlock="MinicraneUS, Trailer, SaddleHigh" Offset="(-1.81; -0.06; 0)" ParentFrame="BoneChassis_cdt"/>
+			<Socket Names="BigCraneUs" NamesBlock="MinicraneUS, FordClt9000Top, SaddleHigh" Offset="(-2; 1.072; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 			</Socket>
 			<!-- <Socket Names="BigCraneRu" NamesBlock="MinicraneUS, Semitrailer, FordClt9000Top" Offset="(-1.75; 0.98; 0)" /> -->
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="UsLoadLogsShort" Offset="(0.5; -0.23 0)" />
-			<Socket Names="UsLoadLogsShortLoaderA" Offset="(0.5; -0.23 0)" />
+			<Socket Names="SaddleHigh"
+			        Offset="(-2.71; 0.972; 0)">
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; 0; 0.02)"/>
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; 0; -0.02)"/>
+			</Socket>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="UsLoadLogsShort"
+			        Offset="(0.5; -0.23 0)"/>
+			<Socket Names="UsLoadLogsShortLoaderA"
+			        Offset="(0.5; -0.23 0)"/>
 		</AddonSockets>
 		<AddonSockets DefaultAddon="ford_clt9000_bumper_default">
 			<Socket Names="FordClt9000Bumper" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />

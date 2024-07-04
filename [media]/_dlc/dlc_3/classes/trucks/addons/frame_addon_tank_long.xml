@@ -108,7 +108,7 @@
 		IsCustomizable="true"
 		Price="6600"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_FRAME_TANK_LONG_DESC"

@@ -11,7 +11,7 @@
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_extend_kirovets_k7m" Name="tire">
 			<GameData
 				Price="7500"
-				UnlockByExploration="true"
+				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_SUPERHEAVY_MUDTIRES_2_DESC" UiName="UI_TIRE_SUPERHEAVY_MUDTIRES_2_NAME" />

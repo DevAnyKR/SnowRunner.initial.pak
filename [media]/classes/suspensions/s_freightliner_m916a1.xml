@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="220"
 		Name="freightliner_m916a1_suspension_default"
 	>
@@ -24,8 +24,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="250"
 		Name="freightliner_m916a1_suspension_high"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping="0.2" Height="0.12" Strength="0.1" WheelType="rear" BrokenSuspensionMax=".25" SuspensionMin="-0.15" />
 		<GameData
 			Price="7700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

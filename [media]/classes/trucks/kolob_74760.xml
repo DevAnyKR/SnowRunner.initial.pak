@@ -87,7 +87,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="380"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.016"
 		TruckImage="KOLOB74760mchr"
 		TruckType="HEAVY"
@@ -370,7 +370,7 @@
 		Country="RU,CAS"
 		Price="107700"
 		UnlockByExploration="false"
-		UnlockByRank="22"
+		UnlockByRank="1"
 		ExcludeAddons="trailer_log_pole"
 	>
 		<WinchSocket Pos="(4.986; 1.302; 0.446)" />

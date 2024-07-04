@@ -4,8 +4,8 @@
 		<Mesh Frame="wheel" HideThreshold="0" />
 	</WheelRepairsHide>
 	<TruckData
-		FuelCapacity="200"
-		RepairsCapacity="600"
+		FuelCapacity="400"
+		RepairsCapacity="1200"
 	>
 		<LimitedFluid Center="(3.020; 3.164; 0.779)" SizeX="0.425" SizeY="0.182" SizeZ="0.333" Type="Box" ParentFrame="BoneFuel1_cdt" />
 		<LimitedFluid Center="(3.568; 3.164; 0.779)" SizeX="0.425" SizeY="0.182" SizeZ="0.333" Type="Box" ParentFrame="BoneFuel1_cdt" />

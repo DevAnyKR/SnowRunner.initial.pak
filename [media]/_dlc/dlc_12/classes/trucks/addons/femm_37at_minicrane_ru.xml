@@ -69,7 +69,7 @@
 					MinLimit="-350"
 					MaxLimit="350"
 				>
-					<Motor Force="800000" Tau="0.5" Type="Position" />
+					<Motor Force="8000000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body Collisions="Internal" Mass="450" ModelFrame="BoneArm1_cdt">
 					<Constraint
@@ -79,7 +79,7 @@
 						MinLimit="-10"
 						MaxLimit="145"
 					>
-						<Motor Force="800000" Tau="0.5" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body Collisions="All" Mass="200" ModelFrame="BoneArm2_cdt">
 						<Constraint
@@ -89,7 +89,7 @@
 							MinLimit="0"
 							MaxLimit="145"
 						>
-							<Motor Force="800000" Tau="0.4" Type="Position" />
+							<Motor Force="8000000" Tau="0.98" Type="Position" />
 						</Constraint>
 						<Body Collisions="All" Mass="150" ModelFrame="BoneArmExt1_cdt">
 							<Constraint
@@ -99,7 +99,7 @@
 								MinLimit="0"
 								MaxLimit="1.4"
 							>
-								<Motor Force="800000" Tau="0.4" Type="Position" />
+								<Motor Force="8000000" Tau="0.98" Type="Position" />
 							</Constraint>
 							<Body Collisions="All" Mass="150" ModelFrame="BoneArmExt2_cdt">
 								<Constraint
@@ -109,7 +109,7 @@
 									MinLimit="0"
 									MaxLimit="1.4"
 								>
-									<Motor Force="800000" Tau="0.4" Type="Position" />
+									<Motor Force="8000000" Tau="0.98" Type="Position" />
 								</Constraint>
 							</Body>
 						</Body>
@@ -162,13 +162,13 @@
 	</GameData>
 	<ControlledIK
 		CoeffEndMovementSpeedOY="1.0"
-		CoeffEndMovementSpeedOYWithLoad="0.5"
+		CoeffEndMovementSpeedOYWithLoad="1.0"
 		CoeffEndMovementSpeedXZ="1.0"
-		CoeffEndMovementSpeedXZWithLoad="0.5"
+		CoeffEndMovementSpeedXZWithLoad="1.0"
 	>
 		<Chain EndOffset="(0.1; 0; 0)" ModelFrames="BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt">
-			<ConstraintStartPosition Name="Arm1" SpeedMult="0.5" Value="90" />
-			<ConstraintStartPosition Name="Arm2" SpeedMult="0.5" StartDelay="1" Value="120" />
+			<ConstraintStartPosition Name="Arm1" SpeedMult="1.0" Value="90" />
+			<ConstraintStartPosition Name="Arm2" SpeedMult="1.0" StartDelay="0.5" Value="120" />
 		</Chain>
 	</ControlledIK>
 	<AutomaticIK>

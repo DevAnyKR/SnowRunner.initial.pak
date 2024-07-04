@@ -60,7 +60,7 @@
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
-		Responsiveness="0.85"
+		Responsiveness="1.0"
 		SteerSpeed="0.032"
 		TruckImage="mtb8106mchr"
 		TruckType="SCOUT"
@@ -367,7 +367,7 @@
 	<GameData
 		Country="US,NE"
 		Price="4100"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-2.000; 0.460; 0.530)" ParentFrame="BoneCabin_cdt"/>

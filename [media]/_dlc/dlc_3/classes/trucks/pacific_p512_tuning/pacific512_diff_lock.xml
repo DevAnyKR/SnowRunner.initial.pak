@@ -7,7 +7,7 @@
 		Category="diff_lock"
 		Price="5700"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_UPGRADE_DIFF_LOCK_SWITCHABLE_DESC"

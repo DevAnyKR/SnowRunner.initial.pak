@@ -55,8 +55,8 @@
 </_templates>
 <Truck Type="Trailer">
 	<TruckData
-		RepairsCapacity="1500"
-		WheelRepairsCapacity="8"
+		RepairsCapacity="3000"
+		WheelRepairsCapacity="16"
 	>
 		<Wheels>
 			<Wheel _template="TrailerWheelFront" Pos="(2.251; 0.594; 1.017)" />

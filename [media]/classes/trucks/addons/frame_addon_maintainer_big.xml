@@ -25,9 +25,9 @@
 		RotationSpeed="3"
 	/>
 	<TruckData
-		FuelCapacity="2000"
-		RepairsCapacity="350"
-		WheelRepairsCapacity="6"
+		FuelCapacity="4000"
+		RepairsCapacity="700"
+		WheelRepairsCapacity="12"
 	/>
 	<PhysicsModel Mesh="trucks/addons/frame_addon_maintainer_big">
 		<Body ImpactType="Truck" Mass="5000" ModelFrame="BoneRoot_cdt">

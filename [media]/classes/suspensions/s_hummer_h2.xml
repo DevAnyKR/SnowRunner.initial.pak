@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="hummer_h2_suspension_default"
 	>
@@ -23,7 +23,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="120"
 		Name="hummer_h2_suspension_high"
 	>
@@ -31,7 +31,7 @@
 		<Suspension Damping="0.2" Height="0.2" Strength="0.05" WheelType="rear" BrokenSuspensionMax="0.15" SuspensionMin="-0.4" />
 		<GameData
 			Price="5300"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

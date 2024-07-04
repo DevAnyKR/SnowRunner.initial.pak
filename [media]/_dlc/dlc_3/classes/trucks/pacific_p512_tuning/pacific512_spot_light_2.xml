@@ -25,7 +25,7 @@
 		Category="miscellenious"
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_KOLOB_74760_HEADLAMP_1_DESC"

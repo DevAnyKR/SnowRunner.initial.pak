@@ -2,7 +2,7 @@
 	<Wheel>
 		<SecondAxle
 			_template="FirstAxle"
-			SteeringAngle="24"
+			SteeringAngle="32"
 			SteeringCastor="4"
 			ConnectedToHandbrake="true"
 		/>
@@ -13,7 +13,7 @@
 		/>
 		<FirstAxle
 			Location="front"
-			SteeringAngle="32"
+			SteeringAngle="40"
 			SteeringCastor="0"
 			SteeringJointOffset="0.3"
 			Torque="default"
@@ -39,10 +39,10 @@
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.5"
 		EngineMarkerOffset="(-0.5; 0.5; 0)"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="300"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="TUZ420Tatarinmchr"
 		TruckType="SCOUT"
@@ -270,7 +270,7 @@
 	<GameData
 		Country="RU,CAS"
 		Price="106700"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.549; 1.038; -0.908)" />

@@ -1,13 +1,13 @@
 <TruckAddon _noinherit="true">
 	<PhysicsModel Mesh="trucks/cargo/cargo_wooden_planks_4">
 		<NetSync Legacy="false" />
-		<Body Mass="500" ModelFrame="BoneRoot_cdt">
+		<Body Mass="50" ModelFrame="BoneRoot_cdt">
 			<Constraint ExplicitParentFrame="0" Type="Fixed" />
-			<Body Mass="500" ModelFrame="BoneExtra1_cdt">
+			<Body Mass="50" ModelFrame="BoneExtra1_cdt">
 				<Constraint ExplicitParentFrame="1" Type="Fixed" />
-				<Body Mass="500" ModelFrame="BoneExtra2_cdt">
+				<Body Mass="50" ModelFrame="BoneExtra2_cdt">
 					<Constraint ExplicitParentFrame="2" Type="Fixed" />
-					<Body Mass="500" ModelFrame="BoneExtra3_cdt">
+					<Body Mass="50" ModelFrame="BoneExtra3_cdt">
 						<Constraint ExplicitParentFrame="3" Type="Fixed" />
 					</Body>
 				</Body>

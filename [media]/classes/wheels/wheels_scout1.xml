@@ -10,7 +10,7 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.509">
 	<TruckTires>
 		<TruckTire _template="ScoutHighway" Mesh="wheels/tire_scout_default1_1" Name="highway_1">
-			<WheelFriction _template="ScoutHighway" SubstanceFriction="0.4"/>
+			<WheelFriction _template="ScoutHighway" SubstanceFriction="9.9"/>
 			<GameData
 				Price="1000"
 				UnlockByExploration="false"

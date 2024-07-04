@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="300"
 		Name="mack_defense_m917_suspension_default"
 	>
@@ -46,8 +46,8 @@
 	
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.4"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="260"
 		Name="mack_defense_m917_suspension_high"
 	>
@@ -85,8 +85,8 @@
 	
 	<SuspensionSet
 		_template="Active"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
 		Name="mack_defense_m917_suspension_active"
 		DeviationDelta=".002"

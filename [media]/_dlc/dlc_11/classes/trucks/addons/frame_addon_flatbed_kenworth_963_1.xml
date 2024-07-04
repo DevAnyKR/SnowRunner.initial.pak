@@ -106,7 +106,7 @@
 			UiName="UI_ADDON_FRAME_FLATBED_KENWORTH_963_01_NAME"
 		/>
 		<InstallSocket Offset="(0; 0; 0)" Type="FlatbedKenworth1" />
-		<AddonSlots InitialOffset="(-1.65; 2.38; 0)" OffsetStep="(-2.478; 0; 0)" Quantity="3" />
+		<AddonSlots InitialOffset="(-1.65; 2.38; 0)" OffsetStep="(0; 0; 0)" Quantity="8" />
 		<WinchSocket Pos="(-7.919; 0.97; 0)" ParentFrame="BoneChassis_cdt" />
 		<CraneSocket Pos="(-7.919; 0.97; 0)" ParentFrame="BoneChassis_cdt" />
 	</GameData>

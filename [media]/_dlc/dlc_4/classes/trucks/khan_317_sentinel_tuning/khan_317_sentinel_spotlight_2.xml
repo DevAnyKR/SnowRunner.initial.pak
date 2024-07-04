@@ -18,7 +18,7 @@
 	<GameData
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_HEADLIGHTS_LED_DESC"

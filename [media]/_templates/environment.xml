@@ -216,7 +216,7 @@
 	<Body>
 		<WoodChunk
 			AllowedPenetrationDepth="1"
-			DamageMult="0.2"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="100.0"
@@ -238,7 +238,7 @@
 		/>
 		<SwampTrunk
 			AngularDamping="2.0"
-			DamageMult="0.1"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			LinearDamping="1.0"
 			Mass="500.0"
@@ -247,7 +247,7 @@
 		<SwampBranch
 			AllowedPenetrationDepth="2.0"
 			AngularDamping="4.0"
-			DamageMult="0.1"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="false"
 			LinearDamping="1.0"
@@ -270,7 +270,7 @@
 		/>
 		<SmallTreeRootOld
 			AllowedPenetrationDepth="0.25"
-			DamageMult="100"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="false"
 			LinearDamping="0.2"
@@ -279,7 +279,7 @@
 		/>
 		<SmallTreeRoot
 			AllowedPenetrationDepth="3"
-			DamageMult="2"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="false"
 			LinearDamping="0.2"
@@ -300,7 +300,7 @@
 			Mass="100"
 		/>
 		<MediumTreeRoot
-			DamageMult="1"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="false"
 			LinearDamping="0.2"
@@ -328,7 +328,7 @@
 			NoSoftContacts="true"
 		/>
 		<HugeTrunk
-			DamageMult="0.5"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			LinearDamping="0.2"
@@ -336,7 +336,7 @@
 		/>
 		<Flower
 			AllowedPenetrationDepth="3.0"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="1"
@@ -345,7 +345,7 @@
 			AllowedPenetrationDepth="3.0"
 			AngularDamping="0.5"
 			Collisions="None"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="20"
@@ -353,20 +353,20 @@
 		/>
 		<FallingTreeRoot
 			AllowedPenetrationDepth="0.5"
-			DamageMult="0.4"
+			DamageMult="0.0"
 			Mass="700"
 			AngularDamping="0.3"
 		/>
 		<Corn
 			AllowedPenetrationDepth="3.0"
-			DamageMult="0.2"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="1"
 		/>
 		<Cane
 			AllowedPenetrationDepth="3.0"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="5"
@@ -376,7 +376,7 @@
 			AngularDamping="0.5"
 			CenterOfMassOffset="(0; -0.3; 0)"
 			Collisions="None"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			LinearDamping="0.5"
@@ -385,14 +385,14 @@
 		/>
 		<BushBranch
 			AllowedPenetrationDepth="3.0"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			Mass="3"
 		/>
 		<BranchWithLeaves
 			AllowedPenetrationDepth="2.0"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			LinearDamping="0.1"
@@ -400,14 +400,14 @@
 		/>
 		<BranchSoft
 			AllowedPenetrationDepth="2.0"
-			DamageMult="0.01"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="true"
 			LinearDamping="0.1"
 			Mass="25"
 		/>
 		<BigTreeRoot
-			DamageMult="0.3"
+			DamageMult="0.0"
 			ImpactType="Foliage"
 			IsCapsuleCDT="false"
 			LinearDamping="0.0"

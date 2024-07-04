@@ -2,8 +2,9 @@
 	<Wheel>
 		<SecondAxle
 			_template="FirstAxle"
-			SteeringAngle="28"
+			SteeringAngle="33"
 			SteeringCastor="4"
+			Torque="default"
 		/>
 		<RearAxle
 			ConnectedToHandbrake="true"
@@ -12,10 +13,10 @@
 		/>
 		<FirstAxle
 			Location="front"
-			SteeringAngle="35"
+			SteeringAngle="40"
 			SteeringCastor="1"
 			SteeringJointOffset="0.25"
-			Torque="connectable"
+			Torque="default"
 			SuspensionMin="-0.3"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -144,7 +145,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="280"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.024"
 		TruckImage="InternationalPaystar5600TSmchr"
 		TruckType="HEAVY"
@@ -531,7 +532,7 @@
 		Country="US,NE"
 		ExcludeAddons="frame_addon_sideboard_2"
 		Price="102600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(6.229; 0.997; 0)" ParentFrame="BoneCabin_cdt" />

@@ -6,15 +6,15 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckModernEngine"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="160"
-		DamagedConsumptionModifier="1.2"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.2"
-		FuelConsumption="6.0"
+		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_0"
-		Torque="160000"
+		Torque="320000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="3000"
@@ -31,19 +31,19 @@
 	</Engine>
 	<Engine
 		_template="USTruckModernEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.3"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.25"
-		FuelConsumption="6.5"
+		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_1"
-		Torque="180000"
+		Torque="360000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="10400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -56,19 +56,19 @@
 	</Engine>
 	<Engine
 		_template="USTruckModernEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.1"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.3"
-		FuelConsumption="7.5"
+		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_2"
-		Torque="192000"
+		Torque="384000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="11300"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

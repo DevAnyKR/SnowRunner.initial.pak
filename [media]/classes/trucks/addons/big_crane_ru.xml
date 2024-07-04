@@ -72,7 +72,7 @@
 					MinLimit="-355"
 					MaxLimit="355"
 				>
-					<Motor Force="500000" Tau="0.1" Type="Position" />
+					<Motor Force="5000000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body
 					Collisions="None"
@@ -87,7 +87,7 @@
 						MinLimit="0"
 						MaxLimit="55"
 					>
-						<Motor Force="800000" Tau="0.1" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body
 						Collisions="Internal"
@@ -102,7 +102,7 @@
 							MinLimit="0"
 							MaxLimit="5"
 						>
-							<Motor Force="100000" Tau="0.2" Type="Position" />
+							<Motor Force="1000000" Tau="0.98" Type="Position" />
 						</Constraint>
 					</Body>
 				</Body>
@@ -141,7 +141,7 @@
 		Category="frame_addons"
 		Price="7500"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_BIG_CRANE_RU_DESC"

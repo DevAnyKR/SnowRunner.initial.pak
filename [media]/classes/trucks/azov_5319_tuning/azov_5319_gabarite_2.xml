@@ -14,7 +14,7 @@
 	<GameData
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="17"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_PARKINGLIGHTS_TRI_TWO_DESC"

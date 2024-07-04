@@ -14,7 +14,7 @@
 				_template="ScoutOffroad"
 				BodyFriction="2.1"
 				BodyFrictionAsphalt="1"
-				SubstanceFriction="1.2"
+				SubstanceFriction="9.9"
 			/>
 			<GameData
 				Price="4200"

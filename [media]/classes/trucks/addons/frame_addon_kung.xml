@@ -17,8 +17,8 @@
 </_templates>
 <TruckAddon IsChassisFullOcclusion="true">
 	<TruckData
-		RepairsCapacity="800"
-		WheelRepairsCapacity="6"
+		RepairsCapacity="1600"
+		WheelRepairsCapacity="12"
 	/>
 	<PhysicsModel Mesh="trucks/addons/frame_addon_kung">
 		<Body Mass="3000">
@@ -38,7 +38,7 @@
 		IsCustomizable="true"
 		Price="4500"
 		UnlockByExploration="false"
-		UnlockByRank="4"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_FRAME_KUNG_DESC"

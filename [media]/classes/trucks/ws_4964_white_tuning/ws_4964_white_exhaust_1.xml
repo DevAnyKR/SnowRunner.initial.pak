@@ -24,7 +24,7 @@
 	<GameData
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="5"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_EXHAUST_WEDGED_DESC"

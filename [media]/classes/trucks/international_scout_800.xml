@@ -10,7 +10,7 @@
 			SteeringAngle="28"
 			SteeringCastor="5"
 			SteeringJointOffset="0.22"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -74,7 +74,7 @@
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="72"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="scout8001mchr"
 		TruckType="SCOUT"
@@ -283,7 +283,7 @@
 		Country="US,NE"
 		Price="4800"
 		Recallable="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(1.733; 0.588; -0.4)" />

@@ -9,7 +9,7 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.65">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_1" Name="allterrain_1">
-			<WheelFriction _template="Allterrain" SubstanceFriction="1.2"/>
+			<WheelFriction _template="Allterrain" SubstanceFriction="9.9"/>
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
@@ -23,17 +23,17 @@
 			<GameData
 				Price="5900"
 				UnlockByExploration="false"
-				UnlockByRank="11"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_4" Name="offroad_2">
-			<WheelFriction _template="Offroad" SubstanceFriction="1.8"/>
+			<WheelFriction _template="Offroad" SubstanceFriction="9.9"/>
 			<GameData
 				Price="6200"
 				UnlockByExploration="false"
-				UnlockByRank="11"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME" />
 			</GameData>
@@ -43,7 +43,7 @@
 			<GameData
 				Price="7000"
 				UnlockByExploration="false"
-				UnlockByRank="13"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME" />
 			</GameData>
@@ -53,7 +53,7 @@
 			<GameData
 				Price="6800"
 				UnlockByExploration="false"
-				UnlockByRank="14"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_CHAINS_DESC" UiName="UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME" />
 			</GameData>
@@ -63,7 +63,7 @@
 			<GameData
 				Price="8500"
 				UnlockByExploration="false"
-				UnlockByRank="15"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME" />
 			</GameData>
@@ -73,7 +73,7 @@
 			<GameData
 				Price="7900"
 				UnlockByExploration="false"
-				UnlockByRank="14"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME" />
 			</GameData>
@@ -83,7 +83,7 @@
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"
-				UnlockByRank="14"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME" />
 			</GameData>

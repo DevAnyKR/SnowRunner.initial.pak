@@ -3,7 +3,7 @@
 		<SecondAxle
 			ConnectedToHandbrake="true"
 			Location="front"
-			SteeringAngle="24"
+			SteeringAngle="30"
 			SteeringCastor="4"
 			Torque="default"
 		/>
@@ -11,7 +11,7 @@
 		<FirstAxle
 			ConnectedToHandbrake="true"
 			Location="front"
-			SteeringAngle="36"
+			SteeringAngle="42"
 			SteeringCastor="12"
 			Torque="default"
 		/>
@@ -45,11 +45,11 @@
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_pacific_p16"
 		EngineIconScale="0.8"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="2.0"
+		ExhaustStartTime="2.0"
 		FuelCapacity="380"
-		Responsiveness="0.2"
-		SteerSpeed="0.016"
+		Responsiveness="1.0"
+		SteerSpeed="0.022"
 		TruckImage="zikz605rmchr"
 		TruckType="HEAVY"
 	>
@@ -344,7 +344,7 @@
 		Country="RU,CAS"
 		ExcludeAddons="trailer_log_pole"
 		Price="165300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.223; 1.21; 0)" />
@@ -384,23 +384,63 @@
 		<CraneSocket Pos="(-0.461; 1.662; 1.378)" />
 		<CraneSocket Pos="(-0.461; 1.662; -1.378)" />
 		<AddonSockets>
-			<Socket Names="Trailer" Offset="(-4.823; 0.838; 0)" />
-			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-2.53; 1.718; 0)" />
+			<Socket Names="TrailerFarm"
+			        Offset="(-5.0; 0.838; 0)"/>
+			<Socket Names="Trailer, MastodonLogPoleTrailer, ScautTrailer"
+			        Offset="(-4.823; 0.838; 0)"/>
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank"
+			        Offset="(-3.08; 1.75; 0)"/>
+			<Socket Names="Semitrailer, SemitrailerOiltank"
+			        Offset="(-3.08; 1.75; 0)"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="ZikzLogLift" ParentFrame="BoneAddonAttachment_cdt">
-				<AddonsShift Offset="(-0.35; 0; 0)" Types="zikz605rTrunk" />
+			<Socket Names="CraneKrs58Bandit"
+			        Offset="(-1.25; 0; 0)"
+			        NamesBlock="ZikzLogLift, ZikzBigCrane, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, FrameAddonLogMedium"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="ZikzSaddleHigh"
+			        Offset="(-0.5; 0; 0)"/>
+			<Socket Names="ZikzFrameAddon"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt">
+				<AddonsShift Offset="(-0.4; 0; 0)"
+				             Types="CraneKrs58Bandit"/>
 			</Socket>
-			<Socket Names="ZikzFrameAddon" ParentFrame="BoneAddonAttachment_cdt"/>
-			<Socket Names="ZikzBigCrane" ParentFrame="BoneAddonAttachment_cdt"/>
-			<Socket Names="ZikzSaddleHigh" />
-			<Socket Names="FrameAddonKungZikz" ParentFrame="BoneAddonAttachment_cdt"/>
-			<Socket Names="FrameAddonSeismicVibratorZikz" ParentFrame="BoneAddonAttachment_cdt"/>
-			<Socket Names="FrameAddonTankZikz" ParentFrame="BoneAddonAttachment_cdt"/>
-			<Socket Names="FrameAddonLogShortZikz" Offset="(-2.849; 1.64; 0)" ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="ZikzLogLift"
+			        ParentFrame="BoneAddonAttachment_cdt">
+				<AddonsShift Offset="(-0.35; 0; 0)"
+				             Types="zikz605rTrunk"/>
+			</Socket>
+			<Socket Names="ZikzBigCrane"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="FrameAddonKungZikz"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="FrameAddonSeismicVibratorZikz"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="FrameAddonTankZikz"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="FrameAddonLogShortZikz"
+			        Offset="(-2.849; 1.64; 0)"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
+			<Socket Names="FrameAddonLogMedium"
+			        Offset="(-2.849; 1.64; 0)"
+			        NamesBlock="SaddleLow"
+			        ParentFrame="BoneAddonAttachment_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="zikz605rTrunk" NamesBlock="ZikzBigCrane, ZikzFrameAddon, LargeSemitrailerOiltank, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz" />
+			<Socket Names="SaddleLow"
+			        Offset="(2; 1.37; 0)"/>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="zikz605rTrunk"
+					NamesBlock="CraneKrs58Bandit, ZikzBigCrane, ZikzFrameAddon, LargeSemitrailerOiltank, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, FrameAddonLogMedium" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="zikz_605r_horn_default">
 			<Socket Names="zikz605rHorn" />

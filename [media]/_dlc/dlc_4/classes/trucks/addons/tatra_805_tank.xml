@@ -1,6 +1,6 @@
 <_templates Include="trucks" />
 <TruckAddon IsChassisFullOcclusion="true">
-	<TruckData FuelCapacity="900">
+	<TruckData FuelCapacity="1800">
 		<LimitedFluid
 			Center="(-0.664; 1.504; 0)"
 			LengthX="2.899"

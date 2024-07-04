@@ -28,7 +28,7 @@
 		IsCustomizable="true"
 		Price="4200"
 		UnlockByExploration="false"
-		UnlockByRank="4"
+		UnlockByRank="1"
 		ExcludedCargoTypes="CargoWing2, CargoForcklift, CargoIronRoad"
 	>
 		<UiDesc
@@ -38,6 +38,6 @@
 			UiName="UI_ADDON_PLAD_450_SIDEBOARD_NAME"
 		/>
 		<InstallSocket Type="Plad450Sideboard" />
-		<AddonSlots InitialOffset="(-2.4; 1.962; 0)" OffsetStep="(-2.6; 0; 0)" ParentFrames="BoneAddon_cdt, BoneAddon_cdt, BoneAddon_cdt, BoneAddon_cdt" Quantity="2" />
+		<AddonSlots InitialOffset="(-2.4; 1.962; 0)" OffsetStep="(0; 0; 0)" ParentFrames="BoneAddon_cdt, BoneAddon_cdt, BoneAddon_cdt, BoneAddon_cdt" Quantity="2" />
 	</GameData>
 </TruckAddon>

@@ -97,7 +97,7 @@
 		Category="frame_addons"
 		Price="2300"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SCOUT_TRUNK_SUPPLIES_DESC"

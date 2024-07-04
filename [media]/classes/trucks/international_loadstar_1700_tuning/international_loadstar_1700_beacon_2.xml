@@ -12,7 +12,7 @@
 		Category="miscellenious"    
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BEACONS_TWOSQUARE_DESC"

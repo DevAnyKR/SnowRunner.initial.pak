@@ -39,9 +39,9 @@
 </_templates>
 <TruckAddon>
 	<TruckData
-		FuelCapacity="250"
-		RepairsCapacity="450"
-		WheelRepairsCapacity="4"
+		FuelCapacity="500"
+		RepairsCapacity="900"
+		WheelRepairsCapacity="8"
 	/>
 	<PoweredConstraints>
 		<Chain Name="Anchors" ParentBodies="BoneLeftAnchorExt_cdt, BoneRightAnchorExt_cdt">

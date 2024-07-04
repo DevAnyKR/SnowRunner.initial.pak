@@ -112,10 +112,10 @@
 		<InstallSocket Offset="(-3.5; 0; 0)" Type="MastodonBunkLog" />
 		<AddonSlots
 			InitialOffset="(0; 0; 0)"
-			OffsetStep="(-4.0; 0; 0)"
+			OffsetStep="(0; 0; 0)"
 			ParentFrames="BoneFront_cdt"
 			UseTrailerFrame="true"			
-			Quantity="1"
+			Quantity="2"
 		/>
 	</GameData>
 </TruckAddon>

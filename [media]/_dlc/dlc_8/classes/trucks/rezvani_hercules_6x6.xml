@@ -11,7 +11,7 @@
 			SteeringAngle="40"
 			SteeringCastor="8"
 			SteeringJointOffset="0.22"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Body>
@@ -46,7 +46,7 @@
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="rezvanimchr"
 		TruckType="SCOUT"

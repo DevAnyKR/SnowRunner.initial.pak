@@ -16,7 +16,7 @@
 					MinLimit="-9"
 					MaxLimit="61"
 				>
-					<Motor Force="1000000" Tau="0.1" Type="Position" />
+					<Motor Force="10000000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body
 					CenterOfMassOffset="(0; 0; 0)"
@@ -30,7 +30,7 @@
 						MinLimit="0"
 						MaxLimit="3"
 					>
-						<Motor Force="800000" Tau="0.2" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body
 						CenterOfMassOffset="(0; 0; 0)"
@@ -45,7 +45,7 @@
 							MinLimit="-65"
 							MaxLimit="15"
 						>
-							<Motor Force="600000" Tau="0.1" Type="Position" />
+							<Motor Force="6000000" Tau="0.98" Type="Position" />
 						</Constraint>
 					</Body>
 				</Body>

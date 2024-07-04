@@ -45,6 +45,6 @@
 			UiName="UI_ADDON_FRAME_FLATBED_2_NAME"
 		/>
 		<InstallSocket Type="FrameAddonFlatbedDan96320" />
-		<AddonSlots InitialOffset="(0.98; 0.276; 0)" OffsetStep="(-2.478; 0; 0)" Quantity="2" />
+		<AddonSlots InitialOffset="(0.98; 0.276; 0)" OffsetStep="(0; 0; 0)" Quantity="8" />
 	</GameData>
 </TruckAddon>

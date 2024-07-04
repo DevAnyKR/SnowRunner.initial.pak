@@ -1,7 +1,7 @@
 <TruckAddon _noinherit="true">
 	<PhysicsModel Mesh="trucks/cargo/cargo_crate_large_1">
 		<NetSync Legacy="false" />
-		<Body Mass="2500">
+		<Body Mass="250">
 			<Constraint ExplicitParentFrame="0" Type="Fixed" />
 		</Body>
 	</PhysicsModel>

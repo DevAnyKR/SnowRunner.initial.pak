@@ -10,7 +10,7 @@
 			SteeringAngle="35"
 			SteeringCastor="8"
 			SteeringJointOffset="0.14"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 	<Body>
@@ -29,13 +29,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.06"
-		DiffLockType="Uninstalled"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_small"
 		EngineIconScale="1.15"
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.032"
 		TruckImage="landroverdefender110mchr"
 		TruckType="SCOUT"

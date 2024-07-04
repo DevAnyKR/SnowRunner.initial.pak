@@ -6,7 +6,7 @@
 		Category="snorkel"
 		Price="3700"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_MUSHROOM_TALL_DESC"

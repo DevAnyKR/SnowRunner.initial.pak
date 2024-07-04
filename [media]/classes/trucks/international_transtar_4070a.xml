@@ -10,7 +10,7 @@
 			SteeringAngle="40"
 			SteeringCastor="2"
 			SteeringJointOffset="0.16"
-			Torque="none"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -30,13 +30,13 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.02"
-		DiffLockType="None"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.3"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="265"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="intertranstarmchr"
 		TruckType="HIGHWAY"
@@ -337,7 +337,7 @@
 		Country="US,NE"
 		Price="17900"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.287; 0.7; -0.45)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(3.287; 0.7; 0.45)" ParentFrame="BoneCabin_cdt" />
@@ -385,34 +385,38 @@
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1.2; 1.58; 0)" />
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-2.084; 1.58; 0)" />
 			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-2.084; 1.58; 0)" />
 			<Socket Names="Trailer" Offset="(-3.49; 0.886; 0)">
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="Trailer" Types="MinicraneUS, FrameAddon" />
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="LogLift" Offset="(0.695; 1.065; 0)" NamesBlock="MetalDetector, MinicraneUS, InternationalTranstar4070aSpareWheel"/>
-			<Socket Names="BunkLog" Offset="(-4.962; 1.068; 0)" NamesBlock="MinicraneUS, MetalDetector" />
+			<Socket Names="LogLift" Offset="(0.695; 1.065; 0)" NamesBlock="MetalDetector, MinicraneUS, InternationalTranstar4070aSpareWheel, SaddleHigh"/>
+			<Socket Names="BunkLog" Offset="(-4.962; 1.068; 0)" NamesBlock="MinicraneUS, MetalDetector, SaddleHigh" />
 			<Socket Names="SaddleLow1" Offset="(-2.084; 1.064; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.01)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.01)" />
 			</Socket>
-			<Socket Names="SaddleHigh" Offset="(-1.2; 1.064; 0)">
-				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.01)" />
-				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.01)" />
-			</Socket>
-			<Socket Names="FrameAddon" Offset="(-1; 1.063; 0)">
+			<Socket Names="FrameAddon" NamesBlock="SaddleHigh" Offset="(-1; 1.063; 0)">
 				<AddonsShift Offset="(-1; 0; 0)" Types="MinicraneUS" />
 			</Socket>
-			<Socket Names="FrameAddonTowPlatform" Offset="(-0.5; 1.068; 0)" NamesBlock="MinicraneUS, MetalDetector, Trailer" />
-			<Socket Names="FrameAddonKung" Offset="(-1.62; 1.14; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="FrameAddonTowPlatform" Offset="(-0.5; 1.068; 0)" NamesBlock="MinicraneUS, MetalDetector, Trailer, SaddleHigh" />
+			<Socket Names="FrameAddonKung" NamesBlock="SaddleHigh" Offset="(-1.62; 1.14; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.12)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.12)" />
 			</Socket>
-			<Socket Names="FrameAddonTank" Offset="(-2; 1.063; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="BigCraneUs" NamesBlock="MinicraneUS, Semitrailer" Offset="(-1.682; 1.065; 0)" />
-			<!-- <Socket Names="BigCraneRu" NamesBlock="Minicrane, Semitrailer" Offset="(-1.9; 1.064; 0)" /> -->
+			<Socket Names="FrameAddonTank" NamesBlock="SaddleHigh" Offset="(-2; 1.063; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="BigCraneUs" NamesBlock="MinicraneUS, Semitrailer, SaddleHigh" Offset="(-1.682; 1.065; 0)" />
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="SaddleHigh"
+			        Offset="(-2.084; 1.064; 0)">
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; 0; 0.01)"/>
+				<ExtraParent Frame="BoneChassis_cdt"
+				             Offset="(0; 0; -0.01)"/>
+			</Socket>
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="InternationalTranstar4070aSpareWheel, FrameAddonKung, FrameAddonTank, FrameAddon, BigCraneUs, BigCraneRu, SaddleHigh" Offset="(0.048; 0.011; 0)" ParentFrame="BoneChassis_cdt" />

@@ -10,7 +10,7 @@
 			SteeringAngle="30"
 			SteeringCastor="8"
 			SteeringJointOffset="0.12"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -36,7 +36,7 @@
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="50"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="gorbymchr"
 		TruckType="SCOUT"
@@ -232,7 +232,7 @@
 		ExcludeAddons="stuff_hula_girl, stuff_masha"
 		Price="3600"
 		Recallable="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(1.5; 0.3; -0.35)" />

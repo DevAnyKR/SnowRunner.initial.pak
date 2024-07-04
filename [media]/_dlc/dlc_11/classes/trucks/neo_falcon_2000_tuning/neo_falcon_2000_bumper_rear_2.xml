@@ -4,7 +4,10 @@
 	</WheelRepairsHide>
 	<TruckData WheelRepairsCapacity="1" >
 		<Damage>
-			<Multiplier Multiplier="0.8" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/neo_falcon_2000_tuning/neo_falcon_2000_bumper_rear_2">
@@ -48,7 +51,7 @@
 		Category="rear"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_HORNS_SINGLE_ONESIDE_DESC"

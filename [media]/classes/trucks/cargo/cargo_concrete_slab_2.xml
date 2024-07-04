@@ -1,9 +1,9 @@
 <TruckAddon _noinherit="true">
 	<PhysicsModel Mesh="trucks/cargo/cargo_concrete_slab_2">
 		<NetSync Legacy="false" />
-		<Body Mass="3000" ModelFrame="BoneRoot_cdt">
+		<Body Mass="300" ModelFrame="BoneRoot_cdt">
 			<Constraint ExplicitParentFrame="0" Type="Fixed" />
-			<Body Mass="3000" ModelFrame="BoneCargo_1_cdt">
+			<Body Mass="300" ModelFrame="BoneCargo_1_cdt">
 				<Constraint ExplicitParentFrame="1" Type="Fixed" />
 			</Body>
 		</Body>

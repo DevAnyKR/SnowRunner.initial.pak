@@ -9,7 +9,7 @@
 	<GameData
 		Price="3500"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_MUSHROOM_TALL_DESC"

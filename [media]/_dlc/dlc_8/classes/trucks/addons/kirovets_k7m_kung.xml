@@ -116,7 +116,7 @@
 		IsCustomizable="true"
 		Price="5900"
 		UnlockByExploration="false"
-		UnlockByRank="9"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_KIROVETS_K7M_KUNG_DESC"

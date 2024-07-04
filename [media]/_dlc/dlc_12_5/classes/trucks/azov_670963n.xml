@@ -5,7 +5,7 @@
 			SteeringAngle="33"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 			ConnectedToHandbrake="true"
 		/>
@@ -14,7 +14,7 @@
 			SteeringAngle="20"
 			SteeringCastor="0"
 			SteeringJointOffset="0.25"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 			ConnectedToHandbrake="true"
 		/>
@@ -75,8 +75,8 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="350"
-		Responsiveness="0.2"
-		SteerSpeed="0.017"
+		Responsiveness="1.0"
+		SteerSpeed="0.022"
 		TruckImage="azov670963nmchr"
 		TruckType="HEAVY"
 	>

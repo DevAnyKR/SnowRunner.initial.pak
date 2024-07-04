@@ -9,8 +9,8 @@
 </_templates>
 <TruckAddon>
 	<TruckData
-		FuelCapacity="140"
-		RepairsCapacity="220"
+		FuelCapacity="280"
+		RepairsCapacity="440"
 	>
 		<LimitedFluid Center="(1.85; 3.843; -0.36)" SizeX="0.296" SizeY="0.135" SizeZ="0.358" Type="Box" ParentFrame="BoneFuel_cdt" />
 		<LimitedFluid Center="(1.51; 3.843; -0.65)" SizeX="0.296" SizeY="0.135" SizeZ="0.358" Type="Box" />
@@ -70,7 +70,7 @@
 		IsCustomizable="true"
 		Price="4400"
 		UnlockByExploration="false"
-		UnlockByRank="11"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SCOUT_TRUNK_SUPPLIES_DESC"

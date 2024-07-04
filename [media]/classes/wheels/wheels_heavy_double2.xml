@@ -16,11 +16,11 @@
 >
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_double_1" Name="offroad_1">
-			<WheelFriction _template="Offroad" SubstanceFriction="1.9"/>
+			<WheelFriction _template="Offroad" SubstanceFriction="9.9"/>
 			<GameData
 				Price="5900"
 				UnlockByExploration="false"
-				UnlockByRank="11"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME" />
 			</GameData>
@@ -30,7 +30,7 @@
 			<GameData
 				Price="6200"
 				UnlockByExploration="false"
-				UnlockByRank="11"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME" />
 			</GameData>
@@ -40,7 +40,7 @@
 			<GameData
 				Price="6800"
 				UnlockByExploration="false"
-				UnlockByRank="11"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME" />
 			</GameData>
@@ -50,7 +50,7 @@
 			<GameData
 				Price="6800"
 				UnlockByExploration="false"
-				UnlockByRank="14"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_CHAINS_DESC" UiName="UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME" />
 			</GameData>

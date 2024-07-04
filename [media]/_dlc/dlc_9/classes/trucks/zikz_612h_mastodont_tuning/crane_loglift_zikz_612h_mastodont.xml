@@ -110,7 +110,7 @@
 					MinLimit="-350"
 					MaxLimit="350"
 				>
-					<Motor Force="80000" Tau="0.5" Type="Position" />
+					<Motor Force="800000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body Mass="550" ModelFrame="BoneArm1_cdt" Collisions="All">
 					<Constraint
@@ -120,7 +120,7 @@
 						MinLimit="-40"
 						MaxLimit="75"
 					>
-						<Motor Force="800000" Tau="0.5" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body Mass="300" ModelFrame="BoneArm2_cdt" Collisions="All">
 						<Constraint
@@ -130,7 +130,7 @@
 							MinLimit="0"
 							MaxLimit="179"
 						>
-							<Motor Force="800000" Tau="0.2" Type="Position" />
+							<Motor Force="8000000" Tau="0.98" Type="Position" />
 						</Constraint>
 						<Body Mass="200" ModelFrame="BoneArm3_cdt" Collisions="All">
 							<Constraint
@@ -140,7 +140,7 @@
 								MinLimit="-1"
 								MaxLimit="2"
 							>
-								<Motor Force="800000" Tau="0.4" Type="Position" />
+								<Motor Force="8000000" Tau="0.98" Type="Position" />
 							</Constraint>
 							<Body Mass="40" ModelFrame="BoneGrabberHingeOZ_cdt" Collisions="None">
 								<Constraint
@@ -168,7 +168,7 @@
 											MinLimit="-180"
 											MaxLimit="180"
 										>
-											<Motor Force="120000" Tau="0.4" Type="Position" />
+											<Motor Force="1200000" Tau="0.98" Type="Position" />
 										</Constraint>
 										<Body _template="Grappler" ModelFrame="BoneGrabberL_cdt">
 											<Constraint Name="LeftGrappler" />
@@ -194,7 +194,7 @@
 						MinLimit="0"
 						MaxLimit="2.234"
 					>
-						<Motor Force="50000" Tau="0.4" Type="Position" />
+						<Motor Force="500000" Tau="0.98" Type="Position" />
 					</Constraint>
 				</Body>
 			</Body>
@@ -250,14 +250,14 @@
 		<SoundClose Name="addons/crane_loglift/crane_loglift_restore" Range="10" Volume="1"/>
 	</GameData>
 	<ControlledIK
-		CoeffEndMovementSpeedOY=".8"
-		CoeffEndMovementSpeedOYWithLoad=".8"
-		CoeffEndMovementSpeedXZ=".8"
-		CoeffEndMovementSpeedXZWithLoad=".8"
+		CoeffEndMovementSpeedOY="1.0"
+		CoeffEndMovementSpeedOYWithLoad="1.0"
+		CoeffEndMovementSpeedXZ="1.0"
+		CoeffEndMovementSpeedXZWithLoad="1.0"
 	>
 		<Chain EndOffset="(0.1; 0; 0)" ModelFrames="BoneRoot_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArm3_cdt">
-			<ConstraintStartPosition Name="Arm3" SpeedMult=".8" Value="-.2" />
-			<ConstraintStartPosition Name="Cabin" SpeedMult=".8" StartDelay=".3" Value="2.234" />
+			<ConstraintStartPosition Name="Arm3" SpeedMult="1.0" Value="-.2" />
+			<ConstraintStartPosition Name="Cabin" SpeedMult="1.0" StartDelay=".3" Value="2.234" />
 		</Chain>
 	</ControlledIK>
 	<ControlledConstraints>

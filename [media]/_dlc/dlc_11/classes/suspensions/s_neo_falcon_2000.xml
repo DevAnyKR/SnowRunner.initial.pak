@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
  	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="80"
 		Name="neo_falcon_2000_suspension_default"
 	>
@@ -35,7 +35,7 @@
 	</SuspensionSet> 
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
 		Name="neo_falcon_2000_suspension_high"
 	>
@@ -57,7 +57,7 @@
 				SuspensionMax="1.5" />
 		<GameData
 			Price="5700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

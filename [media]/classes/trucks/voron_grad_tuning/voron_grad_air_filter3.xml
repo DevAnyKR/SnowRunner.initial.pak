@@ -7,7 +7,7 @@
 		Category="snorkel"
 		Price="2100"
 		UnlockByExploration="false"
-		UnlockByRank="19"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_EXT_AIRFILTER_DESC"

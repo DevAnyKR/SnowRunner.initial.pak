@@ -11,20 +11,20 @@
 			SteeringAngle="36"
 			SteeringCastor="5"
 			SteeringJointOffset="0.2"
-			Torque="full"
+			Torque="default"
 		/>
 	</Wheel>
 </_templates>
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.06"
-		DiffLockType="Uninstalled"
+		DiffLockType="Installed"
 		EngineIconMesh="env/engine_small"
 		EngineIconScale="1.15"
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="chvr1500mchr"
 		TruckType="SCOUT"

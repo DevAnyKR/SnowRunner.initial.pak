@@ -17,7 +17,7 @@
 		Category="awd"
 		Price="5300"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			_noinherit="true"

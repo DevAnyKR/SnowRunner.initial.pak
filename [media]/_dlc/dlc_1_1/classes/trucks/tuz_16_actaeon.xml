@@ -346,7 +346,7 @@
 	<GameData
 		Country="RU,CAS"
 		Price="54400"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(2.619; 1.24; -0.41)" ParentFrame="BoneCabin_cdt" />

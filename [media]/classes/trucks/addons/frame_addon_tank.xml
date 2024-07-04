@@ -39,7 +39,7 @@
 	</Flare>
 </_templates>
 <TruckAddon IsChassisFullOcclusion="true">
-	<TruckData FuelCapacity="1800">
+	<TruckData FuelCapacity="3600">
 		<LimitedFluid
 			Center="(0.636; 1.174; 0)"
 			LengthX="4.693"
@@ -108,7 +108,7 @@
 		IsCustomizable="true"
 		Price="5300"
 		UnlockByExploration="false"
-		UnlockByRank="4"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_FRAME_TANK_DESC"

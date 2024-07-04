@@ -9,7 +9,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="full"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -35,7 +35,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="freightlinerM916A1mchr"
 		TruckType="OFFROAD"
@@ -385,7 +385,7 @@
 		Country="US,NE"
 		Price="74200"
 		UnlockByExploration="false"
-		UnlockByRank="17"
+		UnlockByRank="1"
 		ExcludeAddons="trailer_log_pole"
 	>
 		<WinchSocket Pos="(3.643; 1; -0.943)" ParentFrame="BoneCabin_cdt" />

@@ -2,11 +2,11 @@
 	<Engine>
 		<USTruckMilitaryNavistarEngine
 			BrakesDelay="0.5"
-			CriticalDamageThreshold="0.7"
+			CriticalDamageThreshold="0.99"
 			DamageCapacity="200"
 			EngineResponsiveness="0.04"
 			DamagedMinTorqueMultiplier="1.0"
-			DamagedMaxTorqueMultiplier="0.5"
+			DamagedMaxTorqueMultiplier="1.0"
 			MaxDeltaAngVel="0.01"
 		/>
 	</Engine>
@@ -14,15 +14,15 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckMilitaryNavistarEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="240"
-		DamagedConsumptionModifier="1.4"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.3"
-		FuelConsumption="8.5"
+		FuelConsumption="1.0"
 		Name="us_truck_military_navistar_0"
-		Torque="175000"
+		Torque="350000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="5700"
@@ -39,15 +39,15 @@
 	</Engine>
 	<Engine
 		_template="USTruckMilitaryNavistarEngine"
-		CriticalDamageThreshold="0.8"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="360"
-		DamagedConsumptionModifier="1.5"
+		DamagedConsumptionModifier="1.0"
 		EngineResponsiveness="0.35"
-		FuelConsumption="11.5"
+		FuelConsumption="1.0"
 		Name="us_truck_military_navistar_1"
-		Torque="210000"
+		Torque="420000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="24400"

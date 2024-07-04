@@ -2,11 +2,11 @@
 	<Engine>
 		<USTruckOldEngine
 			BrakesDelay="0.5"
-			CriticalDamageThreshold="0.2"
+			CriticalDamageThreshold="0.99"
 			DamageCapacity="200"
 			EngineResponsiveness="0.035"
 			DamagedMinTorqueMultiplier="1.0"
-			DamagedMaxTorqueMultiplier="0.5"
+			DamagedMaxTorqueMultiplier="1.0"
 			MaxDeltaAngVel="0.01"
 		/>
 	</Engine>
@@ -14,14 +14,14 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckOldEngine"
-		CriticalDamageThreshold="0.3"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="160"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="5.5"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="us_truck_old_engine_0"
-		Torque="135000"
+		Torque="270000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="2500"
@@ -38,18 +38,18 @@
 	</Engine>
 	<Engine
 		_template="USTruckOldEngine"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="190"
-		DamagedConsumptionModifier="1.7"
-		FuelConsumption="6.0"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="us_truck_old_engine_1"
-		Torque="145000"
+		Torque="290000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="7500"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc UiDesc="UI_ENGINE_US_TRUCK_OLD_1_DESC" UiName="UI_ENGINE_US_TRUCK_OLD_1_NAME" />

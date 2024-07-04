@@ -25,7 +25,7 @@
 		Category="top"
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="20"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFBAR_FOGLIGHTS_LARGE_DESC"

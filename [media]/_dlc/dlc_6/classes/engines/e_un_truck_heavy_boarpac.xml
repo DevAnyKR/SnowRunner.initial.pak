@@ -6,18 +6,18 @@
 <EngineVariants>
 	<Engine
 		_template="RUTruckModernEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.2"
-		FuelConsumption="8.2"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="ru_truck_modern_engine_grad"
-		Torque="235000"
+		Torque="470000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="13200"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

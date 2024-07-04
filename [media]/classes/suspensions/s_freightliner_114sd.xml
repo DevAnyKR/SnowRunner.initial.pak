@@ -2,8 +2,8 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="140"
 		Name="freightliner_114sd_suspension_default"
 	>
@@ -24,8 +24,8 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		BrokenWheelDamageMultiplier="0"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="160"
 		Name="freightliner_114sd_suspension_high"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping="0.2" Height="0.25" Strength="0.035" WheelType="rear" BrokenSuspensionMax="0.3" SuspensionMin="-0.3" />
 		<GameData
 			Price="7700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

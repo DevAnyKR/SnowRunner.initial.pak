@@ -9,11 +9,11 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="1.118">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_mudtires_single_tayga_1" Name="mudtires">
-			<WheelFriction _template="Mudtires" SubstanceFriction="2.4"/>
+			<WheelFriction _template="Mudtires" SubstanceFriction="9.9"/>
 			<GameData
 				Price="7000"
 				UnlockByExploration="false"
-				UnlockByRank="12"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_MEDIUM_MUDTIRES_SINGLE_ACTAEON_1_NAME" />
 			</GameData>

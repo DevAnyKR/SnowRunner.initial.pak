@@ -12,7 +12,7 @@
 	<GameData
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="4"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_HEAVYDUTY_PIPE_DESC"

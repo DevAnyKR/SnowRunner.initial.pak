@@ -69,7 +69,7 @@
 					MinLimit="-350"
 					MaxLimit="350"
 				>
-					<Motor Force="800000" Tau="0.5" Type="Position" />
+					<Motor Force="8000000" Tau="0.98" Type="Position" />
 				</Constraint>
 				<Body Collisions="Internal" Mass="450" ModelFrame="BoneArm1_cdt">
 					<Constraint
@@ -79,7 +79,7 @@
 						MinLimit="-10"
 						MaxLimit="145"
 					>
-						<Motor Force="800000" Tau="0.5" Type="Position" />
+						<Motor Force="8000000" Tau="0.98" Type="Position" />
 					</Constraint>
 					<Body Collisions="All" Mass="200" ModelFrame="BoneArm2_cdt">
 						<Constraint
@@ -89,7 +89,7 @@
 							MinLimit="0"
 							MaxLimit="145"
 						>
-							<Motor Force="800000" Tau="0.4" Type="Position" />
+							<Motor Force="8000000" Tau="0.98" Type="Position" />
 						</Constraint>
 						<Body Collisions="All" Mass="150" ModelFrame="BoneArmExt1_cdt">
 							<Constraint
@@ -99,7 +99,7 @@
 								MinLimit="0"
 								MaxLimit="1.4"
 							>
-								<Motor Force="800000" Tau="0.4" Type="Position" />
+								<Motor Force="8000000" Tau="0.98" Type="Position" />
 							</Constraint>
 							<Body Collisions="All" Mass="150" ModelFrame="BoneArmExt2_cdt">
 								<Constraint
@@ -109,7 +109,7 @@
 									MinLimit="0"
 									MaxLimit="1.4"
 								>
-									<Motor Force="800000" Tau="0.4" Type="Position" />
+									<Motor Force="8000000" Tau="0.98" Type="Position" />
 								</Constraint>
 							</Body>
 						</Body>

@@ -6,20 +6,20 @@
 <EngineVariants>
 	<Engine
 		_template="USScoutOldEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="0.99"
 		DamageCapacity="100"
-		DamagedConsumptionModifier="2.5"
-		FuelConsumption="5.5"
+		DamagedConsumptionModifier="1.0"
+		FuelConsumption="1.0"
 		Name="us_scout_old_engine_f750"
-		Torque="120000"
+		Torque="240000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.015"
 		EngineResponsiveness="0.5"
 	>
 		<GameData
 			Price="8500"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

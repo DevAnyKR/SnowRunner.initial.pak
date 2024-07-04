@@ -29,17 +29,17 @@
 			<GameData
 				Price="2300"
 				UnlockByExploration="false"
-				UnlockByRank="2"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_SCOUT_ALLTERRAIN_1_NAME" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="ScoutAllterrain" Mesh="wheels/tire_scout_offroad_2" Name="allterrain_2">
-			<WheelFriction _template="ScoutAllterrain" SubstanceFriction="1.2"/>
+			<WheelFriction _template="ScoutAllterrain" SubstanceFriction="9.9"/>
 			<GameData
 				Price="2500"
 				UnlockByExploration="false"
-				UnlockByRank="2"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_SCOUT_ALLTERRAIN_2_NAME" />
 			</GameData>
@@ -49,7 +49,7 @@
 			<GameData
 				Price="2900"
 				UnlockByExploration="false"
-				UnlockByRank="2"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_ALLTERRAIN_DESC" UiName="UI_TIRE_SCOUT_ALLTERRAIN_3_NAME" />
 			</GameData>
@@ -58,7 +58,7 @@
 			<GameData
 				Price="4200"
 				UnlockByExploration="false"
-				UnlockByRank="4"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_OFFROAD_DESC" UiName="UI_TIRE_SCOUT_OFFROAD_1_NAME" />
 			</GameData>
@@ -67,7 +67,7 @@
 			<GameData
 				Price="5100"
 				UnlockByExploration="false"
-				UnlockByRank="7"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_SCOUT_MUDTIRES_1_NAME" />
 			</GameData>
@@ -76,7 +76,7 @@
 			<GameData
 				Price="5700"
 				UnlockByExploration="false"
-				UnlockByRank="10"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_CHAINS_DESC" UiName="UI_TIRE_SCOUT_CHAIN_1_NAME" />
 			</GameData>

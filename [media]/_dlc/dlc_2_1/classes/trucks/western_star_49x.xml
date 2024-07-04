@@ -5,13 +5,13 @@
 			Location="rear"
 			Torque="default"
 		/>
-		<MiddleAxle Location="middle" MeshType="rear" Torque="none" />
+		<MiddleAxle Location="middle" MeshType="rear" Torque="default" />
 		<FirstAxle
 			Location="front"
 			SteeringAngle="36"
 			SteeringCastor="0"
 			SteeringJointOffset="0.23"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -72,7 +72,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="290"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="ws49xmchr"
 		TruckType="HEAVY"
