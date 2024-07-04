@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		BrokenWheelDamageMultiplier="1.5"
+		BrokenWheelDamageMultiplier="0"
 		CriticalDamageThreshold="0.99"
 		DamageCapacity="300"
 		Name="tuz_420_tatarin_suspension_default"
