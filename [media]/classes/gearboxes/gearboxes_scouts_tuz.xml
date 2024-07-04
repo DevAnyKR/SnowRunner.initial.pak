@@ -15,7 +15,9 @@
 		<Gear AngVel="2.0" FuelModifier="1.7" />
 		<Gear AngVel="6.0" FuelModifier="1.5" />
 		<Gear AngVel="10.0" FuelModifier="1.3" />
-
+		<Gear AngVel="18.0" FuelModifier="1.0" />
+		<Gear AngVel="24.0" FuelModifier="0.9" />
+		
 		<GameData
 			Price="1500"
 			UnlockByExploration="false"
