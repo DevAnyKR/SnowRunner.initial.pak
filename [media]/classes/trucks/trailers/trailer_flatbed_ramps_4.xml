@@ -278,9 +278,9 @@
 		<CraneSocket Pos="(7.885; 0.542; 0)" ParentFrame="BoneHandle_cdt" />
 		<AddonSlots
 			InitialOffset="(4.107; 1.237; 0)"
-			OffsetStep="(-2.559; 0; 0)"
+			OffsetStep="(0; 0; 0)"
 			ParentFrames="BoneCargo_4_cdt,BoneCargo_3_cdt,BoneCargo_2_cdt, BoneCargo_1_cdt"
-			Quantity="4"
+			Quantity="8"
 		/>
 	</GameData>
 	<AutomaticIK>

@@ -169,6 +169,6 @@
 		<CraneSocket Pos="(4.509; 0.72; 0)" />
 		<CraneSocket Pos="(-3.761; 1.111; -1.276)" />
 		<CraneSocket Pos="(-3.761; 1.111; 1.276)" />
-		<AddonSlots InitialOffset="(0.795; 1.088; 0)" OffsetStep="(-3.198; 0; 0)" Quantity="2" />
+		<AddonSlots InitialOffset="(0.795; 1.088; 0)" OffsetStep="(0; 0; 0)" Quantity="4" />
 	</GameData>
 </Truck>

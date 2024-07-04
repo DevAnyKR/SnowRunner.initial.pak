@@ -162,7 +162,7 @@
 		<CraneSocket Pos="(4.5; 0.75; 0)" />
 		<CraneSocket Pos="(-1.221; 0.815; 0.847)" />
 		<CraneSocket Pos="(-1.221; 0.815; -0.847)" />
-		<AddonSlots InitialOffset="(0.742; 0.977; 0)" OffsetStep="(-3.198; 0; 0)" Quantity="1" />
+		<AddonSlots InitialOffset="(0.742; 0.977; 0)" OffsetStep="(0; 0; 0)" Quantity="2" />
 	</GameData>
 	<AutomaticIK>
 		<IKBone ModelFrame="BonePistonBaseR" ParentFrame="BoneChassis_cdt">
