@@ -1,7 +1,7 @@
 <WinchVariants>
 	<Winch
 		Name="w_scout_default"
-		Length="30"
+		Length="50"
 		StrengthMult="10"
 		IsEngineIgnitionRequired="false"
 	>
@@ -22,7 +22,7 @@
 	</Winch>
 	<Winch
 		Name="w_scout_ext"
-		Length="30"
+		Length="50"
 		StrengthMult="10"
 		IsEngineIgnitionRequired="false"
 	>
@@ -43,7 +43,7 @@
 	</Winch>
 	<Winch
 		Name="w_scout_pow"
-		Length="30"
+		Length="50"
 		StrengthMult="10"
 		IsEngineIgnitionRequired="false"
 	>
@@ -64,7 +64,7 @@
 	</Winch>
 		<Winch
 		Name="w_scout_ext_pow"
-		Length="30"
+		Length="50"
 		StrengthMult="10"
 		IsEngineIgnitionRequired="false"
 	>
@@ -85,7 +85,7 @@
 	</Winch>
 	<Winch
 		Name="w_scout_offline"
-		Length="30"
+		Length="50"
 		StrengthMult="10"
 		IsEngineIgnitionRequired="false"
 	>
