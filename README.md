@@ -11,5 +11,5 @@
 ## branches
 
 - main: unknown. not latest.
-- Original: original backup.
-- TuneVx.x: tuning files.
+- Original: original backup archive.
+- TuneVx.x: latest tuning files.
