@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.045"
 		FuelConsumption="1.0"
 		Name="us_futom_7290ra_engine_0"
-		Torque="130000"
+		Torque="260000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -37,7 +37,7 @@
 		DamagedConsumptionModifier="1.32"
 		FuelConsumption="1.0"
 		Name="us_futom_7290ra_engine_1"
-		Torque="180000"
+		Torque="360000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

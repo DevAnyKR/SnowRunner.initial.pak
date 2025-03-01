@@ -11,6 +11,14 @@
 	</Body>
 </_templates>
 <TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
+		</Damage>
+	</TruckData>
 	<PhysicsModel Mesh="trucks/ank_mk38_ht_tuning/ank_mk38_ht_bumper_default">
 		<Body ImpactType="Truck" Mass="50" ModelFrame="BoneCabin_cdt">
 			<Constraint Type="Rigid" />

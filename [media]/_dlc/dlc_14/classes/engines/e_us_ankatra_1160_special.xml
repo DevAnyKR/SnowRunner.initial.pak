@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.045"
 		FuelConsumption="1.0"
 		Name="us_ankatra_1160_engine_0"
-		Torque="115000"
+		Torque="230000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -37,7 +37,7 @@
 		EngineResponsiveness="1"
 		FuelConsumption="1.0"
 		Name="us_ankatra_1160_engine_1"
-		Torque="150000"
+		Torque="300000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

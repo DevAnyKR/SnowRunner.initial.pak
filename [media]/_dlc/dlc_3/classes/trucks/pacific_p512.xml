@@ -10,7 +10,7 @@
 			SteeringAngle="36"
 			SteeringCastor="5"
 			SteeringJointOffset="0.25"
-			Torque="connectable"
+			Torque="full"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -73,7 +73,7 @@
 		EngineIconScale="1.2"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
-		FuelCapacity="200"
+		FuelCapacity="600"
 		Responsiveness="0.15"
 		SteerSpeed="0.03"
 		TruckImage="pacificp512mchr"
@@ -182,6 +182,8 @@
 		</Damage>
 		<CompatibleWheels Scale="0.646" Type="wheels_heavy_offroad_p512" />
 		<CompatibleWheels Scale="0.646" Type="wheels_heavy_offroad_double" />
+		<CompatibleWheels Scale="0.750" Type="wheels_heavy_offroad_p512" />
+		<CompatibleWheels Scale="0.750" Type="wheels_heavy_offroad_double" />
 		<Camera Center="(-1.2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"

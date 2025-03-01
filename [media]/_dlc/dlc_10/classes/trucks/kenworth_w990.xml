@@ -11,7 +11,7 @@
 			Location="front"
 			SteeringAngle="40"
 			SteeringCastor="8"
-			Torque="none"
+			Torque="full"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -72,7 +72,7 @@
 		EngineIconScale="1.5"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
-		FuelCapacity="380"
+		FuelCapacity="605"
 		Responsiveness="0.45"
 		SteerSpeed="0.025"
 		TruckImage="kenworth990mchr"
@@ -180,6 +180,7 @@
 		</Damage>
 		<CompatibleWheels Scale="0.56" Type="wheels_kenworth_990" />
 		<CompatibleWheels Scale="0.66" Type="wheels_kenworth_990" />
+		<CompatibleWheels Scale="0.70" Type="wheels_kenworth_990" />
 		<CompatibleWheels OffsetZ="0.13" Scale="0.56" Type="wheels_heavy_double1" />
 		<CompatibleWheels OffsetZ="0.13" Scale="0.56" Type="wheels_heavy_double2" />
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ=".02" Scale="0.66" Type="wheels_heavy_double1" />
@@ -192,6 +193,10 @@
 		<CompatibleWheels OffsetZ="0.13" Scale="0.66" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels OffsetZ="0.13" Scale="0.66" Type="wheels_heavy_allterrain_double" />
 		<CompatibleWheels OffsetZ="0.13" Scale="0.66" Type="wheels_heavy_highway_double" />
+
+		<CompatibleWheels OffsetZ="0.13" Scale="0.70" Type="wheels_heavy_offroad_double" />
+		<CompatibleWheels OffsetZ="0.13" Scale="0.70" Type="wheels_heavy_allterrain_double" />
+		<CompatibleWheels OffsetZ="0.13" Scale="0.70" Type="wheels_heavy_highway_double" />
 
 		<Camera Center="(-0.94; -0.35; 0)" RadiusMultiplier="1.1" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -510,9 +515,9 @@
 			<CameraPos FOV="32.0" Interior="true" Name="mirror_mount" Position="(4.15; 2.35; -1.05)" InterestPosition="(5.29; 2.72; 1.1)" />
 		</CustomizationCameras>
 		
-		<!-- <AddonSockets DefaultAddon="kenworth_w990_diff_lock_default">
+		<AddonSockets DefaultAddon="kenworth_w990_diff_lock_default">
 			<Socket Names="Kenworth990DiffLock" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
-		</AddonSockets> -->
+		</AddonSockets>
 		
 		<AddonSockets DefaultAddon="kenworth_w990_wings_default">
 			<Socket Names="KenworthW990Wings" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />

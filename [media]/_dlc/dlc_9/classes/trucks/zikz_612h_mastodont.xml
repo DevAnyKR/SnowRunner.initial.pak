@@ -43,8 +43,8 @@
 		EngineIconScale="0.8"
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
-		FuelCapacity="500"
-		Responsiveness="0.2"
+		FuelCapacity="840"
+		Responsiveness="1.0"
 		SteerSpeed="0.016"
 		TruckImage="zikz612mchr"
 		TruckType="HEAVY"
@@ -625,8 +625,12 @@
 			<Socket Names="FrameAddonKungZikz" NamesBlock="MinicraneRU, CraneKrs58Bandit, TatraCrane, SaddleLow" Offset="(3.8; -0.08; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="FrameAddonSeismicVibratorZikz" NamesBlock="SaddleLow" Offset="(2; -0.07; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="FrameAddonTankZikz" NamesBlock="SaddleLow" Offset="(2.95; -0.08; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FrameAddonLogShortMastodon" NamesBlock="SaddleLow" Offset="(1; 1.7; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FrameAddonLogMediumMastodon" NamesBlock="SaddleLow" Offset="(1; 1.7; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="FrameAddonLogShortMastodon" NamesBlock="SaddleLow" Offset="(1; 1.7; 0)" ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-.7; 0; 0)" Types="ZikzLogLift"/>
+			</Socket>
+			<Socket Names="FrameAddonLogMediumMastodon" NamesBlock="SaddleLow" Offset="(1; 1.7; 0)" ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(-1.2; 0; 0)" Types="ZikzLogLift"/>
+			</Socket>
 			<Socket Names="MastodonBunkLog" NamesBlock="SaddleLow" Offset="(-4.5; 1.5; 0)" />
 			<Socket Names="MastodonFrameAddonTowPlatform" NamesBlock="MinicraneRU, ZikzLogLift, CraneKrs58Bandit, TatraCrane, SaddleLow" Offset="(1.5; 1.55; 0)" />
 		</AddonSockets>
@@ -645,7 +649,10 @@
 			>
 				<AddonsShift Offset="(-4; 0; 0)" Types="ZikzFrameAddon" />
 			</Socket>
-			<Socket Names="ZikzLogLift" NamesBlock="MastodonSideboard, MastodonWatertank, MastodonBigCrane, MastodonLongBigCrane, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortMastodon, FrameAddonLogMediumMastodon, FrameAddonKungZikz, ZikzFrameAddon, SaddleHigh" Offset="(4.4; -0.05; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="ZikzLogLift" NamesBlock="MastodonSideboard, MastodonWatertank, MastodonBigCrane, MastodonLongBigCrane, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonKungZikz, ZikzFrameAddon, SaddleHigh" Offset="(4.4; -0.05; 0)" ParentFrame="BoneChassis_cdt">
+				<AddonsShift Offset="(1.0; 0; 0)" Types="FrameAddonLogMediumMastodon"/>
+				<AddonsShift Offset="(1.0; 0; 0)" Types="FrameAddonLogShortMastodon"/>
+			</Socket>
 		    <Socket Names="CraneKrs58Bandit" NamesBlock="MastodonSideboard, MastodonWatertank, MastodonBigCrane, MastodonLongBigCrane, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortMastodon, FrameAddonLogMediumMastodon, FrameAddonKungZikz" Offset="(1.50; -0.08; 0)" ParentFrame="BoneChassis_cdt">
 		        <AddonsShift Offset="(-3.95; 0; 0)" Types="ZikzFrameAddon"/>
 		        <AddonsShift Offset="(1.37; 0; 0)" Types="FrameAddonLogShortMastodon"/>
@@ -691,7 +698,7 @@
 			<Socket Names="MastodonHorns" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="HeavyRepair" NamesBlock="MastodonSpareWheel, MastodonElectricbox, SaddleHigh, SaddleLow, FrameAddonKungZikz, MastodonBunkLog, ZikzLogLift, ZikzFrameAddon, MastodonFrameAddonTowPlatform, MastodonSideboard, MastodonWatertank, MinicraneRU, MastodonBigCrane, MastodonLongBigCrane, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortMastodon, FrameAddonLogMediumMastodon"
+			<Socket Names="HeavyRepair" NamesBlock="MastodonSpareWheel, MastodonElectricbox, SaddleHigh, SaddleLow, FrameAddonKungZikz, MastodonBunkLog, ZikzLogLift, ZikzFrameAddon, MastodonFrameAddonTowPlatform, MastodonSideboard, MastodonWatertank, MinicraneRU, MastodonBigCrane, MastodonLongBigCrane, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortMastodon, FrameAddonLogMediumMastodon, CraneKrs58Bandit, ZikzSaddleHigh"
 			Offset="(1.35; 1.522; 0)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		<!-- stuff -->

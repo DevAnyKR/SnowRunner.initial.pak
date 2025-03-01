@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.01"
 		FuelConsumption="1.0"
 		Name="us_special_cat_th357_engine_0"
-		Torque="90000"
+		Torque="180000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"

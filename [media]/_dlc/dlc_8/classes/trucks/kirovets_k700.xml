@@ -29,14 +29,14 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.02"
-		DiffLockType="Installed"
+		DiffLockType="Always"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.6"
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
-		FuelCapacity="340"
-		Responsiveness="0.4"
-		SteerSpeed="0.015"
+		FuelCapacity="450"
+		Responsiveness="1.0"
+		SteerSpeed="0.025"
 		TruckImage="kirovets_k700_mchr"
 		TruckType="HEAVY"
 	>

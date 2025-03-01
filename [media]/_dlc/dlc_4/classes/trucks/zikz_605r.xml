@@ -47,9 +47,9 @@
 		EngineIconScale="0.8"
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
-		FuelCapacity="380"
-		Responsiveness="0.2"
-		SteerSpeed="0.016"
+		FuelCapacity="840"
+		Responsiveness="1.0"
+		SteerSpeed="0.026"
 		TruckImage="zikz605rmchr"
 		TruckType="HEAVY"
 	>
@@ -151,7 +151,7 @@
 			<DamageArea Type="FuelTank" Min="(-1.631; 0.55; -0.822)" Max="(-0.6; 1.351; 0.822)" />
 		</Damage>
 		<CompatibleWheels Scale="0.78" Type="wheels_zikz_605r_1" />
-		<CompatibleWheels Scale="0.68" Type="wheels_superheavy_mudtires" />
+		<CompatibleWheels Scale="0.78" Type="wheels_superheavy_mudtires" />
 		<Camera Center="(-1.7; 0; 0)" ParentFrame="BoneChassis_cdt">
 			<Cockpit
 				_template="Default"
@@ -394,6 +394,8 @@
 			<Socket Names="CraneKrs58Bandit" Offset="(-1.25; 0; 0)" NamesBlock="ZikzLogLift, ZikzBigCrane, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, FrameAddonLogMedium" ParentFrame="BoneAddonAttachment_cdt"/>
 		</AddonSockets>		
 		<AddonSockets>
+			<Socket Names="FrameAddonTow" NamesBlock="CraneKrs58Bandit, MinicraneRU, Trailer, ScoutTrailer, zikz605rTrunk" Offset="(-3.25; 1.5; 0)" ParentFrame="BoneAddonAttachment_cdt" />
+			<Socket Names="FrameAddonFlatbed1" Offset="(-3.0; 1.6; 0)" ParentFrame="BoneAddonAttachment_cdt" />		
 			<Socket Names="ZikzLogLift" ParentFrame="BoneAddonAttachment_cdt">
 				<AddonsShift Offset="(-0.35; 0; 0)" Types="zikz605rTrunk" />
 			</Socket>
@@ -411,7 +413,7 @@
 			<Socket Names="SaddleLow" Offset="(2.5; 1.37; 0)" />
 		</AddonSockets>		
 		<AddonSockets>
-			<Socket Names="zikz605rTrunk" NamesBlock="ZikzBigCrane, ZikzFrameAddon, LargeSemitrailerOiltank, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, CraneKrs58Bandit" />
+			<Socket Names="zikz605rTrunk" NamesBlock="ZikzBigCrane, ZikzFrameAddon, LargeSemitrailerOiltank, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, FrameAddonFlatbed1, CraneKrs58Bandit" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="zikz_605r_horn_default">
 			<Socket Names="zikz605rHorn" />

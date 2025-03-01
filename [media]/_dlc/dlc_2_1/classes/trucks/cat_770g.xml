@@ -10,7 +10,7 @@
 			SteeringAngle="20"
 			SteeringCastor="8"
 			SteeringJointOffset="0.6"
-			Torque="none"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -32,7 +32,7 @@
 		ExhaustStartTime="0.6"
 		FuelCapacity="530"
 		Responsiveness="0.05"
-		SteerSpeed="0.017"
+		SteerSpeed="0.020"
 		TruckImage="cat770gmchr"
 		TruckType="HEAVY"
 	>
@@ -129,6 +129,7 @@
 		</Damage>
 		<CompatibleWheels Scale="0.94" Type="wheels_superheavy_cat770g_double" />
 		<CompatibleWheels Scale="0.94" Type="wheels_superheavy_mudtires" />
+		<CompatibleWheels Scale="0.94" Type="wheels_superheavy_single" />
 		<Camera Center="(-1.5; 0; 0)" RadiusMultiplier="1.1">
 			<Cockpit
 				_template="Default"
@@ -430,11 +431,15 @@
 		<CraneSocket Pos="(0.173; 1.63; 0.532)" />
 		<CraneSocket Pos="(-2.594; 1.57; 0)" />
 		<AddonSockets>
-			<Socket Names="Cat770gSaddle" Offset="(0; 0; 0)" />
+			<Socket Names="Cat770gSaddle" NamesBlock="LargeSemitrailer, LargeSemitrailerOilTank, SemiTrailer" Offset="(0; 0; 0)" />
 			<Socket Names="Cat770gTank" NamesBlock="SemitrailerCat770g" Offset="(0; 0; 0)" />
+			<Socket Names="SaddleHigh" NamesBlock="SemitrailerCat770g" Offset="(-1.493; 1.708; 0)" />
+			<Socket Names="SaddleLow" NamesBlock="SemitrailerCat770g" Offset="(-2.780; 1.858; 0)" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="SemitrailerCat770g" Offset="(-1.493; 2.04; 0)" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1.493; 2.14; 0)" />
+			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-2.780; 2.172; 0)" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket

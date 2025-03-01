@@ -11,7 +11,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="ru_truck_modern_engine_grad"
-		Torque="235000"
+		Torque="470000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

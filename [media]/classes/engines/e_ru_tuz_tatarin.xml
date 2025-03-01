@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="0.99"
 		DamageCapacity="300"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.2"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="ru_tuz_tatarin"
 		Torque="200000"

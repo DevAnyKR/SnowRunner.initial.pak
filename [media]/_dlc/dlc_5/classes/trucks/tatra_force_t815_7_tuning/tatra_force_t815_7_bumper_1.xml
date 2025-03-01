@@ -3,7 +3,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
 		</Damage>
 		<Shakers>
 			<Shaker Frame="BoneShaker" MinAngle="(0.2; 0; 0)" MaxAngle="(1.5; 0; 0)" MaxFrequency="2" />

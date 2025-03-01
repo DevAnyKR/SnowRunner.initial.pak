@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.18"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_prime_c13"
-		Torque="228000"
+		Torque="456000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

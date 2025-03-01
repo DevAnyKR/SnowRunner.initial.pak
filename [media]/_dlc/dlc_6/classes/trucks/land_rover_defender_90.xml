@@ -53,8 +53,8 @@
 		EngineIconScale="1.15"
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.6"
-		FuelCapacity="80"
-		Responsiveness="0.6"
+		FuelCapacity="90"
+		Responsiveness="1.0"
 		SteerSpeed="0.032"
 		TruckImage="landroverdefender90mchr"
 		TruckType="SCOUT"
@@ -157,6 +157,7 @@
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout1" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout2" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.42" Type="wheels_scout2" />
+		<CompatibleWheels OffsetZ="0.04" Scale="0.45" Type="wheels_scout2" />
 
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout_highway" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout_offroad" />
@@ -164,11 +165,17 @@
 
 		<CompatibleWheels OffsetZ="0.04" Scale="0.42" Type="wheels_scout_offroad" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.42" Type="wheels_scout_mudtires" />
-		
+
+		<CompatibleWheels OffsetZ="0.04" Scale="0.45" Type="wheels_scout_offroad" />
+		<CompatibleWheels OffsetZ="0.04" Scale="0.45" Type="wheels_scout_mudtires" />
+
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout_allterrain" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.4" Type="wheels_scout_allterrain_chain" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.42" Type="wheels_scout_allterrain" />
 		<CompatibleWheels OffsetZ="0.04" Scale="0.42" Type="wheels_scout_allterrain_chain" />
+		<CompatibleWheels OffsetZ="0.04" Scale="0.45" Type="wheels_scout_allterrain" />
+		<CompatibleWheels OffsetZ="0.04" Scale="0.45" Type="wheels_scout_allterrain_chain" />
+
 		<Camera Center="(-1.2; 0; 0)" RadiusMultiplier="0.8">
 			<Cockpit
 				_template="Default"

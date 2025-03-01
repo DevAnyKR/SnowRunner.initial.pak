@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.15"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_ws49x"
-		Torque="220000"
+		Torque="440000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

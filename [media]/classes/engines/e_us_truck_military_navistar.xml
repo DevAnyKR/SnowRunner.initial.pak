@@ -17,7 +17,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.3"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_truck_military_navistar_0"
 		Torque="175000"

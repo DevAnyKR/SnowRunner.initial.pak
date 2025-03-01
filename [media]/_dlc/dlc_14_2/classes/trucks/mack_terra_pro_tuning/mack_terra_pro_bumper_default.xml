@@ -1,4 +1,12 @@
 <TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
+		</Damage>
+	</TruckData>
 	<PhysicsModel Mesh="trucks/mack_terra_pro_tuning/mack_terra_pro_bumper_default">
 		<Body ImpactType="Truck" Mass="10" ModelFrame="BoneChassis_cdt">
 			<Constraint Type="Rigid" />

@@ -9,6 +9,14 @@
 </_templates>
 <_parent File="pacific512_bumper_default" />
 <TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
+		</Damage>
+	</TruckData>
 	<PhysicsModel Mesh="trucks/pacific_p512_tuning/pacific512_bumper_3">
 		<Body ImpactType="Truck" Mass="10" ModelFrame="BoneCabin_cdt">
 			<Constraint Type="Rigid" />

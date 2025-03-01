@@ -12,7 +12,7 @@
 		EngineResponsiveness="0.16"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_kenworth_880_0"
-		Torque="255000"
+		Torque="510000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -34,10 +34,10 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.2"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_kenworth_880_1"
-		Torque="288000"
+		Torque="576000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

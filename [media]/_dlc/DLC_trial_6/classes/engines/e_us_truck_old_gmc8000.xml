@@ -19,7 +19,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="us_truck_old_engine_gmc8000"
-		Torque="170000"
+		Torque="340000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
