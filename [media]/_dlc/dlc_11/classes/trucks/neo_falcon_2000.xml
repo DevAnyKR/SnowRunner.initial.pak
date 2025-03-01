@@ -376,9 +376,9 @@
 		ParentFrame="BoneCabin_cdt"
 	/>
 	<GameData
-		Country="US,NE,CE"
+		Country=""
 		Price="2600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-1.824; 0.694; -0.514)" ParentFrame="BoneCabin_cdt"/>

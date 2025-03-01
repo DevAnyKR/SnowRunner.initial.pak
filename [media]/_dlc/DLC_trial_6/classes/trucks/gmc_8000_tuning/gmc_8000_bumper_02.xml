@@ -10,7 +10,7 @@
 	<GameData
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_ANGLED_DESC"

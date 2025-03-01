@@ -15,7 +15,7 @@
 	<GameData
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_REAR_BUMPER_DOUBLEPIPE_DESC"

@@ -5,7 +5,7 @@
 		CameraPreset="side_l"
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_HORNS_TWIN_TWOSIDE_DESC"

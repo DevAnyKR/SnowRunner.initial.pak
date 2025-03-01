@@ -30,7 +30,7 @@
 		Category="top"
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFBAR_BARMOUNTED_FOGLIGHTS_DESC"

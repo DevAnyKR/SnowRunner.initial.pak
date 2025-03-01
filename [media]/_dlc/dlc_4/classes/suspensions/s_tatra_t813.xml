@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="300"
 		Name="tatra_t813_suspension_default"
 	>

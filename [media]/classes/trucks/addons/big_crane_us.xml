@@ -159,7 +159,7 @@
 		IsCustomizable="true"
 		Price="7500"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_BIG_CRANE_US_DESC"

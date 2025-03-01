@@ -33,7 +33,7 @@
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
-				UnlockByRank="12"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_YAR_87_MUDTIRES_NAME" />
 			</GameData>
@@ -43,7 +43,7 @@
 			<GameData
 				Price="6000"
 				UnlockByExploration="false"
-				UnlockByRank="12"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_CHAINS_DESC" UiName="UI_TIRE_YAR_87_CHAINS_NAME" />
 			</GameData>

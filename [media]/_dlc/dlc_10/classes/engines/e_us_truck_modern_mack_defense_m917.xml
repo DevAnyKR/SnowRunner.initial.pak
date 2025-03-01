@@ -1,14 +1,14 @@
 <EngineVariants>
 	<Engine
 		EngineResponsiveness="0.035"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="8.0"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="us_special_mack_defense_mcv6"
 		Torque="176500"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		BrakesDelay="0.6"
 		MaxDeltaAngVel="0.01"
 	>
@@ -27,10 +27,10 @@
 	</Engine>
 	<Engine
 		EngineResponsiveness="0.044"
-		CriticalDamageThreshold="0.8"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="300"
-		DamagedConsumptionModifier="1.4"
-		FuelConsumption="10.0"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="us_special_mack_defense_mcv8"
 		Torque="232000"
 		DamagedMinTorqueMultiplier="1.0"
@@ -40,7 +40,7 @@
 	>
 		<GameData
 			Price="19700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -55,18 +55,18 @@
 		EngineResponsiveness="0.045"
 		CriticalDamageThreshold="0.75"
 		DamageCapacity="280"
-		DamagedConsumptionModifier="1.3"
-		FuelConsumption="9.5"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="us_special_mack_defense_mcv8fm"
 		Torque="222000"
 		DamagedMinTorqueMultiplier="0.9"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 		BrakesDelay="0.4"
 		MaxDeltaAngVel="0.02"
 	>
 		<GameData
 			Price="24400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

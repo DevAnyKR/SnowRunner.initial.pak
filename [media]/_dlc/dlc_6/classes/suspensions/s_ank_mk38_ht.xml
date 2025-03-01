@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="200"
 		Name="ank_mk38_ht_suspension_default"
 	>
@@ -39,7 +39,7 @@
 	<SuspensionSet
 		_template="High"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
 		Name="ank_mk38_ht_suspension_high"
 	>
@@ -75,7 +75,7 @@
 	<SuspensionSet
 		_template="Active"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
 		Name="ank_mk38_ht_suspension_active"
 		DeviationDelta=".002"

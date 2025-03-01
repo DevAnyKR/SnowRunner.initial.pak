@@ -24,7 +24,7 @@
 	<GameData
 		Price="1400"
 		UnlockByExploration="false"
-		UnlockByRank="26"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_EXHAUST_HEATSHIELD_DESC"

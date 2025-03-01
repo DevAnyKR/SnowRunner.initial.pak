@@ -4,7 +4,7 @@
 	<GameData
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="23"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_EXHAUST_MUZZLE_DESC"

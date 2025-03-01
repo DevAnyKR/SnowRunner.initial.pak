@@ -37,7 +37,7 @@
 		Category="rear"
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_GMC_8000_FENDER_02_DESC"

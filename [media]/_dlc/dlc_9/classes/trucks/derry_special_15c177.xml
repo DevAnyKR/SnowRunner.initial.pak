@@ -504,9 +504,9 @@
 	<Landmark Mesh="landmarks/derry_special_15c177_lmk" MinScale="1.5" MaxScale="2.5" />
 	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" />
 	<GameData
-		Country="US,NE,CE"
+		Country=""
 		Price="150000"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(-6.919; 1.088; 0)" />

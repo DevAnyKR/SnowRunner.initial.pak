@@ -7,7 +7,7 @@
 		CameraPreset="hoods"
 		Price="5700"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_UPGRADE_DIFF_LOCK_SWITCHABLE_DESC"

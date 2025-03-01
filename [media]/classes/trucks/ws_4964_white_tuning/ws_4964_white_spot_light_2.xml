@@ -33,7 +33,7 @@
 	<GameData
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_ROOFBAR_BEACONS_FOGLIGHTS_DESC"

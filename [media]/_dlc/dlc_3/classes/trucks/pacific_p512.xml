@@ -340,9 +340,9 @@
 	<Landmark Mesh="landmarks/pacific_p512_lmk" MinScale="1.5" MaxScale="2.5" />
 	<HeadLight _template="Default" Pos="(5.292; 0.982; 0)" />
 	<GameData
-		Country="US,NE,CE"
+		Country=""
 		Price="108300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.824; 1.103; 0)" ParentFrame="BoneCabin_cdt" />

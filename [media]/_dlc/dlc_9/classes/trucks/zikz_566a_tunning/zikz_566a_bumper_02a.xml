@@ -37,7 +37,7 @@
 		Category="bumper"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_LIGHTCAGE_DESC"

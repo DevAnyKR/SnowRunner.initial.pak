@@ -28,7 +28,7 @@
 		Category="miscellenious"
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BEACONS_ROUND_DOUBLE_DESC"

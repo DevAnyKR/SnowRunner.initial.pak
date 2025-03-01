@@ -2,7 +2,10 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/kolob_74760_tuning/kolob_74760_bumper_3">
@@ -25,7 +28,7 @@
 		Category="bumper"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="26"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_PIPEWELDED_DESC"

@@ -13,7 +13,7 @@
 	<GameData
 		Price="2300"
 		UnlockByExploration="false"
-		UnlockByRank="17"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_EXT_AIRFILTER_DESC"

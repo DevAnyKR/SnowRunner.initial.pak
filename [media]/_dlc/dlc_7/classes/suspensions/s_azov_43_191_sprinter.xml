@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="260"
 		Name="azov_43_191_sprinter_suspension_default"
 	>

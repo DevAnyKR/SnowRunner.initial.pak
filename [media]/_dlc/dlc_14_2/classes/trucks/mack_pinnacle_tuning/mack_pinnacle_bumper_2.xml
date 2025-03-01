@@ -49,7 +49,7 @@
 		Category="bumper"
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(4.986; 0.856; 0.416)" FixedToTruck="true"/>
 		<WinchSocket Pos="(4.986; 0.856; -0.416)" FixedToTruck="true"/>

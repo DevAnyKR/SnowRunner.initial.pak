@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.0"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="2.0"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_special_default"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="15.0"
@@ -37,11 +37,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.0"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="250"
-		DamagedConsumptionModifier="1.7"
-		FuelConsumption="3.0"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_special_offroad"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="20.0"
@@ -55,7 +55,7 @@
 		<Gear AngVel="4.9" FuelModifier="1.0" />
 		<GameData
 			Price="6000"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 
@@ -74,11 +74,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.2"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.9"
-		FuelConsumption="4.0"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_special_finetune"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="25.0"
@@ -92,7 +92,7 @@
 		<Gear AngVel="5.0" FuelModifier="1.0" />
 		<GameData
 			Price="5100"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 

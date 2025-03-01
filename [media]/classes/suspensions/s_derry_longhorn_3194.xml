@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
 		Name="derry_longhorn_3194_suspension_default"
 		DeviationDelta=".008"		

@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
 		Name="voron_d53233_suspension_default"
 	>
@@ -39,7 +39,7 @@
 	<SuspensionSet
 		_template="High"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="200"
 		Name="voron_d53233_suspension_high"
 	>
@@ -61,7 +61,7 @@
 		/>
 		<GameData
 			Price="9400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

@@ -24,7 +24,7 @@
 		Category="miscellenious"
 		Price="600"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_CAGED_BEACON_1_DESC"

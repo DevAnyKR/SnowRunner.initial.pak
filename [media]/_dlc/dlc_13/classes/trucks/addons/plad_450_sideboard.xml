@@ -28,7 +28,7 @@
 		IsCustomizable="true"
 		Price="4200"
 		UnlockByExploration="false"
-		UnlockByRank="4"
+		UnlockByRank="1"
 		ExcludedCargoTypes="CargoWing2, CargoForcklift, CargoIronRoad"
 	>
 		<UiDesc

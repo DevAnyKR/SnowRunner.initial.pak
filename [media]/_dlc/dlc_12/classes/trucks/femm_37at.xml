@@ -359,10 +359,10 @@
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/femm_37at_lmk" MinScale="1.6" MaxScale="2.8" />
 	<GameData
-		Country="RU,CAS"
+		Country=""
 		ExcludeAddons="trailer_log_pole, trailer_log"
 		Price="181300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		FrameAlign="BoneBack_cdt"
 		FrameAlignOffset="(-5; 0; 0)"

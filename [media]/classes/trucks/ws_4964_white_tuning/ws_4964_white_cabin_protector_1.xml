@@ -34,7 +34,7 @@
 		Category="miscellenious"
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_CABIN_PROTECTOR_1_DESC"

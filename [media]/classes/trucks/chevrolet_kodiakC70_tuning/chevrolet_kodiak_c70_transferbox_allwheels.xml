@@ -12,7 +12,7 @@
 		CameraPreset="hoods"
 		Category="awd"
 		Price="4400"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<UiDesc

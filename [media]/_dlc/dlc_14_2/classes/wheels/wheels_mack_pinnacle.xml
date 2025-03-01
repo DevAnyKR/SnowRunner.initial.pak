@@ -12,8 +12,8 @@
 		<TruckTire _template="Allterrain" Mesh="wheels/tire_mack_pinnacle" Name="tire_mack">
 			<WheelFriction 
 				_template="Allterrain"
-				BodyFriction="1.5"
-				BodyFrictionAsphalt="1.1"
+				BodyFriction="9.0"
+				BodyFrictionAsphalt="9.0"
 				SubstanceFriction="2"
 			/>
 			<GameData

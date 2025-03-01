@@ -127,7 +127,7 @@
 		IsCustomizable="true"
 		Price="2700"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SCOUT_TRUNK_SUPPLIES_DESC"

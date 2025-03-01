@@ -13,7 +13,7 @@
 	<GameData
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_WINCHPIPE_DESC"

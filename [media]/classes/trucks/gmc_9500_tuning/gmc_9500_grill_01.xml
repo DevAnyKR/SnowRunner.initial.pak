@@ -28,7 +28,7 @@
 		Category="grill"
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_GMC_9500_GRILL_01_DESC"

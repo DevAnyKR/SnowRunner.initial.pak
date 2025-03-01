@@ -24,7 +24,7 @@
 		Category="top"
 		Price="700"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_RAISED_BEACON_DESC"

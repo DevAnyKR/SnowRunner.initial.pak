@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="300"
 		Name="cat_745c_suspension_default"
 	>

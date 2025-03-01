@@ -6,15 +6,15 @@
 <EngineVariants>
 	<Engine
 		_template="USSpecialEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
-		DamagedConsumptionModifier="1.2"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.035"
-		FuelConsumption="9.5"
+		FuelConsumption="1.0"
 		Name="us_special_engine_0"
 		Torque="200000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="7500"
@@ -31,18 +31,18 @@
 	</Engine>
 	<Engine
 		_template="USSpecialEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="260"
-		DamagedConsumptionModifier="1.4"
-		FuelConsumption="11.0"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="us_special_engine_1"
 		Torque="220000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="18800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -55,18 +55,18 @@
 	</Engine>
 	<Engine
 		_template="USSpecialEngine"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="280"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="12.5"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="us_special_engine_2"
 		Torque="250000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="22500"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

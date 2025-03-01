@@ -46,7 +46,7 @@
 		IsCustomizable="true"
 		Price="8500"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_CAT_770G_TANK_DESC"

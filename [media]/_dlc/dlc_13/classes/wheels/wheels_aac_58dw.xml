@@ -12,9 +12,9 @@
 		<TruckTire _template="ScoutOffroad" Mesh="wheels/tire_aac_58dw" Name="tire">
 			<WheelFriction
 				_template="ScoutOffroad"
-				BodyFriction="2.1"
+				BodyFriction="9.0"
 				BodyFrictionAsphalt="1"
-				SubstanceFriction="1.2"
+				SubstanceFriction="9.0"
 			/>
 			<GameData
 				Price="4200"

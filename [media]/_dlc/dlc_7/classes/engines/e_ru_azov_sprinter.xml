@@ -6,19 +6,19 @@
 <EngineVariants>
 	<Engine
 		_template="RUTruckModernEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
-		DamagedConsumptionModifier="1.2"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.042"
-		FuelConsumption="6.0"
+		FuelConsumption="1.0"
 		Name="ru_azov_sprinter_custom_engine"
 		Torque="250000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="10900"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

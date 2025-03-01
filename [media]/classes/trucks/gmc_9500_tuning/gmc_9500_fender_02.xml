@@ -45,7 +45,7 @@
 		Category="fender_rear"
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="7"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_GMC_9500_FENDER_02_DESC"

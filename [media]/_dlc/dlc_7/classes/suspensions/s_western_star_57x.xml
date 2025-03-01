@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="280"
 		Name="western_star_57x_suspension_default"
 	>
@@ -40,7 +40,7 @@
 	<SuspensionSet
 		_template="High"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
 		Name="western_star_57x_suspension_high"
 	>
@@ -63,7 +63,7 @@
 		<GameData
 			Price="7900"
 			UnlockByExploration="false"
-			UnlockByRank="16"
+			UnlockByRank="1"
 			>
 			<UiDesc
 				UiDesc="UI_SUSPENSION_HIGH_DESC"

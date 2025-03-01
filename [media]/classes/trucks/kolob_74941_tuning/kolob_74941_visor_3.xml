@@ -14,7 +14,7 @@
 		Category="fender_front"
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="19"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SUNVISOR_CHROME_BEACONS_DESC"

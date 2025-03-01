@@ -74,7 +74,7 @@
 		IsCustomizable="true"
 		Price="8500"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_ADDON_CAT_745C_FUEL_TANK_DESC"

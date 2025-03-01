@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="80"
 		Name="rezvani_tank_suspension_default"
 	>
@@ -37,7 +37,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="120"
 		Name="rezvani_tank_suspension_high"
 	>

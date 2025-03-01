@@ -43,7 +43,7 @@
 		Category="bumper"
 		Price="1100"
 		UnlockByExploration="false"
-		UnlockByRank="14"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_CROSSFOG_DESC"

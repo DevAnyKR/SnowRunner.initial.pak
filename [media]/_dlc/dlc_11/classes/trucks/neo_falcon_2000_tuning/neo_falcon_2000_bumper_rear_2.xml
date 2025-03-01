@@ -48,7 +48,7 @@
 		Category="rear"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_HORNS_SINGLE_ONESIDE_DESC"

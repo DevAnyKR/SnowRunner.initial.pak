@@ -300,9 +300,9 @@
 	<HeadLight _template="Default" Pos="(2.5; 0.9; 0)" ParentFrame="BoneCabin_cdt" />
 	<Landmark Mesh="landmarks/ankatra_1160_lmk" MinScale="1.8" MaxScale="2.8" />
 	<GameData
-		Country="US,NE,CAS,CE"
+		Country=""
 		Price="98500"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(2.106; 0.873; -0.249)" ParentFrame="BoneChassis_cdt" />

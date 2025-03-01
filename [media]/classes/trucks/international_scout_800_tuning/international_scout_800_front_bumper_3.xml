@@ -2,14 +2,17 @@
 <TruckAddon>
 	<TruckData>
 		<Damage>
-			<Multiplier Multiplier="1.0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
 		</Damage>
 	</TruckData>
 	<PhysicsModel Mesh="trucks/international_scout_800_tuning/international_scout_800_front_bumper_3" />
 	<GameData
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_LATTICE_DESC"

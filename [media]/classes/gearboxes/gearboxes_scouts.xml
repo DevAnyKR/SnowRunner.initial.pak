@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.1"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="120"
-		DamagedConsumptionModifier="1.4"
-		FuelConsumption="1.8"
-		IdleFuelModifier="0.2"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_scout_default"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="15.0"
@@ -38,11 +38,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.4"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
-		DamagedConsumptionModifier="1.7"
-		FuelConsumption="1.4"
-		IdleFuelModifier="0.2"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_scout_highway"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="20.0"
@@ -57,7 +57,7 @@
 		<Gear AngVel="24.0" FuelModifier="0.9" />
 		<GameData
 			Price="1900"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 
@@ -76,11 +76,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.8"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="2.2"
-		IdleFuelModifier="0.2"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_scout_offroad"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="25.0"
@@ -93,7 +93,7 @@
 		<Gear AngVel="16.0" FuelModifier="1.0" />
 		<GameData
 			Price="2100"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 
@@ -112,11 +112,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.9"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="110"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="2.4"
-		IdleFuelModifier="0.2"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_scout_finetune"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="35.0"
@@ -129,7 +129,7 @@
 		<Gear AngVel="13.0" FuelModifier="1.1" />
 		<GameData
 			Price="1900"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 

@@ -6,15 +6,15 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckModernEngine"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.2"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.18"
-		FuelConsumption="8.8"
+		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_prime_c13"
 		Torque="228000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="20700"

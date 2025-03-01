@@ -12,7 +12,7 @@
 	<GameData
 		Price="2900"
 		UnlockByExploration="false"
-		UnlockByRank="9"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_FRONTFACE_TALL_DESC"

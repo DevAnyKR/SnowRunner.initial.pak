@@ -2,11 +2,11 @@
 	<Engine>
 		<USTruckOldHeavyEngine
 			BrakesDelay="0.5"
-			CriticalDamageThreshold="0.7"
+			CriticalDamageThreshold="1.0"
 			DamageCapacity="200"
 			EngineResponsiveness="0.04"
 			DamagedMinTorqueMultiplier="1.0"
-			DamagedMaxTorqueMultiplier="0.5"
+			DamagedMaxTorqueMultiplier="1.0"
 			MaxDeltaAngVel="0.01"
 		/>
 	</Engine>
@@ -14,15 +14,15 @@
 <EngineVariants>
 	<Engine
 		_template="USTruckOldHeavyEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
-		DamagedConsumptionModifier="1.6"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.04"
-		FuelConsumption="7.0"
+		FuelConsumption="1.0"
 		Name="us_truck_old_paystar5070"
 		Torque="150000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="4200"

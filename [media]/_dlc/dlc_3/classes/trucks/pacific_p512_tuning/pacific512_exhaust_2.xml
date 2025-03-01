@@ -12,7 +12,7 @@
 	<GameData
 		Price="1300"
 		UnlockByExploration="false"
-		UnlockByRank="15"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_EXHAUST_FLAPCAP_DESC"

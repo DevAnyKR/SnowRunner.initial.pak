@@ -9,14 +9,14 @@
 	<TruckTires>
 		<TruckTire _template="Iron" Mesh="wheels/trie_train_rocket" Name="tire">
             <WheelFriction
-                BodyFriction="0.1"
+                BodyFriction="9.0"
                 BodyFrictionAsphalt=".1"
-                SubstanceFriction="0.6"
+                SubstanceFriction="9.0"
             />
 			<GameData
 				Price="9400"
 				UnlockByExploration="false"
-				UnlockByRank="12"
+				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="UI_TIRE_TRAIN_ROCKET_DESC" UiName="UI_TIRE_TRAIN_ROCKET_NAME" />
 			</GameData>

@@ -13,7 +13,7 @@
 		Category="wheel_addon"
 		Price="3000"
 		UnlockByExploration="false"
-		UnlockByRank="23"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SPARE_WHEEL_DESC"

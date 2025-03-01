@@ -9,14 +9,14 @@
 <EngineVariants>
 	<Engine
 		_template="RUTruckOldEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
-		DamagedConsumptionModifier="1.7"
-		FuelConsumption="8.5"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
 		Name="ru_truck_old_engine_zikz_566a"
 		Torque="200000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.4"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="16200"

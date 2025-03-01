@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.6"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="200"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="1.5"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_special_mack_pinnacle"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="20.0"
@@ -43,11 +43,11 @@
 	
 	<Gearbox
 		AWDConsumptionModifier="1.3"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
-		DamagedConsumptionModifier="1.7"
-		FuelConsumption="1.8"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_truck_highrange"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="20.0"
@@ -64,7 +64,7 @@
 		<Gear AngVel="20.0" FuelModifier="1.1" />
 		<GameData
 			Price="3800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 
@@ -83,11 +83,11 @@
 	</Gearbox>
 	<Gearbox
 		AWDConsumptionModifier="1.4"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="2.3"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_truck_offroad"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="25.0"
@@ -100,7 +100,7 @@
 		<Gear AngVel="12.0" FuelModifier="1.1" />
 		<GameData
 			Price="5300"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 
@@ -119,11 +119,11 @@
 	</Gearbox>
 		<Gearbox
 		AWDConsumptionModifier="1.6"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="130"
-		DamagedConsumptionModifier="1.5"
-		FuelConsumption="2.5"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_truck_finetune"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="30.0"
@@ -136,7 +136,7 @@
 		<Gear AngVel="10.0" FuelModifier="1.2" />
 		<GameData
 			Price="4700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 

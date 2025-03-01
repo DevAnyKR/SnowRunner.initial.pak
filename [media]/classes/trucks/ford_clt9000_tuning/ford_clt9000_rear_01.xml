@@ -54,7 +54,7 @@
 		Category="rear"
 		Price="900"
 		UnlockByExploration="false"
-		UnlockByRank="9"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_MUDFLAPS_FORD_DESC"

@@ -13,7 +13,7 @@
 		IsCustomizable="true"
 		Price="5700"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 		IncludedCargoTypes="CargoContainerSmall, CargoContainerSmallSpecial"
 	>
 		<UiDesc

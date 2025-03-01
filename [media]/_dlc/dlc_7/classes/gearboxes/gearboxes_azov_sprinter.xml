@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.0"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="220"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="5.0"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_azov_sprinter_sport"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="15.0"
@@ -20,7 +20,7 @@
 		<Gear AngVel="11.6" FuelModifier="2.1" />
 		<GameData
 			Price="5700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<GearboxParams 

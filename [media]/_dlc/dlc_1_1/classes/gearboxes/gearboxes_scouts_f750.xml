@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.1"
-		CriticalDamageThreshold="0.2"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="75"
-		DamagedConsumptionModifier="1.4"
-		FuelConsumption="1.8"
-		IdleFuelModifier="0.2"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_scout_f750"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="15.0"

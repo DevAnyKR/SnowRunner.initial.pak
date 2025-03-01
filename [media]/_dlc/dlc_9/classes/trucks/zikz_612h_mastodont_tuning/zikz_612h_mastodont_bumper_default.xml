@@ -15,7 +15,7 @@
 		Category="bumper"
 		Price="1000"
 		UnlockByExploration="false"
-		UnlockByRank="21"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_STOCK_DESC"

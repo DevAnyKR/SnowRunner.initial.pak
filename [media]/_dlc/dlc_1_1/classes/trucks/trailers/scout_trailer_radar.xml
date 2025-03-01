@@ -402,7 +402,7 @@
 	<GameData
 		Price="5800"
 		SoundByGroups="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket WinchableWhenAttached="false" Pos="(3.869; 0.76; 0)" ParentFrame="BoneHandle_cdt" />

@@ -16,7 +16,7 @@
 		Category="bumper"
 		Price="2900"
 		UnlockByExploration="false"
-		UnlockByRank="21"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_LATTICE_DESC"

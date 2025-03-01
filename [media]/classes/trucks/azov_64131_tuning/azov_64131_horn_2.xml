@@ -5,7 +5,7 @@
 	<GameData
 		Price="400"
 		UnlockByExploration="false"
-		UnlockByRank="22"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			_noinherit="true"

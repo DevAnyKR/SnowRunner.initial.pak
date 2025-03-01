@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="160"
 		Name="chevrolet_kodiakC70_suspension_default"
 	>
@@ -25,7 +25,7 @@
 	<SuspensionSet
 		_template="High"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="190"
 		Name="chevrolet_kodiakC70_suspension_high"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping="0.3" Height="0.25" Strength="0.08" WheelType="rear" BrokenSuspensionMax="0.1" SuspensionMin="-0.3" />
 		<GameData
 			Price="6400"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

@@ -133,7 +133,7 @@
 		Category="frame_addons"
 		Price="7500"
 		UnlockByExploration="false"
-		UnlockByRank="6"
+		UnlockByRank="1"
 		OriginalAddon="big_crane_ru"
 	>
 		<UiDesc

@@ -11,7 +11,7 @@
 		Category="snorkel"
 		Price="5500"
 		UnlockByExploration="false"
-		UnlockByRank="21"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SNORKEL_FRONTFACE_TALL_DESC"

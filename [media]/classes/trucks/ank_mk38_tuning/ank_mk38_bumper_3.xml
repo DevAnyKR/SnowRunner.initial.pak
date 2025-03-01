@@ -1,12 +1,20 @@
 <_templates Include="trucks" />
 <_parent File="ank_mk38_bumper_2" />
 <TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0" Type="Engine" />
+			<Multiplier Multiplier="0" Type="FuelTank" />
+			<Multiplier Multiplier="0" Type="Suspension" />
+			<Multiplier Multiplier="0" Type="Wheels" />			
+		</Damage>
+	</TruckData>
 	<PhysicsModel Mesh="trucks/ank_mk38_tuning/ank_mk38_bumper_3" />
 	<ModelAttachments _noinherit="true"/>
 	<GameData
 		Price="1500"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_BUMPER_TRAPEZIUM_DESC"

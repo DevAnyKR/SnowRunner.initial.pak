@@ -2,7 +2,7 @@
 <SuspensionSetVariants>
 	<SuspensionSet
 		_template="Normal"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="80"
 		Name="jeep_wrangler_suspension_default"
 	>
@@ -23,7 +23,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="High"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
 		Name="jeep_wrangler_suspension_high"
 	>
@@ -44,7 +44,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Ultimate"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="120"
 		Name="jeep_wrangler_suspension_ultimate"
 	>
@@ -65,7 +65,7 @@
 	</SuspensionSet>
 	<SuspensionSet
 		_template="Ultimate"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="70"
 		Name="jeep_wrangler_suspension_crawler"
 	>

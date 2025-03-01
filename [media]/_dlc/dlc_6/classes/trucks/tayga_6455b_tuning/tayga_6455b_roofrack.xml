@@ -45,7 +45,7 @@
 		Category="frame_addons"
 		Price="3400"
 		UnlockByExploration="false"
-		UnlockByRank="17"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SPARE_WHEEL_ROOF_DESC"

@@ -233,11 +233,11 @@
 	<Landmark Mesh="landmarks/gor_by4_lmk" MinScale="1.8" MaxScale="3.8" />
 	<HeadLight _template="Default" Pos="(1.7; 0.7; 0)" />
 	<GameData
-		Country="RU,CAS"
+		Country=""
 		ExcludeAddons="stuff_hula_girl, stuff_masha"
 		Price="3600"
 		Recallable="true"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(1.5; 0.3; -0.35)" />

@@ -10,12 +10,12 @@
 		Name="us_special_mtb_8106_gf4v"
 		Torque="58000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.04"
 	>
 		<GameData
 			Price="6600"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

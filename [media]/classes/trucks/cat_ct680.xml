@@ -389,10 +389,10 @@
 	<Landmark Mesh="landmarks/cat_ct680_lmk" MinScale="1.8" MaxScale="3.8" />
 	<HeadLight _template="Default" Pos="(4.21; 0.864; 0)" ParentFrame="BoneCabin_cdt" />
 	<GameData
-		Country="US,NE,CE"
+		Country=""
 		Price="37000"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<WinchSocket Pos="(3.881; 0.834; -0.322)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(3.881; 0.834; 0.322)" ParentFrame="BoneCabin_cdt" />

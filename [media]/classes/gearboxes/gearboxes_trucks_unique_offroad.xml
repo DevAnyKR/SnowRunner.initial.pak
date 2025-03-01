@@ -1,11 +1,11 @@
 <GearboxVariants>
 	<Gearbox
 		AWDConsumptionModifier="1.4"
-		CriticalDamageThreshold="0.5"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="160"
-		DamagedConsumptionModifier="1.6"
-		FuelConsumption="3.0"
-		IdleFuelModifier="0.3"
+		DamagedConsumptionModifier="0.0"
+		FuelConsumption="1.0"
+		IdleFuelModifier="0.1"
 		Name="g_truck_unique_offroad"
 		MinBreakFreq="0.0"
 		MaxBreakFreq="20.0"

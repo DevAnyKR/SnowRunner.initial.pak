@@ -15,7 +15,7 @@
 		Category="fenders"
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc=""

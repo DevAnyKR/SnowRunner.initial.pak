@@ -6,7 +6,7 @@
 		Category="snorkel"
 		Price="1900"
 		UnlockByExploration="false"
-		UnlockByRank="10"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc=""

@@ -10,11 +10,11 @@
 		DamageCapacity="210"
 		DamagedConsumptionModifier="1.45"
 		EngineResponsiveness="0.045"
-		FuelConsumption="9.5"
+		FuelConsumption="1.0"
 		Name="us_futom_7290ra_engine_0"
 		Torque="130000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="14100"
@@ -35,15 +35,15 @@
 		CriticalDamageThreshold="0.65"
 		DamageCapacity="290"
 		DamagedConsumptionModifier="1.32"
-		FuelConsumption="10.5"
+		FuelConsumption="1.0"
 		Name="us_futom_7290ra_engine_1"
 		Torque="180000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.8"
+		DamagedMaxTorqueMultiplier="1.0"
 	>
 		<GameData
 			Price="21600"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

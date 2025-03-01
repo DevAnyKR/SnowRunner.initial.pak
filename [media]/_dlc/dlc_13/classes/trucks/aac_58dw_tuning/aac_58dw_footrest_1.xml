@@ -9,7 +9,7 @@
 		Category="miscellenious"
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SILLS_LIGHTWEIGHT_THRESHOLDS_DESC"

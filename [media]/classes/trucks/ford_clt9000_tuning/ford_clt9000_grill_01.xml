@@ -4,7 +4,7 @@
 	<GameData
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="7"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_FORD_CLT9000_GRILL_01_DESC"

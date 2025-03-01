@@ -33,7 +33,7 @@
 		Category="frame_addons"
 		Price="2100"
 		UnlockByExploration="false"
-		UnlockByRank="8"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SAFETY_CAGE_DESC"

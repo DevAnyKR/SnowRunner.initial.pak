@@ -6,15 +6,15 @@
 <EngineVariants>
 	<Engine
 		_template="USScoutOldEngine"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
-		DamagedConsumptionModifier="1.2"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.25"
-		FuelConsumption="1.3"
+		FuelConsumption="1.0"
 		Name="us_scout_old_engine_0"
 		Torque="35000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.6"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
 	>
 		<GameData
@@ -32,20 +32,20 @@
 	</Engine>
 	<Engine
 		_template="USScoutOldEngine"
-		CriticalDamageThreshold="0.4"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
-		DamagedConsumptionModifier="1.5"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.3"
-		FuelConsumption="1.7"
+		FuelConsumption="1.0"
 		Name="us_scout_old_engine_1"
 		Torque="42000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.5"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
 	>
 		<GameData
 			Price="4700"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
@@ -58,20 +58,20 @@
 	</Engine>
 	<Engine
 		_template="USScoutOldEngine"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
-		DamagedConsumptionModifier="1.5"
+		DamagedConsumptionModifier="0.0"
 		EngineResponsiveness="0.35"
-		FuelConsumption="2.0"
+		FuelConsumption="1.0"
 		Name="us_scout_old_engine_2"
 		Torque="50000"
 		DamagedMinTorqueMultiplier="1.0"
-		DamagedMaxTorqueMultiplier="0.7"
+		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
 	>
 		<GameData
 			Price="6000"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc

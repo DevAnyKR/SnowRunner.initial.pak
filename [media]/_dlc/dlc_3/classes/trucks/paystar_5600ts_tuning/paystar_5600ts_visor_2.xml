@@ -13,7 +13,7 @@
 		Category="fender_front"
 		Price="1200"
 		UnlockByExploration="false"
-		UnlockByRank="16"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_SUNVISOR_ANGLED_BEACONS_DESC"

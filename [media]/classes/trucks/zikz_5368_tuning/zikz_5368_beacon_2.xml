@@ -19,7 +19,7 @@
 	<GameData
 		Price="800"
 		UnlockByExploration="false"
-		UnlockByRank="13"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_TALL_BEACON_1_DESC"

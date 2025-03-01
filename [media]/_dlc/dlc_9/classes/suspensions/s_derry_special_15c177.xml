@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="300"
 		Name="derry_special_15c177_suspension_default"
 	>
@@ -39,7 +39,7 @@
 	<SuspensionSet
 		_template="Active"
 		BrokenWheelDamageMultiplier="2"
-		CriticalDamageThreshold="0.6"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="230"
 		Name="derry_special_15c177_suspension_active"
 		DeviationDelta=".002"

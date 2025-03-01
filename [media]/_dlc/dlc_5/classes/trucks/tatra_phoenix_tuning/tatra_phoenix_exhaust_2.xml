@@ -19,7 +19,7 @@
 		Category="exhaust"
 		Price="1300"
 		UnlockByExploration="false"
-		UnlockByRank="12"
+		UnlockByRank="1"
 	>
 		<UiDesc
 			UiDesc="UI_TUNING_EXHAUST_HEATSHIELD_DESC"

@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="3"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="160"
 		Name="gmc8000_suspension_default"
 	>
@@ -25,7 +25,7 @@
 	<SuspensionSet
 		_template="High"
 		BrokenWheelDamageMultiplier="3"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
 		Name="gmc8000_suspension_high"
 	>
@@ -34,7 +34,7 @@
 		<GameData
 			Price="7200"
 			UnlockByExploration="false"
-			UnlockByRank="12"
+			UnlockByRank="1"
 		>
 			<UiDesc
 				UiDesc="UI_SUSPENSION_HIGH_DESC"
@@ -47,7 +47,7 @@
 	<SuspensionSet
 		_template="Ultimate"
 		BrokenWheelDamageMultiplier="3"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="230"
 		Name="gmc8000_suspension_ultimate"
 	>
@@ -56,7 +56,7 @@
 		<GameData
 			Price="9800"
 			UnlockByExploration="false"
-			UnlockByRank="16"
+			UnlockByRank="1"
 		>
 			<UiDesc
 				UiDesc="UI_SUSPENSION_ULTIMATE_DESC"

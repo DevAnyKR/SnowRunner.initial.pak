@@ -3,7 +3,7 @@
 	<SuspensionSet
 		_template="Normal"
 		BrokenWheelDamageMultiplier="1.5"
-		CriticalDamageThreshold="0.7"
+		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
 		Name="earthroamer_sx_suspension_default"
 	>
@@ -33,7 +33,7 @@
 		<Suspension Damping="0.58" Height="0.23" Strength="0.08" WheelType="rear" SuspensionMin="-0.3" SuspensionMax="0.15" />
 		<GameData
 			Price="9800"
-			UnlockByExploration="true"
+			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
