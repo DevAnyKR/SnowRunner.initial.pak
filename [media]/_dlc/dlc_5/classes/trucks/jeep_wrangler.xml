@@ -187,6 +187,12 @@
 
 		<CompatibleWheels OffsetZ="0.05" Scale="0.46" Type="wheels_scout_offroad" />
 		<CompatibleWheels OffsetZ="0.16" Scale="0.46" Type="wheels_scout_mudtires" />
+		
+		<CompatibleWheels OffsetZ="0.05" Scale="0.41" Type="wheels_scout_allterrain" />
+		<CompatibleWheels OffsetZ="0.05" Scale="0.41" Type="wheels_scout_allterrain_chain" />
+		<CompatibleWheels OffsetZ="0.08" Scale="0.46" Type="wheels_scout_allterrain" />
+		<CompatibleWheels OffsetZ="0.08" Scale="0.46" Type="wheels_scout_allterrain_chain" />
+		
 		<Camera Center="(-1.2; 0; 0)" RadiusMultiplier="0.8">
 			<Cockpit
 				_template="Default"
@@ -296,7 +302,7 @@
 	<Landmark Mesh="landmarks/jeep_wrangler_lmk" MinScale="1.8" MaxScale="3.8" />
 	<HeadLight _template="Default" Pos="(2.5; 0.979; 0)" />
 	<GameData
-		Country="US,NE"
+		Country="US,NE,CE"
 		Price="2900"
 		Recallable="true"
 		UnlockByExploration="false"
