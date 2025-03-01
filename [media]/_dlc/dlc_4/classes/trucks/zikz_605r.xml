@@ -408,7 +408,7 @@
 			<Socket Names="FrameAddonLogShortZikz" Offset="(-2.849; 1.64; 0)" NamesBlock="SaddleLow" ParentFrame="BoneAddonAttachment_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="SaddleLow" Offset="(-2.52; -1.38; 0)" />
+			<Socket Names="SaddleLow" Offset="(2.5; 1.37; 0)" />
 		</AddonSockets>		
 		<AddonSockets>
 			<Socket Names="zikz605rTrunk" NamesBlock="ZikzBigCrane, ZikzFrameAddon, LargeSemitrailerOiltank, FrameAddonKungZikz, FrameAddonSeismicVibratorZikz, FrameAddonTankZikz, FrameAddonLogShortZikz, CraneKrs58Bandit" />
