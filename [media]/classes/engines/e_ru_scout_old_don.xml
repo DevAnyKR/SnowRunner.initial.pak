@@ -11,11 +11,11 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="ru_scout_old_engine_don"
-		Torque="25000"
+		Torque="50000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
-		EngineResponsiveness="0.02"
+		EngineResponsiveness="1.0"
 	>
 		<GameData
 			Price="1700"

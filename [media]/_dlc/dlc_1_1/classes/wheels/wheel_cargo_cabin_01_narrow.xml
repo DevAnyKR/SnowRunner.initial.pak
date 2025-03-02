@@ -7,7 +7,7 @@
 			<WheelFriction 	
 				BodyFriction=".1"
 				BodyFrictionAsphalt=".1"
-				SubstanceFriction="1"
+				SubstanceFriction="9.9"
 				UiName="" 
 			/>
 			<GameData

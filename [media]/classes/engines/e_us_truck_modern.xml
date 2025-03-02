@@ -12,7 +12,7 @@
 		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_0"
-		Torque="160000"
+		Torque="320000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -34,10 +34,10 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.25"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_1"
-		Torque="180000"
+		Torque="360000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -62,7 +62,7 @@
 		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_truck_modern_engine_2"
-		Torque="192000"
+		Torque="384000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

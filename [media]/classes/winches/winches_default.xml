@@ -2,7 +2,7 @@
 	<Winch
 		Name="w_any_default"
 		Length="50"
-		StrengthMult="1"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData

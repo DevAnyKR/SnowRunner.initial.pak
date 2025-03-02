@@ -2,7 +2,7 @@
 	<Winch
 		Name="w_medium_trucks_default"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -23,7 +23,7 @@
 	<Winch
 		Name="w_medium_trucks_ext"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -44,7 +44,7 @@
 	<Winch
 		Name="w_medium_trucks_pow"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -65,7 +65,7 @@
 		<Winch
 		Name="w_medium_trucks_ext_pow"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData

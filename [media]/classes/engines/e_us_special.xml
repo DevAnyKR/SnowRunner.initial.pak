@@ -9,10 +9,10 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="240"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.035"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_special_engine_0"
-		Torque="200000"
+		Torque="400000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -36,7 +36,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="us_special_engine_1"
-		Torque="220000"
+		Torque="440000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -60,7 +60,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="us_special_engine_2"
-		Torque="250000"
+		Torque="500000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

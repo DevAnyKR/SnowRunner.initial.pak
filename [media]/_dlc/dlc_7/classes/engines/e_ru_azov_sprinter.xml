@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.042"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="ru_azov_sprinter_custom_engine"
 		Torque="250000"

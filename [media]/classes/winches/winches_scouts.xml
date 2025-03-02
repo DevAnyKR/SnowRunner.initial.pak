@@ -2,7 +2,7 @@
 	<Winch
 		Name="w_scout_default"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -23,7 +23,7 @@
 	<Winch
 		Name="w_scout_ext"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -44,7 +44,7 @@
 	<Winch
 		Name="w_scout_pow"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -65,7 +65,7 @@
 		<Winch
 		Name="w_scout_ext_pow"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
@@ -86,7 +86,7 @@
 	<Winch
 		Name="w_scout_offline"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData

@@ -7,8 +7,8 @@
 >
 	<WheelSoftness RadiusOffset="0" SoftForceScale="1" />
 	<WheelFriction
-		BodyFriction="9.0"
+		BodyFriction="9.9"
 		BodyFrictionAsphalt=".1"
-		SubstanceFriction="9.0"
+		SubstanceFriction="9.9"
 	/>
 </TruckWheel>

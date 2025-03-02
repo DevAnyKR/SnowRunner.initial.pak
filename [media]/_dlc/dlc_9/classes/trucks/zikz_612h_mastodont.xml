@@ -45,7 +45,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="840"
 		Responsiveness="1.0"
-		SteerSpeed="0.016"
+		SteerSpeed="0.026"
 		TruckImage="zikz612mchr"
 		TruckType="HEAVY"
 
@@ -600,7 +600,7 @@
 		<CraneSocket Pos="(2.5; 1.15; -0.55)" />
 		<AddonSockets>
 			<Socket Names="Trailer, LogTrailer, MastodonLogPoleTrailer" NamesBlock="MastodonSideboard, MastodonWatertank, FrameAddonSeismicVibratorZikz" Offset="(-2.33; 0.93; 0)" />
-			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1; 1.65; 0)" />
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" Offset="(-1; 1.85; 0)" />
 			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-1; 1.65; 0)" />
 		</AddonSockets>
 		<AddonSockets>

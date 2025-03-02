@@ -18,7 +18,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="ru_truck_old_engine_step_310e"
-		Torque="150000"
+		Torque="300000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

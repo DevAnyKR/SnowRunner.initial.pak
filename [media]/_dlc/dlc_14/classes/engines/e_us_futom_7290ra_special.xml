@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="0.35"
 		DamageCapacity="210"
 		DamagedConsumptionModifier="1.45"
-		EngineResponsiveness="0.045"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_futom_7290ra_engine_0"
 		Torque="260000"

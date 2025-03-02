@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="90"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="0.01"
+		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="us_special_cat_th357_engine_0"
 		Torque="180000"

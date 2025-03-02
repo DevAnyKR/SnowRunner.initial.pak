@@ -4,7 +4,7 @@
 			BrakesDelay="0.5"
 			CriticalDamageThreshold="1.0"
 			DamageCapacity="200"
-			EngineResponsiveness="0.035"
+			EngineResponsiveness="1.0"
 			DamagedMinTorqueMultiplier="1.0"
 			DamagedMaxTorqueMultiplier="1.0"
 			MaxDeltaAngVel="0.01"
@@ -19,7 +19,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="us_truck_old_engine_0"
-		Torque="135000"
+		Torque="270000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>
@@ -43,7 +43,7 @@
 		DamagedConsumptionModifier="0.0"
 		FuelConsumption="1.0"
 		Name="us_truck_old_engine_1"
-		Torque="145000"
+		Torque="290000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

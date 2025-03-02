@@ -4,7 +4,7 @@
 		<TruckTire _template="Light" Mesh="wheels/tire_rezvani_tank" Name="tire">
 			<WheelTracks _template="Offroad" />
 			<WheelSoftness _template="ScoutDefault" />
-			<WheelFriction _template="ScoutOffroad" SubstanceFriction="9.0" BodyFrictionAsphalt="9.0" BodyFriction="9.0" />
+			<WheelFriction _template="ScoutOffroad" SubstanceFriction="9.9" BodyFrictionAsphalt="9.9" BodyFriction="9.9" />
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"

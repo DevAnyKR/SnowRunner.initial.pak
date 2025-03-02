@@ -2,7 +2,7 @@
 	<Winch
 		Name="w_actaeon_offline"
 		Length="50"
-		StrengthMult="2.0"
+		StrengthMult="9.9"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData

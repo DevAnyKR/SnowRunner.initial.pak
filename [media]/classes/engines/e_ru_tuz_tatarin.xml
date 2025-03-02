@@ -12,7 +12,7 @@
 		EngineResponsiveness="1.0"
 		FuelConsumption="1.0"
 		Name="ru_tuz_tatarin"
-		Torque="200000"
+		Torque="400000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 	>

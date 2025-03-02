@@ -9,9 +9,9 @@
 	<TruckTires>
 		<TruckTire _template="Iron" Mesh="wheels/trie_train_rocket" Name="tire">
             <WheelFriction
-                BodyFriction="9.0"
+                BodyFriction="9.9"
                 BodyFrictionAsphalt=".1"
-                SubstanceFriction="9.0"
+                SubstanceFriction="9.9"
             />
 			<GameData
 				Price="9400"

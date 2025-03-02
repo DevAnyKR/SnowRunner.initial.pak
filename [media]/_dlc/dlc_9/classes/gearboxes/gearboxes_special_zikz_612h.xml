@@ -15,6 +15,10 @@
 		<Gear AngVel="0.1" FuelModifier="1.6" />
 		<Gear AngVel="1" FuelModifier="1.4" />
 		<Gear AngVel="3.5" FuelModifier="1.2" />
+		<Gear AngVel="6.0" FuelModifier="1.0" />
+		<Gear AngVel="8.5" FuelModifier="1.0" />
+		<Gear AngVel="11.0" FuelModifier="1.0" />
+		<Gear AngVel="13.5" FuelModifier="1.0" />
 		<GameData
 			Price="2900"
 			UnlockByExploration="false"
@@ -53,6 +57,10 @@
 		<Gear AngVel="2.5" FuelModifier="1.15" />
 		<Gear AngVel="3.5" FuelModifier="1.1" />
 		<Gear AngVel="4.9" FuelModifier="1.0" />
+		<Gear AngVel="6.0" FuelModifier="1.0" />
+		<Gear AngVel="8.0" FuelModifier="1.0" />
+		<Gear AngVel="11.0" FuelModifier="1.0" />
+		<Gear AngVel="15.0" FuelModifier="1.0" />
 		<GameData
 			Price="3800"
 			UnlockByExploration="false"
@@ -91,6 +99,10 @@
 		<Gear AngVel="2.5" FuelModifier="1.15" />
 		<Gear AngVel="3.8" FuelModifier="1.1" />
 		<Gear AngVel="5.0" FuelModifier="1.0" />
+		<Gear AngVel="7.0" FuelModifier="1.0" />
+		<Gear AngVel="10.0" FuelModifier="1.0" />
+		<Gear AngVel="14.0" FuelModifier="1.0" />
+		<Gear AngVel="19.0" FuelModifier="1.0" />
 		<GameData
 			Price="4700"
 			UnlockByExploration="false"
