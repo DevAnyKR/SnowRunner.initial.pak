@@ -5,7 +5,7 @@
 			Location="rear"
 			Torque="default"
 		/>
-		<MiddleAxle Location="middle" ConnectedToHandbrake="true" MeshType="front" Torque="none" />
+		<MiddleAxle Location="middle" ConnectedToHandbrake="true" MeshType="front" Torque="default" />
 		<FrontWheel
 			ConnectedToHandbrake="true"
 			Location="front"

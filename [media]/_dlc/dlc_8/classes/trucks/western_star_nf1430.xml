@@ -5,13 +5,13 @@
 			Location="rear"
 			Torque="default"
 		/>
-		<MiddleAxle Location="middle" MeshType="front" Torque="none" />
+		<MiddleAxle Location="middle" MeshType="front" Torque="default" />
 		<FirstAxle
 			Location="front"
 			SteeringAngle="36"
 			SteeringCastor="0"
 			SteeringJointOffset="0.23"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>

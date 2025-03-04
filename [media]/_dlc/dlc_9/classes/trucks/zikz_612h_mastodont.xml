@@ -37,15 +37,15 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.01"
+		BackSteerSpeed="0.024"
 		DiffLockType="Always"
 		EngineIconMesh="env/engnie_zikz_612h_mastodon"
 		EngineIconScale="0.8"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="1.0"
+		ExhaustStartTime="1.0"
 		FuelCapacity="840"
 		Responsiveness="1.0"
-		SteerSpeed="0.026"
+		SteerSpeed="0.032"
 		TruckImage="zikz612mchr"
 		TruckType="HEAVY"
 

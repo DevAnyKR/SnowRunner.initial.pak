@@ -5,7 +5,7 @@
 			Location="rear"
 			Torque="default"
 		/>
-		<MiddleAxle Location="middle" Torque="none" UiTorque="default" />
+		<MiddleAxle Location="middle" Torque="default" UiTorque="default" />
 		<FirstAxle
 			Location="front"
 			SteeringAngle="24"

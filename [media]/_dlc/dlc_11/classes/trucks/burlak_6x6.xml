@@ -519,11 +519,15 @@
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="Trailer, LogTrailer" Offset="(-4.385; 1.14; 0)" />
-			<Socket Names="ScautTrailer" Offset="(-4.238; 0.913; 0)" />
+			<Socket Names="ScautTrailer, MastodonLogPoleTrailer" Offset="(-4.238; 0.913; 0)" />
+			<Socket Names="TrailerFarm" Offset="(-4.385; 1.14; 0)"/>
 		</AddonSockets>
 		<AddonSockets DefaultAddon="burlak_6x6_farkop_trailer">
 			<Socket Names="BurlakFarkop" NamesBlock="ScautTrailer" />
 			<Socket Names="BurlakFarkopScout" NamesBlock="Trailer, LogTrailer" />
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="K7MCoupler" Offset="(0; 0; 0)" ParentFrame="BoneBack_cdt" />
 		</AddonSockets>
 	</GameData>
 	<AutomaticIK>

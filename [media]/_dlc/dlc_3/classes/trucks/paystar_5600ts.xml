@@ -15,7 +15,7 @@
 			SteeringAngle="35"
 			SteeringCastor="1"
 			SteeringJointOffset="0.25"
-			Torque="connectable"
+			Torque="default"
 			SuspensionMin="-0.3"
 			ParentFrame="BoneCabin_cdt"
 		/>
