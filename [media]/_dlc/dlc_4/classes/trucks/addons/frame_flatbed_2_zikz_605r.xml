@@ -46,6 +46,6 @@
 			UiName="UI_ADDON_FRAME_FLATBED_2_NAME"
 		/>
 		<InstallSocket Type="ZikzFrameAddon" />
-		<AddonSlots InitialOffset="(-2.046; 1.968; 0.0)" OffsetStep="(-2.478; 0; 0)" Quantity="2" />
+		<AddonSlots InitialOffset="(-2.046; 1.968; 0.0)" OffsetStep="(0; 0; 0)" Quantity="5" />
 	</GameData>
 </TruckAddon>

@@ -1,6 +1,6 @@
 <EngineVariants>
 	<Engine
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="180"
 		DamagedConsumptionModifier="0.0"
@@ -26,7 +26,7 @@
 		</GameData>
 	</Engine>
 	<Engine
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="300"
 		DamagedConsumptionModifier="0.0"
@@ -52,7 +52,7 @@
 		</GameData>
 	</Engine>
 	<Engine
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		CriticalDamageThreshold="0.75"
 		DamageCapacity="280"
 		DamagedConsumptionModifier="0.0"

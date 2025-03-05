@@ -21,7 +21,7 @@
 			ManualSound="cargo_manual/cargo_manual_logs_medium"
 		/>
 		<SpawnLoadOrigin Position="(-3; 1; 0.000)" />        
-		<InstallSlot CargoLength="1" CargoType="CargoLogsShort" CargoAddonSubtype="FrameAddonLog" ManualLoads="3" />
-		<!--<InstallSlot CargoLength="1" CargoType="CargoLogsShort" ManualLoads="3" />-->
+		<InstallSlot CargoLength="1" CargoType="CargoLogsShort" CargoAddonSubtype="FrameAddonLog" ManualLoads="1" />
+		<!--<InstallSlot CargoLength="1" CargoType="CargoLogsShort" ManualLoads="1" />-->
         </GameData>
 </TruckAddon>

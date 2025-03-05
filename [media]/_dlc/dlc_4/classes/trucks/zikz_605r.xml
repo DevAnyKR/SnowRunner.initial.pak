@@ -48,7 +48,7 @@
 		EngineStartDelay="1.0"
 		ExhaustStartTime="1.0"
 		FuelCapacity="840"
-		Responsiveness="1.0"
+		Responsiveness="1.00"
 		SteerSpeed="0.032"
 		TruckImage="zikz605rmchr"
 		TruckType="HEAVY"

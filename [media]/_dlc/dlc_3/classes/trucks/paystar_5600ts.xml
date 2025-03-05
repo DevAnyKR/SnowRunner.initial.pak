@@ -144,7 +144,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="379"
-		Responsiveness="0.15"
+		Responsiveness="1.00"
 		SteerSpeed="0.024"
 		TruckImage="InternationalPaystar5600TSmchr"
 		TruckType="HEAVY"

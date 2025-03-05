@@ -77,7 +77,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="340"
-		Responsiveness="1.0"
+		Responsiveness="1.00"
 		SteerSpeed="0.03"
 		TruckImage="Azov4220Antarcticmchr"
 		TruckType="HEAVY"

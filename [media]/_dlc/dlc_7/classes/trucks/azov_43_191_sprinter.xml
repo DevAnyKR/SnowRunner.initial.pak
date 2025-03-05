@@ -53,7 +53,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="1000"
-		Responsiveness="0.25"
+		Responsiveness="1.00"
 		SteerSpeed="0.02"
 		TruckImage="azovsprintermchr"
 		TruckType="OFFROAD"

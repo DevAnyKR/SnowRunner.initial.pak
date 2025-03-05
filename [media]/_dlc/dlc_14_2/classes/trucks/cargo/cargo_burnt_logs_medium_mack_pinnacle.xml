@@ -22,6 +22,6 @@
 		/>        
 		<RequiredAddon Types="frame_addon_log_medium_mack_pinnacle" />
 		<SpawnLoadOrigin Position="(-1.9; 1.55; 0)" />          
-		<InstallSlot CargoAddonSubtype="MackPinnacleLogMedium" CargoLength="1" CargoType="CargoLogsMedium_Burnt" ManualLoads="3"/>
+		<InstallSlot CargoAddonSubtype="MackPinnacleLogMedium" CargoLength="1" CargoType="CargoLogsMedium_Burnt" ManualLoads="1"/>
 	</GameData>
 </TruckAddon>

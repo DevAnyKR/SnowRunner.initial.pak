@@ -51,7 +51,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="300"
-		Responsiveness="0.15"
+		Responsiveness="1.00"
 		SteerSpeed="0.03"
 		TruckImage="step3364crocodilemchr"
 		TruckType="OFFROAD"

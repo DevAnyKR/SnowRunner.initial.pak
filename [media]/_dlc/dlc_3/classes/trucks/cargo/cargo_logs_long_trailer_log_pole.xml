@@ -58,8 +58,8 @@
 	<LoadCheckPoint Pos="(-6.7; 1.251; 0)" ParentFrame="BoneBottom_cdt" />
 	<GameData
 		LoadPoints="6"
-		ManualLoads="2"
-		UnpackOnTrailerDetach="True"
+		ManualLoads="1"
+		UnpackOnTrailerDetach="False"
 		RecreateOnZoneChange="True"
 	>
 		<SpawnLoadOrigin Position="(-4.502; 1.548; 0)" />
@@ -74,7 +74,7 @@
 			CargoAddonSubtype="TrailerPoleLogLong"
 			CargoLength="1"
 			CargoType="CargoLogsLong"
-			ManualLoads="3"
+			ManualLoads="1"
 		/>
 		<LongLogsAlignData
 			TargetOffset="(0.0, 0.0, 0.0)"

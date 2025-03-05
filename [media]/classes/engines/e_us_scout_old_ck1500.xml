@@ -15,7 +15,7 @@
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="1.0"
 		MaxDeltaAngVel="0.01"
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 	>
 		<GameData
 			Price="7500"

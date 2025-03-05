@@ -41,7 +41,7 @@
 			CargoAddonSubtype="ScautTrailerLogShort"
 			CargoLength="1"
 			CargoType="CargoLogsShort"
-			ManualLoads="3"
+			ManualLoads="1"
 		/>
 	</GameData>
 </TruckAddon>

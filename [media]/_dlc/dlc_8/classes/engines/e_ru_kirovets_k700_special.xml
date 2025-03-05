@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="220"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		FuelConsumption="1.0"
 		Name="ru_kirovets_k700_engine_0"
 		Torque="130000"

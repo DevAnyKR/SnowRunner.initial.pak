@@ -54,7 +54,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="345"
-		Responsiveness="1.0"
+		Responsiveness="1.00"
 		SteerSpeed="0.015"
 		TruckImage="tatraphoenixmchr"
 		TruckType="OFFROAD"

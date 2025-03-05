@@ -86,7 +86,7 @@
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.5"
 		FuelCapacity="794"
-		Responsiveness="0.15"
+		Responsiveness="1.00"
 		SteerSpeed="0.02"
 		TruckImage="kenworth963mchr"
 		TruckType="HEAVY"

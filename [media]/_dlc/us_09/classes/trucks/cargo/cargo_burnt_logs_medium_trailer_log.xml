@@ -54,6 +54,6 @@
 		/>
 		<SpawnLoadOrigin Position="(0.000; 2.624; 0.000)" />        
 		<RequiredAddon Types="trailer_log" />
-		<InstallSlot 	CargoAddonSubtype="TrailerLogMedium" CargoLength="1" CargoType="CargoLogsMedium_Burnt" ManualLoads="3" />
+		<InstallSlot 	CargoAddonSubtype="TrailerLogMedium" CargoLength="1" CargoType="CargoLogsMedium_Burnt" ManualLoads="1" />
 	</GameData>
 </TruckAddon>

@@ -1,6 +1,6 @@
 <GearboxVariants>
 	<Gearbox
-		AWDConsumptionModifier="1.1"
+		AWDConsumptionModifier="1.0"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="120"
 		DamagedConsumptionModifier="0.0"
@@ -37,7 +37,7 @@
 		</GameData>
 	</Gearbox>
 	<Gearbox
-		AWDConsumptionModifier="1.4"
+		AWDConsumptionModifier="1.0"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="100"
 		DamagedConsumptionModifier="0.0"
@@ -75,7 +75,7 @@
 		</GameData>
 	</Gearbox>
 	<Gearbox
-		AWDConsumptionModifier="1.8"
+		AWDConsumptionModifier="1.0"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
 		DamagedConsumptionModifier="0.0"
@@ -111,7 +111,7 @@
 		</GameData>
 	</Gearbox>
 	<Gearbox
-		AWDConsumptionModifier="1.9"
+		AWDConsumptionModifier="1.0"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="110"
 		DamagedConsumptionModifier="0.0"

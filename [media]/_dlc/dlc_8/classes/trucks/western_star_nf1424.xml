@@ -46,7 +46,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="1134"
-		Responsiveness="1.0"
+		Responsiveness="1.00"
 		SteerSpeed="0.02"
 		TruckImage="ws1424mchr"
 		TruckType="HEAVY"

@@ -58,7 +58,7 @@
 	<LoadCheckPoint Pos="(-6.7; 1.251; 0)" ParentFrame="BoneBottom_cdt" />
 	<GameData
 		LoadPoints="6"
-		ManualLoads="2"
+		ManualLoads="1"
 		UnpackOnTrailerDetach="True"
 		RecreateOnZoneChange="True"
 	>
@@ -73,7 +73,7 @@
 			CargoAddonSubtype="MastodonLong"
 			CargoLength="1"
 			CargoType="CargoLogsLong"
-			ManualLoads="3"
+			ManualLoads="1"
 		/>
 		<LongLogsAlignData
 			TargetOffset="(0.0, 0.0, 0.0)"

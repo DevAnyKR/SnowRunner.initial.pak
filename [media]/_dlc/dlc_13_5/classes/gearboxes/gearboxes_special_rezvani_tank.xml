@@ -1,6 +1,6 @@
 <GearboxVariants>
 	<Gearbox
-		AWDConsumptionModifier="1.1"
+		AWDConsumptionModifier="1.0"
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
 		DamagedConsumptionModifier="0.0"

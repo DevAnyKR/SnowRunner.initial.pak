@@ -42,7 +42,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="800"
-		Responsiveness="1.0"
+		Responsiveness="1.00"
 		SteerSpeed="0.025"
 		TruckImage="kirovets_k7m_mchr"
 		TruckType="HEAVY"

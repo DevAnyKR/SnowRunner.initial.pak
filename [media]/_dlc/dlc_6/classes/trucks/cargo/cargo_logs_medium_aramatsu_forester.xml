@@ -31,7 +31,7 @@
 			CargoAddonSubtype="AramatsuMedium"
 			CargoLength="1"
 			CargoType="CargoLogsMedium"
-			ManualLoads="3"
+			ManualLoads="1"
 		/>
 	</GameData>
 </TruckAddon>

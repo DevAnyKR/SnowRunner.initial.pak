@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="210"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		FuelConsumption="1.0"
 		Name="ru_truck_modern_engine_0"
 		Torque="340000"

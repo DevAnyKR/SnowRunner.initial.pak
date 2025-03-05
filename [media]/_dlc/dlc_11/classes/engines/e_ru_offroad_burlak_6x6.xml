@@ -9,7 +9,7 @@
 		CriticalDamageThreshold="1.0"
 		DamageCapacity="150"
 		DamagedConsumptionModifier="0.0"
-		EngineResponsiveness="1.0"
+		EngineResponsiveness="1.00"
 		FuelConsumption="1.0"
 		Name="ru_offroad_burlak_engine"
 		Torque="160000"

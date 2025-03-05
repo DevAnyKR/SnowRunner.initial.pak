@@ -100,15 +100,15 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.016"
+		BackSteerSpeed="0.026"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_big"
 		EngineIconScale="1.5"
-		EngineStartDelay="3.2"
-		ExhaustStartTime="2.8"
+		EngineStartDelay="1.0"
+		ExhaustStartTime="1.0"
 		FuelCapacity="360"
-		Responsiveness="0.15"
-		SteerSpeed="0.024"
+		Responsiveness="1.00"
+		SteerSpeed="0.034"
 		TruckImage="ws6900tweeensteermchr"
 		TruckType="HEAVY"
 	>
@@ -739,11 +739,14 @@
 		<AddonSockets>
 			<Socket Names="AddonHorns" NamesBlock="StuffHoodWS6900XDTwin" Offset="(7.355; 2.370; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="Trailer" Offset="(-7.852; 0.600; 0)" />
+		</AddonSockets>		
 		<AddonSlots
 			InitialOffset="(1.157; 1.86; 0)"
-			OffsetStep="(-2.559; 0; 0)"
+			OffsetStep="(0; 0; 0)"
 			ParentFrames="BoneCabin_cdt,BoneChassis2_cdt,BoneChassis1_cdt,BoneChassis_cdt"
-			Quantity="4"
+			Quantity="5"
 		/>
 	</GameData>
 	<ControlledConstraints>

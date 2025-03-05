@@ -93,7 +93,7 @@
 							AxisLocal="(1; 0; 0)"
 							Type="Prismatic"
 							MinLimit="0"
-							MaxLimit="1.812"
+							MaxLimit="3.624"
 						>
 							<Motor Force="600000" Tau=".9" Type="Position" />
 						</Constraint>
@@ -107,7 +107,7 @@
 								AxisLocal="(1; 0; 0)"
 								Type="Prismatic"
 								MinLimit="0"
-								MaxLimit="1.812"
+								MaxLimit="3.624"
 							>
 								<Motor Force="600000" Tau=".9" Type="Position" />
 							</Constraint>
@@ -121,7 +121,7 @@
 									AxisLocal="(1; 0; 0)"
 									Type="Prismatic"
 									MinLimit="0"
-									MaxLimit="1.812"
+									MaxLimit="3.624"
 								>
 									<Motor Force="600000" Tau="0.9" Type="Position" />
 								</Constraint>
@@ -165,10 +165,10 @@
 		<AddonType Name="Crane" />
 	</GameData>
 	<ControlledIK
-		CoeffEndMovementSpeedOY="1.0"
-		CoeffEndMovementSpeedOYWithLoad="1.0"
-		CoeffEndMovementSpeedXZ="1.0"
-		CoeffEndMovementSpeedXZWithLoad="1.0"
+		CoeffEndMovementSpeedOY="2.0"
+		CoeffEndMovementSpeedOYWithLoad="2.0"
+		CoeffEndMovementSpeedXZ="2.0"
+		CoeffEndMovementSpeedXZWithLoad="2.0"
 	>
 		<Chain EndOffset="(2.348; 0; 0)" ModelFrames="BoneRoot_cdt,BoneRotationBase_cdt,BoneArm1_cdt, BoneArm2_cdt, BoneArm3_cdt, BoneArm4_cdt" />
 	</ControlledIK>
